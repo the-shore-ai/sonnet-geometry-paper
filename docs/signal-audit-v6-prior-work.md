@@ -1,0 +1,13 @@
+# Prior-work boundary for the new audit
+
+Targeted primary-source check, October 18, 2026. Searches used public method terms and titles, without private results. This is not a systematic review or proof of novelty.
+
+**Centering is established.** Mu and Viswanath's final ICLR 2018 [“All-but-the-Top”](https://openreview.net/pdf?id=HkuGJ3kCb) removes the common mean and leading directions from word embeddings. Our contribution is not mean subtraction; it is measuring cross-poet calibrated identification alongside relational change. The final conference paper has two authors; its older arXiv record has a different author list, so the bibliography follows the conference paper.
+
+**Contextual postprocessing has direct precedent.** Sajjad, Alam, Dalvi and Durrani's [COLING 2022 paper](https://aclanthology.org/2022.coling-1.277/) studies representations from different layers under z-score, min–max, component and unit-length postprocessing, evaluating lexical and classification tasks. Recovering information after postprocessing is not a new general idea. Our inventory-preserving identity test is not a semantic task. No external implementation was executed.
+
+**CKA bias is established.** Murphy, Zylberberg and Fyshe's [2024 workshop paper](https://arxiv.org/pdf/2405.01012) demonstrates biased CKA inflation with few examples and many features, using shuffled controls and debiasing. Kornblith and colleagues' [official demonstration](https://github.com/google-research/google-research/blob/master/representation_similarity/Demo.ipynb) explains the unbiased-HSIC correction and notes that its normalized ratio remains generally biased. Our calibration is not a novel estimator or proof that all high alignment is spurious.
+
+**Preserved context scale already matters.** [Alleman et al. (2021)](https://arxiv.org/html/2104.07578v1) compare preserved chunks, phrase swaps and adjacent swaps across depth, with word realignment and standardized distortion. Their study already separates surface movement from local structure. Our line/token contrast is less controlled for constituency. It adds a bounded cross-population observation in this setup, not discovery of sensitivity to phrase structure.
+
+The strongest new candidates are the specific coexistence of cross-poet identity recovery with modest relational preservation, and the separation of poem susceptibility from realized-scramble response at one selected readout. Neither has a verified priority claim. Related corpora, familiar outcomes, metric selection and absent human judgments remain central. Renew the search and inspect further papers before submission.

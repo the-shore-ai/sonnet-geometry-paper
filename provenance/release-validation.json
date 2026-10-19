@@ -1,0 +1,42 @@
+{
+  "schema_version": "sonnet-public-release-validation-v1",
+  "date_local": "2026-10-18",
+  "new_model_calls": 0,
+  "full_inference_rerun": false,
+  "compact_checks": 246,
+  "compact_file_hash_checks": 7,
+  "clean_cpu_environment_without_cloud_credentials": "passed",
+  "repacked_from_all_six_existing_pooled_files": "passed; same 246 comparisons",
+  "source_retrieval": [
+    {
+      "population": "shakespeare",
+      "all_text_hashes_verified": true,
+      "poems": 154
+    },
+    {
+      "population": "sidney",
+      "all_text_hashes_verified": true,
+      "poems": 24
+    },
+    {
+      "population": "spenser",
+      "all_text_hashes_verified": true,
+      "poems": 24
+    }
+  ],
+  "public_source_tests": "39 passed, 1 skipped",
+  "compact_only_tests": "9 passed",
+  "private_scientific_suite": "570 passed, 1 skipped",
+  "pdf_pages": 30,
+  "pdf_citation_keys": 38,
+  "pdf_build_warnings": "",
+  "pdf_sha256": "3a165d91c828b54e131dd5fc65780fd43a016cea0ef50d99c6fe34339c2a678d",
+  "limitations": [
+    "No external human peer review",
+    "No blinded human literary responses",
+    "Public local scheduling wrapper not executed on a full pretrained model",
+    "Full private raw activation archive not released",
+    "Compact arithmetic checks are not independent model-inference reproduction"
+  ],
+  "final_reference_text_presence": "verified through final Wolf et al. entry"
+}

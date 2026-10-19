@@ -1,0 +1,3027 @@
+{
+  "schema_version": "full-corpus-descriptive-observations-v1",
+  "model_id": "Qwen/Qwen3-8B",
+  "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "sonnet_ids": [
+    "sonnet-001",
+    "sonnet-002",
+    "sonnet-003",
+    "sonnet-004",
+    "sonnet-005",
+    "sonnet-006",
+    "sonnet-007",
+    "sonnet-008",
+    "sonnet-009",
+    "sonnet-010",
+    "sonnet-011",
+    "sonnet-012",
+    "sonnet-013",
+    "sonnet-014",
+    "sonnet-015",
+    "sonnet-016",
+    "sonnet-017",
+    "sonnet-018",
+    "sonnet-019",
+    "sonnet-020",
+    "sonnet-021",
+    "sonnet-022",
+    "sonnet-023",
+    "sonnet-024",
+    "sonnet-025",
+    "sonnet-026",
+    "sonnet-027",
+    "sonnet-028",
+    "sonnet-029",
+    "sonnet-030",
+    "sonnet-031",
+    "sonnet-032",
+    "sonnet-033",
+    "sonnet-034",
+    "sonnet-035",
+    "sonnet-036",
+    "sonnet-037",
+    "sonnet-038",
+    "sonnet-039",
+    "sonnet-040",
+    "sonnet-041",
+    "sonnet-042",
+    "sonnet-043",
+    "sonnet-044",
+    "sonnet-045",
+    "sonnet-046",
+    "sonnet-047",
+    "sonnet-048",
+    "sonnet-049",
+    "sonnet-050",
+    "sonnet-051",
+    "sonnet-052",
+    "sonnet-053",
+    "sonnet-054",
+    "sonnet-055",
+    "sonnet-056",
+    "sonnet-057",
+    "sonnet-058",
+    "sonnet-059",
+    "sonnet-060",
+    "sonnet-061",
+    "sonnet-062",
+    "sonnet-063",
+    "sonnet-064",
+    "sonnet-065",
+    "sonnet-066",
+    "sonnet-067",
+    "sonnet-068",
+    "sonnet-069",
+    "sonnet-070",
+    "sonnet-071",
+    "sonnet-072",
+    "sonnet-073",
+    "sonnet-074",
+    "sonnet-075",
+    "sonnet-076",
+    "sonnet-077",
+    "sonnet-078",
+    "sonnet-079",
+    "sonnet-080",
+    "sonnet-081",
+    "sonnet-082",
+    "sonnet-083",
+    "sonnet-084",
+    "sonnet-085",
+    "sonnet-086",
+    "sonnet-087",
+    "sonnet-088",
+    "sonnet-089",
+    "sonnet-090",
+    "sonnet-091",
+    "sonnet-092",
+    "sonnet-093",
+    "sonnet-094",
+    "sonnet-095",
+    "sonnet-096",
+    "sonnet-097",
+    "sonnet-098",
+    "sonnet-099",
+    "sonnet-100",
+    "sonnet-101",
+    "sonnet-102",
+    "sonnet-103",
+    "sonnet-104",
+    "sonnet-105",
+    "sonnet-106",
+    "sonnet-107",
+    "sonnet-108",
+    "sonnet-109",
+    "sonnet-110",
+    "sonnet-111",
+    "sonnet-112",
+    "sonnet-113",
+    "sonnet-114",
+    "sonnet-115",
+    "sonnet-116",
+    "sonnet-117",
+    "sonnet-118",
+    "sonnet-119",
+    "sonnet-120",
+    "sonnet-121",
+    "sonnet-122",
+    "sonnet-123",
+    "sonnet-124",
+    "sonnet-125",
+    "sonnet-126",
+    "sonnet-127",
+    "sonnet-128",
+    "sonnet-129",
+    "sonnet-130",
+    "sonnet-131",
+    "sonnet-132",
+    "sonnet-133",
+    "sonnet-134",
+    "sonnet-135",
+    "sonnet-136",
+    "sonnet-137",
+    "sonnet-138",
+    "sonnet-139",
+    "sonnet-140",
+    "sonnet-141",
+    "sonnet-142",
+    "sonnet-143",
+    "sonnet-144",
+    "sonnet-145",
+    "sonnet-146",
+    "sonnet-147",
+    "sonnet-148",
+    "sonnet-149",
+    "sonnet-150",
+    "sonnet-151",
+    "sonnet-152",
+    "sonnet-153",
+    "sonnet-154"
+  ],
+  "performance": {
+    "completed": 154,
+    "load_seconds": 12.349687849999999,
+    "function_seconds": 609.7192396690001,
+    "peak_allocated_bytes": 15193939456,
+    "estimated_resource_cost_usd": 0.8441197041673505,
+    "cost_note": "Timed in-function estimate including extraction, validation, analysis and their uploads; excludes startup, final-report upload tail, image builds, transfer charges, storage and credits. Not invoice cost."
+  },
+  "selected_depths": [
+    {
+      "pooling": "last_token",
+      "layer": {
+        "requested_depth": 0.0,
+        "tensor": "residual.embedding",
+        "residual_index": 0,
+        "normalized_depth": 0.0,
+        "distance_to_requested_depth": 0.0
+      },
+      "top10": [
+        {
+          "sonnet_id": "sonnet-008",
+          "mean_cosine_distance": 0.8485647131947971,
+          "terminal_token_id": 14304,
+          "token_count": 162,
+          "prior_original_tortuosity": 3.8520890385057185
+        },
+        {
+          "sonnet_id": "sonnet-014",
+          "mean_cosine_distance": 0.8485647131947971,
+          "terminal_token_id": 14304,
+          "token_count": 147,
+          "prior_original_tortuosity": 3.05601339636706
+        },
+        {
+          "sonnet_id": "sonnet-051",
+          "mean_cosine_distance": 0.8485647131947971,
+          "terminal_token_id": 14304,
+          "token_count": 153,
+          "prior_original_tortuosity": 3.2715952766700633
+        },
+        {
+          "sonnet_id": "sonnet-135",
+          "mean_cosine_distance": 0.8485647131947971,
+          "terminal_token_id": 14304,
+          "token_count": 163,
+          "prior_original_tortuosity": 3.2119161148268796
+        },
+        {
+          "sonnet_id": "sonnet-136",
+          "mean_cosine_distance": 0.8485647131947971,
+          "terminal_token_id": 14304,
+          "token_count": 162,
+          "prior_original_tortuosity": 3.797021115147213
+        },
+        {
+          "sonnet_id": "sonnet-032",
+          "mean_cosine_distance": 0.8111248892298355,
+          "terminal_token_id": 23616,
+          "token_count": 152,
+          "prior_original_tortuosity": 2.4434288146217735
+        },
+        {
+          "sonnet_id": "sonnet-145",
+          "mean_cosine_distance": 0.8111248892298355,
+          "terminal_token_id": 23616,
+          "token_count": 131,
+          "prior_original_tortuosity": 2.746302716310564
+        },
+        {
+          "sonnet_id": "sonnet-037",
+          "mean_cosine_distance": 0.7628607134126147,
+          "terminal_token_id": 0,
+          "token_count": 154,
+          "prior_original_tortuosity": 2.8749703844385013
+        },
+        {
+          "sonnet_id": "sonnet-093",
+          "mean_cosine_distance": 0.7628607134126147,
+          "terminal_token_id": 0,
+          "token_count": 155,
+          "prior_original_tortuosity": 3.5521518490822896
+        },
+        {
+          "sonnet_id": "sonnet-142",
+          "mean_cosine_distance": 0.7628607134126147,
+          "terminal_token_id": 0,
+          "token_count": 160,
+          "prior_original_tortuosity": 3.4247381326533426
+        }
+      ],
+      "anomaly_rank_correlations": {
+        "token_count": 0.1681701975350815,
+        "character_count": 0.09321783199689067,
+        "word_count": 0.04216186141054113,
+        "verse_line_count": 0.0,
+        "prior_isolated_bert_original_tortuosity": 0.044608635459102826,
+        "baseline_anomaly:tfidf_character_ngrams": -0.011025199788440198,
+        "baseline_anomaly:standardized_stylometry": 0.13380382653794579,
+        "baseline_anomaly:minilm_sentence_embedding": -0.07959046095606963
+      },
+      "descriptive_baseline_rsa": {
+        "tfidf_character_ngrams": -0.018727517520673677,
+        "standardized_stylometry": 0.0065513939389531175,
+        "minilm_sentence_embedding": -0.05548717372573867
+      },
+      "terminal_group_mean_scores": [
+        {
+          "token_id": 13,
+          "count": 143,
+          "mean_anomaly_score": 0.058617615957590616
+        },
+        {
+          "token_id": 14304,
+          "count": 5,
+          "mean_anomaly_score": 0.8485647131947971
+        },
+        {
+          "token_id": 0,
+          "count": 3,
+          "mean_anomaly_score": 0.7628607134126147
+        },
+        {
+          "token_id": 23616,
+          "count": 2,
+          "mean_anomaly_score": 0.8111248892298355
+        },
+        {
+          "token_id": 30,
+          "count": 1,
+          "mean_anomaly_score": 0.6840276597571266
+        }
+      ],
+      "same_terminal_token_sensitivity": {
+        "token_id": 13,
+        "sonnets": 143,
+        "recomputed_anomaly": true,
+        "rank_status": "constant scores; no meaningful ranking",
+        "top10": [],
+        "rank_correlation_with_full_scores_on_same_subset": null,
+        "rank_correlation_with_prior_metric": null
+      }
+    },
+    {
+      "pooling": "last_token",
+      "layer": {
+        "requested_depth": 0.25,
+        "tensor": "residual.block.008",
+        "residual_index": 9,
+        "normalized_depth": 0.25,
+        "distance_to_requested_depth": 0.0
+      },
+      "top10": [
+        {
+          "sonnet_id": "sonnet-136",
+          "mean_cosine_distance": 0.2926571216785399,
+          "terminal_token_id": 14304,
+          "token_count": 162,
+          "prior_original_tortuosity": 3.797021115147213
+        },
+        {
+          "sonnet_id": "sonnet-135",
+          "mean_cosine_distance": 0.2764429486642727,
+          "terminal_token_id": 14304,
+          "token_count": 163,
+          "prior_original_tortuosity": 3.2119161148268796
+        },
+        {
+          "sonnet_id": "sonnet-037",
+          "mean_cosine_distance": 0.2761513923159232,
+          "terminal_token_id": 0,
+          "token_count": 154,
+          "prior_original_tortuosity": 2.8749703844385013
+        },
+        {
+          "sonnet_id": "sonnet-032",
+          "mean_cosine_distance": 0.2478763315884311,
+          "terminal_token_id": 23616,
+          "token_count": 152,
+          "prior_original_tortuosity": 2.4434288146217735
+        },
+        {
+          "sonnet_id": "sonnet-008",
+          "mean_cosine_distance": 0.24453265520695427,
+          "terminal_token_id": 14304,
+          "token_count": 162,
+          "prior_original_tortuosity": 3.8520890385057185
+        },
+        {
+          "sonnet_id": "sonnet-153",
+          "mean_cosine_distance": 0.2431950750742989,
+          "terminal_token_id": 13,
+          "token_count": 152,
+          "prior_original_tortuosity": 3.0943800441832168
+        },
+        {
+          "sonnet_id": "sonnet-142",
+          "mean_cosine_distance": 0.2425493240438469,
+          "terminal_token_id": 0,
+          "token_count": 160,
+          "prior_original_tortuosity": 3.4247381326533426
+        },
+        {
+          "sonnet_id": "sonnet-093",
+          "mean_cosine_distance": 0.22233394144604918,
+          "terminal_token_id": 0,
+          "token_count": 155,
+          "prior_original_tortuosity": 3.5521518490822896
+        },
+        {
+          "sonnet_id": "sonnet-115",
+          "mean_cosine_distance": 0.2156039888301682,
+          "terminal_token_id": 30,
+          "token_count": 158,
+          "prior_original_tortuosity": 3.104618802743205
+        },
+        {
+          "sonnet_id": "sonnet-051",
+          "mean_cosine_distance": 0.21054411907958595,
+          "terminal_token_id": 14304,
+          "token_count": 153,
+          "prior_original_tortuosity": 3.2715952766700633
+        }
+      ],
+      "anomaly_rank_correlations": {
+        "token_count": -0.048483008418360646,
+        "character_count": -0.08022324036330063,
+        "word_count": -0.11091205240975693,
+        "verse_line_count": -0.1666276435582904,
+        "prior_isolated_bert_original_tortuosity": -0.11659725473767221,
+        "baseline_anomaly:tfidf_character_ngrams": 0.11529280333834416,
+        "baseline_anomaly:standardized_stylometry": 0.1474506518149782,
+        "baseline_anomaly:minilm_sentence_embedding": 0.15639123684664485
+      },
+      "descriptive_baseline_rsa": {
+        "tfidf_character_ngrams": 0.0644335918396193,
+        "standardized_stylometry": 0.04383363506263539,
+        "minilm_sentence_embedding": 0.11220352858798503
+      },
+      "terminal_group_mean_scores": [
+        {
+          "token_id": 13,
+          "count": 143,
+          "mean_anomaly_score": 0.11490603979762705
+        },
+        {
+          "token_id": 14304,
+          "count": 5,
+          "mean_anomaly_score": 0.24351132160161618
+        },
+        {
+          "token_id": 0,
+          "count": 3,
+          "mean_anomaly_score": 0.24701155260193977
+        },
+        {
+          "token_id": 23616,
+          "count": 2,
+          "mean_anomaly_score": 0.22504004040346498
+        },
+        {
+          "token_id": 30,
+          "count": 1,
+          "mean_anomaly_score": 0.2156039888301682
+        }
+      ],
+      "same_terminal_token_sensitivity": {
+        "token_id": 13,
+        "sonnets": 143,
+        "recomputed_anomaly": true,
+        "rank_status": "computed",
+        "top10": [
+          {
+            "sonnet_id": "sonnet-153",
+            "mean_cosine_distance": 0.23710527679470808
+          },
+          {
+            "sonnet_id": "sonnet-013",
+            "mean_cosine_distance": 0.17827868729001947
+          },
+          {
+            "sonnet_id": "sonnet-122",
+            "mean_cosine_distance": 0.154412036308015
+          },
+          {
+            "sonnet_id": "sonnet-123",
+            "mean_cosine_distance": 0.1539942653093389
+          },
+          {
+            "sonnet_id": "sonnet-029",
+            "mean_cosine_distance": 0.15110761525726354
+          },
+          {
+            "sonnet_id": "sonnet-154",
+            "mean_cosine_distance": 0.14636558008762846
+          },
+          {
+            "sonnet_id": "sonnet-094",
+            "mean_cosine_distance": 0.14429969368282508
+          },
+          {
+            "sonnet_id": "sonnet-126",
+            "mean_cosine_distance": 0.1433867190634234
+          },
+          {
+            "sonnet_id": "sonnet-105",
+            "mean_cosine_distance": 0.1426081361275781
+          },
+          {
+            "sonnet_id": "sonnet-007",
+            "mean_cosine_distance": 0.1413227075053283
+          }
+        ],
+        "rank_correlation_with_full_scores_on_same_subset": 0.9981983978462853,
+        "rank_correlation_with_prior_metric": -0.15054663646212943
+      }
+    },
+    {
+      "pooling": "last_token",
+      "layer": {
+        "requested_depth": 0.5,
+        "tensor": "residual.block.017",
+        "residual_index": 18,
+        "normalized_depth": 0.5,
+        "distance_to_requested_depth": 0.0
+      },
+      "top10": [
+        {
+          "sonnet_id": "sonnet-135",
+          "mean_cosine_distance": 0.3320684635136951,
+          "terminal_token_id": 14304,
+          "token_count": 163,
+          "prior_original_tortuosity": 3.2119161148268796
+        },
+        {
+          "sonnet_id": "sonnet-153",
+          "mean_cosine_distance": 0.29252197651725825,
+          "terminal_token_id": 13,
+          "token_count": 152,
+          "prior_original_tortuosity": 3.0943800441832168
+        },
+        {
+          "sonnet_id": "sonnet-115",
+          "mean_cosine_distance": 0.26676378510525617,
+          "terminal_token_id": 30,
+          "token_count": 158,
+          "prior_original_tortuosity": 3.104618802743205
+        },
+        {
+          "sonnet_id": "sonnet-105",
+          "mean_cosine_distance": 0.26101960403034513,
+          "terminal_token_id": 13,
+          "token_count": 150,
+          "prior_original_tortuosity": 3.0606070548828876
+        },
+        {
+          "sonnet_id": "sonnet-136",
+          "mean_cosine_distance": 0.26000743156322814,
+          "terminal_token_id": 14304,
+          "token_count": 162,
+          "prior_original_tortuosity": 3.797021115147213
+        },
+        {
+          "sonnet_id": "sonnet-145",
+          "mean_cosine_distance": 0.2417080662623001,
+          "terminal_token_id": 23616,
+          "token_count": 131,
+          "prior_original_tortuosity": 2.746302716310564
+        },
+        {
+          "sonnet_id": "sonnet-032",
+          "mean_cosine_distance": 0.23921629395140534,
+          "terminal_token_id": 23616,
+          "token_count": 152,
+          "prior_original_tortuosity": 2.4434288146217735
+        },
+        {
+          "sonnet_id": "sonnet-008",
+          "mean_cosine_distance": 0.23360652421910572,
+          "terminal_token_id": 14304,
+          "token_count": 162,
+          "prior_original_tortuosity": 3.8520890385057185
+        },
+        {
+          "sonnet_id": "sonnet-117",
+          "mean_cosine_distance": 0.22284809988931498,
+          "terminal_token_id": 13,
+          "token_count": 145,
+          "prior_original_tortuosity": 2.6029174362118757
+        },
+        {
+          "sonnet_id": "sonnet-093",
+          "mean_cosine_distance": 0.22168899692277116,
+          "terminal_token_id": 0,
+          "token_count": 155,
+          "prior_original_tortuosity": 3.5521518490822896
+        }
+      ],
+      "anomaly_rank_correlations": {
+        "token_count": -0.019142488750162685,
+        "character_count": -0.12248275826608405,
+        "word_count": -0.06792441576233808,
+        "verse_line_count": -0.07946856846626157,
+        "prior_isolated_bert_original_tortuosity": 0.02194402687761322,
+        "baseline_anomaly:tfidf_character_ngrams": 0.13198123824309785,
+        "baseline_anomaly:standardized_stylometry": 0.17200522437714091,
+        "baseline_anomaly:minilm_sentence_embedding": 0.10809696312542615
+      },
+      "descriptive_baseline_rsa": {
+        "tfidf_character_ngrams": 0.10324844544447447,
+        "standardized_stylometry": 0.035052503431675354,
+        "minilm_sentence_embedding": 0.10466178991938994
+      },
+      "terminal_group_mean_scores": [
+        {
+          "token_id": 13,
+          "count": 143,
+          "mean_anomaly_score": 0.13191657536459658
+        },
+        {
+          "token_id": 14304,
+          "count": 5,
+          "mean_anomaly_score": 0.2469887985898394
+        },
+        {
+          "token_id": 0,
+          "count": 3,
+          "mean_anomaly_score": 0.18923552750909897
+        },
+        {
+          "token_id": 23616,
+          "count": 2,
+          "mean_anomaly_score": 0.24046218010685272
+        },
+        {
+          "token_id": 30,
+          "count": 1,
+          "mean_anomaly_score": 0.26676378510525617
+        }
+      ],
+      "same_terminal_token_sensitivity": {
+        "token_id": 13,
+        "sonnets": 143,
+        "recomputed_anomaly": true,
+        "rank_status": "computed",
+        "top10": [
+          {
+            "sonnet_id": "sonnet-153",
+            "mean_cosine_distance": 0.2911830446262657
+          },
+          {
+            "sonnet_id": "sonnet-105",
+            "mean_cosine_distance": 0.25983890284049954
+          },
+          {
+            "sonnet_id": "sonnet-117",
+            "mean_cosine_distance": 0.2202483867212719
+          },
+          {
+            "sonnet_id": "sonnet-013",
+            "mean_cosine_distance": 0.204673232581417
+          },
+          {
+            "sonnet_id": "sonnet-092",
+            "mean_cosine_distance": 0.18216557122306848
+          },
+          {
+            "sonnet_id": "sonnet-072",
+            "mean_cosine_distance": 0.17772695366824856
+          },
+          {
+            "sonnet_id": "sonnet-060",
+            "mean_cosine_distance": 0.17479004030614664
+          },
+          {
+            "sonnet_id": "sonnet-101",
+            "mean_cosine_distance": 0.16651668278995296
+          },
+          {
+            "sonnet_id": "sonnet-127",
+            "mean_cosine_distance": 0.16547197449284864
+          },
+          {
+            "sonnet_id": "sonnet-126",
+            "mean_cosine_distance": 0.16123157224129384
+          }
+        ],
+        "rank_correlation_with_full_scores_on_same_subset": 0.9944105190584065,
+        "rank_correlation_with_prior_metric": 0.003956137758954661
+      }
+    },
+    {
+      "pooling": "last_token",
+      "layer": {
+        "requested_depth": 0.75,
+        "tensor": "residual.block.026",
+        "residual_index": 27,
+        "normalized_depth": 0.75,
+        "distance_to_requested_depth": 0.0
+      },
+      "top10": [
+        {
+          "sonnet_id": "sonnet-135",
+          "mean_cosine_distance": 0.24472688507314166,
+          "terminal_token_id": 14304,
+          "token_count": 163,
+          "prior_original_tortuosity": 3.2119161148268796
+        },
+        {
+          "sonnet_id": "sonnet-105",
+          "mean_cosine_distance": 0.23367528333902396,
+          "terminal_token_id": 13,
+          "token_count": 150,
+          "prior_original_tortuosity": 3.0606070548828876
+        },
+        {
+          "sonnet_id": "sonnet-008",
+          "mean_cosine_distance": 0.1940950994014438,
+          "terminal_token_id": 14304,
+          "token_count": 162,
+          "prior_original_tortuosity": 3.8520890385057185
+        },
+        {
+          "sonnet_id": "sonnet-092",
+          "mean_cosine_distance": 0.18600962944941862,
+          "terminal_token_id": 13,
+          "token_count": 150,
+          "prior_original_tortuosity": 3.478555766947469
+        },
+        {
+          "sonnet_id": "sonnet-115",
+          "mean_cosine_distance": 0.16013971805625493,
+          "terminal_token_id": 30,
+          "token_count": 158,
+          "prior_original_tortuosity": 3.104618802743205
+        },
+        {
+          "sonnet_id": "sonnet-136",
+          "mean_cosine_distance": 0.15720257111366043,
+          "terminal_token_id": 14304,
+          "token_count": 162,
+          "prior_original_tortuosity": 3.797021115147213
+        },
+        {
+          "sonnet_id": "sonnet-145",
+          "mean_cosine_distance": 0.15072573962088293,
+          "terminal_token_id": 23616,
+          "token_count": 131,
+          "prior_original_tortuosity": 2.746302716310564
+        },
+        {
+          "sonnet_id": "sonnet-032",
+          "mean_cosine_distance": 0.14855514895090421,
+          "terminal_token_id": 23616,
+          "token_count": 152,
+          "prior_original_tortuosity": 2.4434288146217735
+        },
+        {
+          "sonnet_id": "sonnet-051",
+          "mean_cosine_distance": 0.144226751148576,
+          "terminal_token_id": 14304,
+          "token_count": 153,
+          "prior_original_tortuosity": 3.2715952766700633
+        },
+        {
+          "sonnet_id": "sonnet-014",
+          "mean_cosine_distance": 0.13888387747443218,
+          "terminal_token_id": 14304,
+          "token_count": 147,
+          "prior_original_tortuosity": 3.05601339636706
+        }
+      ],
+      "anomaly_rank_correlations": {
+        "token_count": -0.09055831713906887,
+        "character_count": -0.06775820270852279,
+        "word_count": -0.07337686753159148,
+        "verse_line_count": -0.10125833723926878,
+        "prior_isolated_bert_original_tortuosity": 0.003576562589845323,
+        "baseline_anomaly:tfidf_character_ngrams": 0.23105054338450928,
+        "baseline_anomaly:standardized_stylometry": 0.16684327690020292,
+        "baseline_anomaly:minilm_sentence_embedding": 0.15824441213435525
+      },
+      "descriptive_baseline_rsa": {
+        "tfidf_character_ngrams": 0.11874917887644733,
+        "standardized_stylometry": 0.027946051621713593,
+        "minilm_sentence_embedding": 0.10285259405838912
+      },
+      "terminal_group_mean_scores": [
+        {
+          "token_id": 13,
+          "count": 143,
+          "mean_anomaly_score": 0.08124540664075913
+        },
+        {
+          "token_id": 14304,
+          "count": 5,
+          "mean_anomaly_score": 0.17582703684225082
+        },
+        {
+          "token_id": 0,
+          "count": 3,
+          "mean_anomaly_score": 0.1140616541607629
+        },
+        {
+          "token_id": 23616,
+          "count": 2,
+          "mean_anomaly_score": 0.14964044428589357
+        },
+        {
+          "token_id": 30,
+          "count": 1,
+          "mean_anomaly_score": 0.16013971805625493
+        }
+      ],
+      "same_terminal_token_sensitivity": {
+        "token_id": 13,
+        "sonnets": 143,
+        "recomputed_anomaly": true,
+        "rank_status": "computed",
+        "top10": [
+          {
+            "sonnet_id": "sonnet-105",
+            "mean_cosine_distance": 0.23327079325783717
+          },
+          {
+            "sonnet_id": "sonnet-092",
+            "mean_cosine_distance": 0.18552347797507782
+          },
+          {
+            "sonnet_id": "sonnet-101",
+            "mean_cosine_distance": 0.13499607195421204
+          },
+          {
+            "sonnet_id": "sonnet-013",
+            "mean_cosine_distance": 0.13167698550107196
+          },
+          {
+            "sonnet_id": "sonnet-147",
+            "mean_cosine_distance": 0.12375347600786471
+          },
+          {
+            "sonnet_id": "sonnet-146",
+            "mean_cosine_distance": 0.1225186961342848
+          },
+          {
+            "sonnet_id": "sonnet-153",
+            "mean_cosine_distance": 0.12082768958593744
+          },
+          {
+            "sonnet_id": "sonnet-123",
+            "mean_cosine_distance": 0.118797846753635
+          },
+          {
+            "sonnet_id": "sonnet-117",
+            "mean_cosine_distance": 0.11854035274507677
+          },
+          {
+            "sonnet_id": "sonnet-083",
+            "mean_cosine_distance": 0.10512271641737504
+          }
+        ],
+        "rank_correlation_with_full_scores_on_same_subset": 0.9943941035490332,
+        "rank_correlation_with_prior_metric": -0.021787484815653832
+      }
+    },
+    {
+      "pooling": "last_token",
+      "layer": {
+        "requested_depth": 1.0,
+        "tensor": "residual.block.035",
+        "residual_index": 36,
+        "normalized_depth": 1.0,
+        "distance_to_requested_depth": 0.0
+      },
+      "top10": [
+        {
+          "sonnet_id": "sonnet-008",
+          "mean_cosine_distance": 0.1051331866016467,
+          "terminal_token_id": 14304,
+          "token_count": 162,
+          "prior_original_tortuosity": 3.8520890385057185
+        },
+        {
+          "sonnet_id": "sonnet-135",
+          "mean_cosine_distance": 0.08884412598287188,
+          "terminal_token_id": 14304,
+          "token_count": 163,
+          "prior_original_tortuosity": 3.2119161148268796
+        },
+        {
+          "sonnet_id": "sonnet-115",
+          "mean_cosine_distance": 0.08044599370567554,
+          "terminal_token_id": 30,
+          "token_count": 158,
+          "prior_original_tortuosity": 3.104618802743205
+        },
+        {
+          "sonnet_id": "sonnet-032",
+          "mean_cosine_distance": 0.07711263083521575,
+          "terminal_token_id": 23616,
+          "token_count": 152,
+          "prior_original_tortuosity": 2.4434288146217735
+        },
+        {
+          "sonnet_id": "sonnet-136",
+          "mean_cosine_distance": 0.07108333145421186,
+          "terminal_token_id": 14304,
+          "token_count": 162,
+          "prior_original_tortuosity": 3.797021115147213
+        },
+        {
+          "sonnet_id": "sonnet-051",
+          "mean_cosine_distance": 0.06938740897001663,
+          "terminal_token_id": 14304,
+          "token_count": 153,
+          "prior_original_tortuosity": 3.2715952766700633
+        },
+        {
+          "sonnet_id": "sonnet-093",
+          "mean_cosine_distance": 0.06922609773342853,
+          "terminal_token_id": 0,
+          "token_count": 155,
+          "prior_original_tortuosity": 3.5521518490822896
+        },
+        {
+          "sonnet_id": "sonnet-142",
+          "mean_cosine_distance": 0.06835591088431328,
+          "terminal_token_id": 0,
+          "token_count": 160,
+          "prior_original_tortuosity": 3.4247381326533426
+        },
+        {
+          "sonnet_id": "sonnet-145",
+          "mean_cosine_distance": 0.06804030077227907,
+          "terminal_token_id": 23616,
+          "token_count": 131,
+          "prior_original_tortuosity": 2.746302716310564
+        },
+        {
+          "sonnet_id": "sonnet-014",
+          "mean_cosine_distance": 0.06774535273662792,
+          "terminal_token_id": 14304,
+          "token_count": 147,
+          "prior_original_tortuosity": 3.05601339636706
+        }
+      ],
+      "anomaly_rank_correlations": {
+        "token_count": -0.026955111565092435,
+        "character_count": -0.01286273562609706,
+        "word_count": 0.02036317106579301,
+        "verse_line_count": -0.11535759938650873,
+        "prior_isolated_bert_original_tortuosity": 0.029875879970756636,
+        "baseline_anomaly:tfidf_character_ngrams": 0.06961400395935502,
+        "baseline_anomaly:standardized_stylometry": 0.11651839621479092,
+        "baseline_anomaly:minilm_sentence_embedding": 0.04357426254959463
+      },
+      "descriptive_baseline_rsa": {
+        "tfidf_character_ngrams": 0.06417813304584268,
+        "standardized_stylometry": 0.022037468399796253,
+        "minilm_sentence_embedding": 0.044456626614072486
+      },
+      "terminal_group_mean_scores": [
+        {
+          "token_id": 13,
+          "count": 143,
+          "mean_anomaly_score": 0.03407377277275651
+        },
+        {
+          "token_id": 14304,
+          "count": 5,
+          "mean_anomaly_score": 0.080438681149075
+        },
+        {
+          "token_id": 0,
+          "count": 3,
+          "mean_anomaly_score": 0.06310529240889691
+        },
+        {
+          "token_id": 23616,
+          "count": 2,
+          "mean_anomaly_score": 0.07257646580374741
+        },
+        {
+          "token_id": 30,
+          "count": 1,
+          "mean_anomaly_score": 0.08044599370567554
+        }
+      ],
+      "same_terminal_token_sensitivity": {
+        "token_id": 13,
+        "sonnets": 143,
+        "recomputed_anomaly": true,
+        "rank_status": "computed",
+        "top10": [
+          {
+            "sonnet_id": "sonnet-105",
+            "mean_cosine_distance": 0.06514639256120901
+          },
+          {
+            "sonnet_id": "sonnet-092",
+            "mean_cosine_distance": 0.05964418823582662
+          },
+          {
+            "sonnet_id": "sonnet-147",
+            "mean_cosine_distance": 0.05817442874715511
+          },
+          {
+            "sonnet_id": "sonnet-013",
+            "mean_cosine_distance": 0.05760215994621078
+          },
+          {
+            "sonnet_id": "sonnet-146",
+            "mean_cosine_distance": 0.05598779965103299
+          },
+          {
+            "sonnet_id": "sonnet-101",
+            "mean_cosine_distance": 0.05030307446816091
+          },
+          {
+            "sonnet_id": "sonnet-017",
+            "mean_cosine_distance": 0.049652867852427056
+          },
+          {
+            "sonnet_id": "sonnet-046",
+            "mean_cosine_distance": 0.048072772306894815
+          },
+          {
+            "sonnet_id": "sonnet-083",
+            "mean_cosine_distance": 0.04759698531306765
+          },
+          {
+            "sonnet_id": "sonnet-019",
+            "mean_cosine_distance": 0.04539997508765377
+          }
+        ],
+        "rank_correlation_with_full_scores_on_same_subset": 0.9921246593781806,
+        "rank_correlation_with_prior_metric": 0.008556584260809614
+      }
+    },
+    {
+      "pooling": "cumulative_mean",
+      "layer": {
+        "requested_depth": 0.0,
+        "tensor": "residual.embedding",
+        "residual_index": 0,
+        "normalized_depth": 0.0,
+        "distance_to_requested_depth": 0.0
+      },
+      "top10": [
+        {
+          "sonnet_id": "sonnet-066",
+          "mean_cosine_distance": 0.16123954251490852,
+          "terminal_token_id": 13,
+          "token_count": 140,
+          "prior_original_tortuosity": 3.581428592541163
+        },
+        {
+          "sonnet_id": "sonnet-077",
+          "mean_cosine_distance": 0.15585103257744318,
+          "terminal_token_id": 13,
+          "token_count": 141,
+          "prior_original_tortuosity": 3.818828254872713
+        },
+        {
+          "sonnet_id": "sonnet-129",
+          "mean_cosine_distance": 0.14494338452875485,
+          "terminal_token_id": 13,
+          "token_count": 153,
+          "prior_original_tortuosity": 3.268366165193261
+        },
+        {
+          "sonnet_id": "sonnet-067",
+          "mean_cosine_distance": 0.14419069228056505,
+          "terminal_token_id": 13,
+          "token_count": 137,
+          "prior_original_tortuosity": 2.8192963678758316
+        },
+        {
+          "sonnet_id": "sonnet-135",
+          "mean_cosine_distance": 0.13887209240022308,
+          "terminal_token_id": 14304,
+          "token_count": 163,
+          "prior_original_tortuosity": 3.2119161148268796
+        },
+        {
+          "sonnet_id": "sonnet-046",
+          "mean_cosine_distance": 0.13575725302866787,
+          "terminal_token_id": 13,
+          "token_count": 144,
+          "prior_original_tortuosity": 3.483508220047296
+        },
+        {
+          "sonnet_id": "sonnet-006",
+          "mean_cosine_distance": 0.13556101021260988,
+          "terminal_token_id": 13,
+          "token_count": 153,
+          "prior_original_tortuosity": 3.727445274555253
+        },
+        {
+          "sonnet_id": "sonnet-042",
+          "mean_cosine_distance": 0.13531374195629725,
+          "terminal_token_id": 13,
+          "token_count": 162,
+          "prior_original_tortuosity": 3.27700487258653
+        },
+        {
+          "sonnet_id": "sonnet-079",
+          "mean_cosine_distance": 0.13408581810883952,
+          "terminal_token_id": 13,
+          "token_count": 149,
+          "prior_original_tortuosity": 3.158951435399954
+        },
+        {
+          "sonnet_id": "sonnet-058",
+          "mean_cosine_distance": 0.13378433080267282,
+          "terminal_token_id": 13,
+          "token_count": 145,
+          "prior_original_tortuosity": 3.036570825261022
+        }
+      ],
+      "anomaly_rank_correlations": {
+        "token_count": -0.2198934993804138,
+        "character_count": -0.06431203475043852,
+        "word_count": -0.3156003504615478,
+        "verse_line_count": -0.05511529748466529,
+        "prior_isolated_bert_original_tortuosity": 0.09659019032833076,
+        "baseline_anomaly:tfidf_character_ngrams": 0.393715961457897,
+        "baseline_anomaly:standardized_stylometry": 0.19522577359389506,
+        "baseline_anomaly:minilm_sentence_embedding": 0.13840163631434982
+      },
+      "descriptive_baseline_rsa": {
+        "tfidf_character_ngrams": 0.47017889471534985,
+        "standardized_stylometry": 0.18760416750030423,
+        "minilm_sentence_embedding": 0.23820275578050223
+      },
+      "terminal_group_mean_scores": [
+        {
+          "token_id": 13,
+          "count": 143,
+          "mean_anomaly_score": 0.11698411258546221
+        },
+        {
+          "token_id": 14304,
+          "count": 5,
+          "mean_anomaly_score": 0.12032645149723833
+        },
+        {
+          "token_id": 0,
+          "count": 3,
+          "mean_anomaly_score": 0.11284400962136881
+        },
+        {
+          "token_id": 23616,
+          "count": 2,
+          "mean_anomaly_score": 0.11981411792749525
+        },
+        {
+          "token_id": 30,
+          "count": 1,
+          "mean_anomaly_score": 0.10734028423625203
+        }
+      ],
+      "same_terminal_token_sensitivity": {
+        "token_id": 13,
+        "sonnets": 143,
+        "recomputed_anomaly": true,
+        "rank_status": "computed",
+        "top10": [
+          {
+            "sonnet_id": "sonnet-066",
+            "mean_cosine_distance": 0.16136385718378957
+          },
+          {
+            "sonnet_id": "sonnet-077",
+            "mean_cosine_distance": 0.15626175673207104
+          },
+          {
+            "sonnet_id": "sonnet-129",
+            "mean_cosine_distance": 0.1448801799792228
+          },
+          {
+            "sonnet_id": "sonnet-067",
+            "mean_cosine_distance": 0.14412249828605136
+          },
+          {
+            "sonnet_id": "sonnet-006",
+            "mean_cosine_distance": 0.13572821814779945
+          },
+          {
+            "sonnet_id": "sonnet-042",
+            "mean_cosine_distance": 0.1355294816566487
+          },
+          {
+            "sonnet_id": "sonnet-046",
+            "mean_cosine_distance": 0.13535996085054755
+          },
+          {
+            "sonnet_id": "sonnet-079",
+            "mean_cosine_distance": 0.1343952397913697
+          },
+          {
+            "sonnet_id": "sonnet-040",
+            "mean_cosine_distance": 0.13381760831761788
+          },
+          {
+            "sonnet_id": "sonnet-058",
+            "mean_cosine_distance": 0.1332634879587591
+          }
+        ],
+        "rank_correlation_with_full_scores_on_same_subset": 0.9987811484290359,
+        "rank_correlation_with_prior_metric": 0.09459847664073018
+      }
+    },
+    {
+      "pooling": "cumulative_mean",
+      "layer": {
+        "requested_depth": 0.25,
+        "tensor": "residual.block.008",
+        "residual_index": 9,
+        "normalized_depth": 0.25,
+        "distance_to_requested_depth": 0.0
+      },
+      "top10": [
+        {
+          "sonnet_id": "sonnet-099",
+          "mean_cosine_distance": 0.02347207549142952,
+          "terminal_token_id": 13,
+          "token_count": 172,
+          "prior_original_tortuosity": 3.3345085285679437
+        },
+        {
+          "sonnet_id": "sonnet-129",
+          "mean_cosine_distance": 0.018530021100162414,
+          "terminal_token_id": 13,
+          "token_count": 153,
+          "prior_original_tortuosity": 3.268366165193261
+        },
+        {
+          "sonnet_id": "sonnet-066",
+          "mean_cosine_distance": 0.017724282159633828,
+          "terminal_token_id": 13,
+          "token_count": 140,
+          "prior_original_tortuosity": 3.581428592541163
+        },
+        {
+          "sonnet_id": "sonnet-133",
+          "mean_cosine_distance": 0.015889223199066,
+          "terminal_token_id": 13,
+          "token_count": 166,
+          "prior_original_tortuosity": 2.591584038407185
+        },
+        {
+          "sonnet_id": "sonnet-020",
+          "mean_cosine_distance": 0.015512210927638128,
+          "terminal_token_id": 13,
+          "token_count": 157,
+          "prior_original_tortuosity": 2.7135932235431692
+        },
+        {
+          "sonnet_id": "sonnet-154",
+          "mean_cosine_distance": 0.015160948276779461,
+          "terminal_token_id": 13,
+          "token_count": 153,
+          "prior_original_tortuosity": 2.7510675366148267
+        },
+        {
+          "sonnet_id": "sonnet-108",
+          "mean_cosine_distance": 0.014949499128274191,
+          "terminal_token_id": 13,
+          "token_count": 152,
+          "prior_original_tortuosity": 3.6698161425443483
+        },
+        {
+          "sonnet_id": "sonnet-097",
+          "mean_cosine_distance": 0.014867020661372871,
+          "terminal_token_id": 13,
+          "token_count": 150,
+          "prior_original_tortuosity": 2.9834131606083885
+        },
+        {
+          "sonnet_id": "sonnet-152",
+          "mean_cosine_distance": 0.01449691461085176,
+          "terminal_token_id": 13,
+          "token_count": 165,
+          "prior_original_tortuosity": 3.162382400777666
+        },
+        {
+          "sonnet_id": "sonnet-028",
+          "mean_cosine_distance": 0.0144271274631749,
+          "terminal_token_id": 13,
+          "token_count": 157,
+          "prior_original_tortuosity": 2.696302464726371
+        }
+      ],
+      "anomaly_rank_correlations": {
+        "token_count": 0.08929980872605112,
+        "character_count": 0.1917758779382934,
+        "word_count": 0.0058869363050466006,
+        "verse_line_count": 0.1820086568098249,
+        "prior_isolated_bert_original_tortuosity": -0.042302668868133775,
+        "baseline_anomaly:tfidf_character_ngrams": 0.16326507142446425,
+        "baseline_anomaly:standardized_stylometry": 0.06307531810378111,
+        "baseline_anomaly:minilm_sentence_embedding": 0.12424653145715767
+      },
+      "descriptive_baseline_rsa": {
+        "tfidf_character_ngrams": 0.25974481274170486,
+        "standardized_stylometry": 0.11405262697088502,
+        "minilm_sentence_embedding": 0.17259342561185864
+      },
+      "terminal_group_mean_scores": [
+        {
+          "token_id": 13,
+          "count": 143,
+          "mean_anomaly_score": 0.010454672555867827
+        },
+        {
+          "token_id": 14304,
+          "count": 5,
+          "mean_anomaly_score": 0.010305333914235906
+        },
+        {
+          "token_id": 0,
+          "count": 3,
+          "mean_anomaly_score": 0.008797531752835847
+        },
+        {
+          "token_id": 23616,
+          "count": 2,
+          "mean_anomaly_score": 0.010515757756996856
+        },
+        {
+          "token_id": 30,
+          "count": 1,
+          "mean_anomaly_score": 0.008822317517677288
+        }
+      ],
+      "same_terminal_token_sensitivity": {
+        "token_id": 13,
+        "sonnets": 143,
+        "recomputed_anomaly": true,
+        "rank_status": "computed",
+        "top10": [
+          {
+            "sonnet_id": "sonnet-099",
+            "mean_cosine_distance": 0.023509655807292362
+          },
+          {
+            "sonnet_id": "sonnet-129",
+            "mean_cosine_distance": 0.018541291833770415
+          },
+          {
+            "sonnet_id": "sonnet-066",
+            "mean_cosine_distance": 0.017697984619718006
+          },
+          {
+            "sonnet_id": "sonnet-133",
+            "mean_cosine_distance": 0.015961128740853422
+          },
+          {
+            "sonnet_id": "sonnet-020",
+            "mean_cosine_distance": 0.015535484564811223
+          },
+          {
+            "sonnet_id": "sonnet-154",
+            "mean_cosine_distance": 0.01518906337142893
+          },
+          {
+            "sonnet_id": "sonnet-108",
+            "mean_cosine_distance": 0.015011613218727944
+          },
+          {
+            "sonnet_id": "sonnet-097",
+            "mean_cosine_distance": 0.014873976959478898
+          },
+          {
+            "sonnet_id": "sonnet-152",
+            "mean_cosine_distance": 0.01457369674212321
+          },
+          {
+            "sonnet_id": "sonnet-028",
+            "mean_cosine_distance": 0.014458363604890213
+          }
+        ],
+        "rank_correlation_with_full_scores_on_same_subset": 0.9994829114547426,
+        "rank_correlation_with_prior_metric": -0.03685692242030271
+      }
+    },
+    {
+      "pooling": "cumulative_mean",
+      "layer": {
+        "requested_depth": 0.5,
+        "tensor": "residual.block.017",
+        "residual_index": 18,
+        "normalized_depth": 0.5,
+        "distance_to_requested_depth": 0.0
+      },
+      "top10": [
+        {
+          "sonnet_id": "sonnet-099",
+          "mean_cosine_distance": 0.02972392373372044,
+          "terminal_token_id": 13,
+          "token_count": 172,
+          "prior_original_tortuosity": 3.3345085285679437
+        },
+        {
+          "sonnet_id": "sonnet-018",
+          "mean_cosine_distance": 0.027081164863152925,
+          "terminal_token_id": 13,
+          "token_count": 150,
+          "prior_original_tortuosity": 3.0556666831215535
+        },
+        {
+          "sonnet_id": "sonnet-129",
+          "mean_cosine_distance": 0.026987954940715136,
+          "terminal_token_id": 13,
+          "token_count": 153,
+          "prior_original_tortuosity": 3.268366165193261
+        },
+        {
+          "sonnet_id": "sonnet-066",
+          "mean_cosine_distance": 0.02486219240763814,
+          "terminal_token_id": 13,
+          "token_count": 140,
+          "prior_original_tortuosity": 3.581428592541163
+        },
+        {
+          "sonnet_id": "sonnet-130",
+          "mean_cosine_distance": 0.02425274873758083,
+          "terminal_token_id": 13,
+          "token_count": 153,
+          "prior_original_tortuosity": 2.8312526336174098
+        },
+        {
+          "sonnet_id": "sonnet-097",
+          "mean_cosine_distance": 0.023843828863905583,
+          "terminal_token_id": 13,
+          "token_count": 150,
+          "prior_original_tortuosity": 2.9834131606083885
+        },
+        {
+          "sonnet_id": "sonnet-154",
+          "mean_cosine_distance": 0.023516627742013053,
+          "terminal_token_id": 13,
+          "token_count": 153,
+          "prior_original_tortuosity": 2.7510675366148267
+        },
+        {
+          "sonnet_id": "sonnet-143",
+          "mean_cosine_distance": 0.02341711939223926,
+          "terminal_token_id": 13,
+          "token_count": 150,
+          "prior_original_tortuosity": 2.6201860350296924
+        },
+        {
+          "sonnet_id": "sonnet-050",
+          "mean_cosine_distance": 0.022700682971103395,
+          "terminal_token_id": 13,
+          "token_count": 152,
+          "prior_original_tortuosity": 2.612679713048997
+        },
+        {
+          "sonnet_id": "sonnet-153",
+          "mean_cosine_distance": 0.02239052833628496,
+          "terminal_token_id": 13,
+          "token_count": 152,
+          "prior_original_tortuosity": 3.0943800441832168
+        }
+      ],
+      "anomaly_rank_correlations": {
+        "token_count": 0.1125994880117639,
+        "character_count": 0.17028046692649457,
+        "word_count": 0.04617714812608262,
+        "verse_line_count": 0.17559990128835218,
+        "prior_isolated_bert_original_tortuosity": -0.006661902297575923,
+        "baseline_anomaly:tfidf_character_ngrams": 0.18439915555665085,
+        "baseline_anomaly:standardized_stylometry": 0.05191026557250467,
+        "baseline_anomaly:minilm_sentence_embedding": 0.1690283151383721
+      },
+      "descriptive_baseline_rsa": {
+        "tfidf_character_ngrams": 0.30676798906485647,
+        "standardized_stylometry": 0.13042965155482167,
+        "minilm_sentence_embedding": 0.25150401269918315
+      },
+      "terminal_group_mean_scores": [
+        {
+          "token_id": 13,
+          "count": 143,
+          "mean_anomaly_score": 0.01713421755072944
+        },
+        {
+          "token_id": 14304,
+          "count": 5,
+          "mean_anomaly_score": 0.017014325923269395
+        },
+        {
+          "token_id": 0,
+          "count": 3,
+          "mean_anomaly_score": 0.01455724539446819
+        },
+        {
+          "token_id": 23616,
+          "count": 2,
+          "mean_anomaly_score": 0.017209129480950137
+        },
+        {
+          "token_id": 30,
+          "count": 1,
+          "mean_anomaly_score": 0.014174391997428211
+        }
+      ],
+      "same_terminal_token_sensitivity": {
+        "token_id": 13,
+        "sonnets": 143,
+        "recomputed_anomaly": true,
+        "rank_status": "computed",
+        "top10": [
+          {
+            "sonnet_id": "sonnet-099",
+            "mean_cosine_distance": 0.02973592299124706
+          },
+          {
+            "sonnet_id": "sonnet-018",
+            "mean_cosine_distance": 0.027096030296926907
+          },
+          {
+            "sonnet_id": "sonnet-129",
+            "mean_cosine_distance": 0.02699317157924117
+          },
+          {
+            "sonnet_id": "sonnet-066",
+            "mean_cosine_distance": 0.02481063198443181
+          },
+          {
+            "sonnet_id": "sonnet-130",
+            "mean_cosine_distance": 0.02431727174199245
+          },
+          {
+            "sonnet_id": "sonnet-097",
+            "mean_cosine_distance": 0.023784372671930103
+          },
+          {
+            "sonnet_id": "sonnet-154",
+            "mean_cosine_distance": 0.023549190791190597
+          },
+          {
+            "sonnet_id": "sonnet-143",
+            "mean_cosine_distance": 0.023513122827238817
+          },
+          {
+            "sonnet_id": "sonnet-050",
+            "mean_cosine_distance": 0.02272014009374714
+          },
+          {
+            "sonnet_id": "sonnet-153",
+            "mean_cosine_distance": 0.02240157426038055
+          }
+        ],
+        "rank_correlation_with_full_scores_on_same_subset": 0.9993638990117865,
+        "rank_correlation_with_prior_metric": 0.0033159328933976824
+      }
+    },
+    {
+      "pooling": "cumulative_mean",
+      "layer": {
+        "requested_depth": 0.75,
+        "tensor": "residual.block.026",
+        "residual_index": 27,
+        "normalized_depth": 0.75,
+        "distance_to_requested_depth": 0.0
+      },
+      "top10": [
+        {
+          "sonnet_id": "sonnet-130",
+          "mean_cosine_distance": 0.10629547526477286,
+          "terminal_token_id": 13,
+          "token_count": 153,
+          "prior_original_tortuosity": 2.8312526336174098
+        },
+        {
+          "sonnet_id": "sonnet-018",
+          "mean_cosine_distance": 0.10282363726454526,
+          "terminal_token_id": 13,
+          "token_count": 150,
+          "prior_original_tortuosity": 3.0556666831215535
+        },
+        {
+          "sonnet_id": "sonnet-043",
+          "mean_cosine_distance": 0.10182677177226908,
+          "terminal_token_id": 13,
+          "token_count": 150,
+          "prior_original_tortuosity": 2.90592923755194
+        },
+        {
+          "sonnet_id": "sonnet-129",
+          "mean_cosine_distance": 0.09768144665916188,
+          "terminal_token_id": 13,
+          "token_count": 153,
+          "prior_original_tortuosity": 3.268366165193261
+        },
+        {
+          "sonnet_id": "sonnet-152",
+          "mean_cosine_distance": 0.09713684375489803,
+          "terminal_token_id": 13,
+          "token_count": 165,
+          "prior_original_tortuosity": 3.162382400777666
+        },
+        {
+          "sonnet_id": "sonnet-116",
+          "mean_cosine_distance": 0.09352912715086414,
+          "terminal_token_id": 13,
+          "token_count": 143,
+          "prior_original_tortuosity": 3.3923318911894214
+        },
+        {
+          "sonnet_id": "sonnet-008",
+          "mean_cosine_distance": 0.09176630296771825,
+          "terminal_token_id": 14304,
+          "token_count": 162,
+          "prior_original_tortuosity": 3.8520890385057185
+        },
+        {
+          "sonnet_id": "sonnet-143",
+          "mean_cosine_distance": 0.09059058267965228,
+          "terminal_token_id": 13,
+          "token_count": 150,
+          "prior_original_tortuosity": 2.6201860350296924
+        },
+        {
+          "sonnet_id": "sonnet-054",
+          "mean_cosine_distance": 0.08921875649064107,
+          "terminal_token_id": 13,
+          "token_count": 163,
+          "prior_original_tortuosity": 3.644995491345444
+        },
+        {
+          "sonnet_id": "sonnet-055",
+          "mean_cosine_distance": 0.08905416916475561,
+          "terminal_token_id": 13,
+          "token_count": 151,
+          "prior_original_tortuosity": 3.143883528084616
+        }
+      ],
+      "anomaly_rank_correlations": {
+        "token_count": 0.06617122078014727,
+        "character_count": 0.15591403855759964,
+        "word_count": 0.0344296079120981,
+        "verse_line_count": 0.13714736815951595,
+        "prior_isolated_bert_original_tortuosity": 0.050152377666609176,
+        "baseline_anomaly:tfidf_character_ngrams": 0.24293846570886424,
+        "baseline_anomaly:standardized_stylometry": 0.041320223103904326,
+        "baseline_anomaly:minilm_sentence_embedding": 0.2559764081585714
+      },
+      "descriptive_baseline_rsa": {
+        "tfidf_character_ngrams": 0.3132307306526933,
+        "standardized_stylometry": 0.10352214333949299,
+        "minilm_sentence_embedding": 0.33511333138132
+      },
+      "terminal_group_mean_scores": [
+        {
+          "token_id": 13,
+          "count": 143,
+          "mean_anomaly_score": 0.069937559473314
+        },
+        {
+          "token_id": 14304,
+          "count": 5,
+          "mean_anomaly_score": 0.07446132136000096
+        },
+        {
+          "token_id": 0,
+          "count": 3,
+          "mean_anomaly_score": 0.06365451006480655
+        },
+        {
+          "token_id": 23616,
+          "count": 2,
+          "mean_anomaly_score": 0.06830284494944969
+        },
+        {
+          "token_id": 30,
+          "count": 1,
+          "mean_anomaly_score": 0.0545673796919954
+        }
+      ],
+      "same_terminal_token_sensitivity": {
+        "token_id": 13,
+        "sonnets": 143,
+        "recomputed_anomaly": true,
+        "rank_status": "computed",
+        "top10": [
+          {
+            "sonnet_id": "sonnet-130",
+            "mean_cosine_distance": 0.10646027673883329
+          },
+          {
+            "sonnet_id": "sonnet-018",
+            "mean_cosine_distance": 0.10255430471883867
+          },
+          {
+            "sonnet_id": "sonnet-043",
+            "mean_cosine_distance": 0.10180588972994965
+          },
+          {
+            "sonnet_id": "sonnet-129",
+            "mean_cosine_distance": 0.09772413035027576
+          },
+          {
+            "sonnet_id": "sonnet-152",
+            "mean_cosine_distance": 0.09762895903950498
+          },
+          {
+            "sonnet_id": "sonnet-116",
+            "mean_cosine_distance": 0.09375504916320226
+          },
+          {
+            "sonnet_id": "sonnet-143",
+            "mean_cosine_distance": 0.09079320292608838
+          },
+          {
+            "sonnet_id": "sonnet-054",
+            "mean_cosine_distance": 0.08908877040491074
+          },
+          {
+            "sonnet_id": "sonnet-055",
+            "mean_cosine_distance": 0.08875200039453586
+          },
+          {
+            "sonnet_id": "sonnet-076",
+            "mean_cosine_distance": 0.08848927496212845
+          }
+        ],
+        "rank_correlation_with_full_scores_on_same_subset": 0.9994582881906827,
+        "rank_correlation_with_prior_metric": 0.05024787419153617
+      }
+    },
+    {
+      "pooling": "cumulative_mean",
+      "layer": {
+        "requested_depth": 1.0,
+        "tensor": "residual.block.035",
+        "residual_index": 36,
+        "normalized_depth": 1.0,
+        "distance_to_requested_depth": 0.0
+      },
+      "top10": [
+        {
+          "sonnet_id": "sonnet-055",
+          "mean_cosine_distance": 0.19666893331381674,
+          "terminal_token_id": 13,
+          "token_count": 151,
+          "prior_original_tortuosity": 3.143883528084616
+        },
+        {
+          "sonnet_id": "sonnet-116",
+          "mean_cosine_distance": 0.17921613501784867,
+          "terminal_token_id": 13,
+          "token_count": 143,
+          "prior_original_tortuosity": 3.3923318911894214
+        },
+        {
+          "sonnet_id": "sonnet-004",
+          "mean_cosine_distance": 0.17416363112257058,
+          "terminal_token_id": 13,
+          "token_count": 150,
+          "prior_original_tortuosity": 2.958350789564276
+        },
+        {
+          "sonnet_id": "sonnet-008",
+          "mean_cosine_distance": 0.1629055594195817,
+          "terminal_token_id": 14304,
+          "token_count": 162,
+          "prior_original_tortuosity": 3.8520890385057185
+        },
+        {
+          "sonnet_id": "sonnet-043",
+          "mean_cosine_distance": 0.1603129277663708,
+          "terminal_token_id": 13,
+          "token_count": 150,
+          "prior_original_tortuosity": 2.90592923755194
+        },
+        {
+          "sonnet_id": "sonnet-001",
+          "mean_cosine_distance": 0.15673714397415694,
+          "terminal_token_id": 13,
+          "token_count": 150,
+          "prior_original_tortuosity": 3.427031975351122
+        },
+        {
+          "sonnet_id": "sonnet-003",
+          "mean_cosine_distance": 0.1431213357639214,
+          "terminal_token_id": 13,
+          "token_count": 152,
+          "prior_original_tortuosity": 3.8423104834674713
+        },
+        {
+          "sonnet_id": "sonnet-146",
+          "mean_cosine_distance": 0.14195026275371142,
+          "terminal_token_id": 13,
+          "token_count": 144,
+          "prior_original_tortuosity": 2.9167961491884387
+        },
+        {
+          "sonnet_id": "sonnet-030",
+          "mean_cosine_distance": 0.14138815060344467,
+          "terminal_token_id": 13,
+          "token_count": 157,
+          "prior_original_tortuosity": 3.4969064682149167
+        },
+        {
+          "sonnet_id": "sonnet-073",
+          "mean_cosine_distance": 0.14014738789036682,
+          "terminal_token_id": 13,
+          "token_count": 166,
+          "prior_original_tortuosity": 3.592280039547369
+        }
+      ],
+      "anomaly_rank_correlations": {
+        "token_count": 0.03063028515291157,
+        "character_count": 0.07464725186459777,
+        "word_count": -0.18929207520199745,
+        "verse_line_count": 0.09484958171779607,
+        "prior_isolated_bert_original_tortuosity": 0.04844377633751449,
+        "baseline_anomaly:tfidf_character_ngrams": 0.27670305658920463,
+        "baseline_anomaly:standardized_stylometry": 0.2333735840377207,
+        "baseline_anomaly:minilm_sentence_embedding": 0.11826314103353953
+      },
+      "descriptive_baseline_rsa": {
+        "tfidf_character_ngrams": 0.19371650809580948,
+        "standardized_stylometry": 0.08371311066873209,
+        "minilm_sentence_embedding": 0.10600547330145653
+      },
+      "terminal_group_mean_scores": [
+        {
+          "token_id": 13,
+          "count": 143,
+          "mean_anomaly_score": 0.0916643577586474
+        },
+        {
+          "token_id": 14304,
+          "count": 5,
+          "mean_anomaly_score": 0.10239354722470004
+        },
+        {
+          "token_id": 0,
+          "count": 3,
+          "mean_anomaly_score": 0.07957268660436602
+        },
+        {
+          "token_id": 23616,
+          "count": 2,
+          "mean_anomaly_score": 0.074100524778907
+        },
+        {
+          "token_id": 30,
+          "count": 1,
+          "mean_anomaly_score": 0.07864362013156453
+        }
+      ],
+      "same_terminal_token_sensitivity": {
+        "token_id": 13,
+        "sonnets": 143,
+        "recomputed_anomaly": true,
+        "rank_status": "computed",
+        "top10": [
+          {
+            "sonnet_id": "sonnet-055",
+            "mean_cosine_distance": 0.19640660584851682
+          },
+          {
+            "sonnet_id": "sonnet-116",
+            "mean_cosine_distance": 0.1794727309501325
+          },
+          {
+            "sonnet_id": "sonnet-004",
+            "mean_cosine_distance": 0.174561357812339
+          },
+          {
+            "sonnet_id": "sonnet-043",
+            "mean_cosine_distance": 0.1605356968257083
+          },
+          {
+            "sonnet_id": "sonnet-001",
+            "mean_cosine_distance": 0.15683679733606903
+          },
+          {
+            "sonnet_id": "sonnet-003",
+            "mean_cosine_distance": 0.14339287504361678
+          },
+          {
+            "sonnet_id": "sonnet-146",
+            "mean_cosine_distance": 0.14198309027247577
+          },
+          {
+            "sonnet_id": "sonnet-030",
+            "mean_cosine_distance": 0.14154519197091717
+          },
+          {
+            "sonnet_id": "sonnet-073",
+            "mean_cosine_distance": 0.139963048954178
+          },
+          {
+            "sonnet_id": "sonnet-071",
+            "mean_cosine_distance": 0.13901422111095801
+          }
+        ],
+        "rank_correlation_with_full_scores_on_same_subset": 0.9997250402179981,
+        "rank_correlation_with_prior_metric": 0.01915279556124627
+      }
+    }
+  ],
+  "ranking_sensitivity": {
+    "cross_pooling_by_depth": [
+      {
+        "depth": 0.0,
+        "spearman_anomaly_scores": -0.019047541423553558
+      },
+      {
+        "depth": 0.25,
+        "spearman_anomaly_scores": -0.03646056663134463
+      },
+      {
+        "depth": 0.5,
+        "spearman_anomaly_scores": -0.02700082965737615
+      },
+      {
+        "depth": 0.75,
+        "spearman_anomaly_scores": 0.03903661171213354
+      },
+      {
+        "depth": 1.0,
+        "spearman_anomaly_scores": 0.0760212589434601
+      }
+    ],
+    "first_to_final_residual_depth_by_pooling": [
+      {
+        "pooling": "last_token",
+        "spearman_anomaly_scores": 0.4415673474681296
+      },
+      {
+        "pooling": "cumulative_mean",
+        "spearman_anomaly_scores": 0.31969080887486967
+      }
+    ]
+  },
+  "terminal_token_audit": {
+    "method": "Offline deterministic reconstruction with exact tokenizer fingerprint, every normalized-record hash, and every extraction token count verified; no raw-token GCS fetch",
+    "tokenizer_fingerprint": "08164e5de6c8bd76ac49f63a6ba12ed0ca13e3f66c8a741170a8cdb8762678f8",
+    "groups": [
+      {
+        "token_id": 13,
+        "decoded": ".",
+        "count": 143,
+        "sonnet_ids": [
+          "sonnet-001",
+          "sonnet-002",
+          "sonnet-003",
+          "sonnet-004",
+          "sonnet-005",
+          "sonnet-006",
+          "sonnet-007",
+          "sonnet-009",
+          "sonnet-010",
+          "sonnet-011",
+          "sonnet-012",
+          "sonnet-013",
+          "sonnet-015",
+          "sonnet-016",
+          "sonnet-017",
+          "sonnet-018",
+          "sonnet-019",
+          "sonnet-020",
+          "sonnet-021",
+          "sonnet-022",
+          "sonnet-023",
+          "sonnet-024",
+          "sonnet-025",
+          "sonnet-026",
+          "sonnet-027",
+          "sonnet-028",
+          "sonnet-029",
+          "sonnet-030",
+          "sonnet-031",
+          "sonnet-033",
+          "sonnet-034",
+          "sonnet-035",
+          "sonnet-036",
+          "sonnet-038",
+          "sonnet-039",
+          "sonnet-040",
+          "sonnet-041",
+          "sonnet-042",
+          "sonnet-043",
+          "sonnet-044",
+          "sonnet-045",
+          "sonnet-046",
+          "sonnet-047",
+          "sonnet-048",
+          "sonnet-049",
+          "sonnet-050",
+          "sonnet-052",
+          "sonnet-053",
+          "sonnet-054",
+          "sonnet-055",
+          "sonnet-056",
+          "sonnet-057",
+          "sonnet-058",
+          "sonnet-059",
+          "sonnet-060",
+          "sonnet-061",
+          "sonnet-062",
+          "sonnet-063",
+          "sonnet-064",
+          "sonnet-065",
+          "sonnet-066",
+          "sonnet-067",
+          "sonnet-068",
+          "sonnet-069",
+          "sonnet-070",
+          "sonnet-071",
+          "sonnet-072",
+          "sonnet-073",
+          "sonnet-074",
+          "sonnet-075",
+          "sonnet-076",
+          "sonnet-077",
+          "sonnet-078",
+          "sonnet-079",
+          "sonnet-080",
+          "sonnet-081",
+          "sonnet-082",
+          "sonnet-083",
+          "sonnet-084",
+          "sonnet-085",
+          "sonnet-086",
+          "sonnet-087",
+          "sonnet-088",
+          "sonnet-089",
+          "sonnet-090",
+          "sonnet-091",
+          "sonnet-092",
+          "sonnet-094",
+          "sonnet-095",
+          "sonnet-096",
+          "sonnet-097",
+          "sonnet-098",
+          "sonnet-099",
+          "sonnet-100",
+          "sonnet-101",
+          "sonnet-102",
+          "sonnet-103",
+          "sonnet-104",
+          "sonnet-105",
+          "sonnet-106",
+          "sonnet-107",
+          "sonnet-108",
+          "sonnet-109",
+          "sonnet-110",
+          "sonnet-111",
+          "sonnet-112",
+          "sonnet-113",
+          "sonnet-114",
+          "sonnet-116",
+          "sonnet-117",
+          "sonnet-118",
+          "sonnet-119",
+          "sonnet-120",
+          "sonnet-121",
+          "sonnet-122",
+          "sonnet-123",
+          "sonnet-124",
+          "sonnet-125",
+          "sonnet-126",
+          "sonnet-127",
+          "sonnet-128",
+          "sonnet-129",
+          "sonnet-130",
+          "sonnet-131",
+          "sonnet-132",
+          "sonnet-133",
+          "sonnet-134",
+          "sonnet-137",
+          "sonnet-138",
+          "sonnet-139",
+          "sonnet-140",
+          "sonnet-141",
+          "sonnet-143",
+          "sonnet-144",
+          "sonnet-146",
+          "sonnet-147",
+          "sonnet-148",
+          "sonnet-149",
+          "sonnet-150",
+          "sonnet-151",
+          "sonnet-152",
+          "sonnet-153",
+          "sonnet-154"
+        ]
+      },
+      {
+        "token_id": 14304,
+        "decoded": ".’",
+        "count": 5,
+        "sonnet_ids": [
+          "sonnet-008",
+          "sonnet-014",
+          "sonnet-051",
+          "sonnet-135",
+          "sonnet-136"
+        ]
+      },
+      {
+        "token_id": 0,
+        "decoded": "!",
+        "count": 3,
+        "sonnet_ids": [
+          "sonnet-037",
+          "sonnet-093",
+          "sonnet-142"
+        ]
+      },
+      {
+        "token_id": 23616,
+        "decoded": "’.",
+        "count": 2,
+        "sonnet_ids": [
+          "sonnet-032",
+          "sonnet-145"
+        ]
+      },
+      {
+        "token_id": 30,
+        "decoded": "?",
+        "count": 1,
+        "sonnet_ids": [
+          "sonnet-115"
+        ]
+      }
+    ],
+    "per_sonnet": [
+      {
+        "sonnet_id": "sonnet-001",
+        "token_count": 150,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-002",
+        "token_count": 158,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-003",
+        "token_count": 152,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-004",
+        "token_count": 150,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-005",
+        "token_count": 147,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-006",
+        "token_count": 153,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-007",
+        "token_count": 147,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-008",
+        "token_count": 162,
+        "last_included_token_id": 14304,
+        "last_included_token_decoded": ".’"
+      },
+      {
+        "sonnet_id": "sonnet-009",
+        "token_count": 154,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-010",
+        "token_count": 162,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-011",
+        "token_count": 172,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-012",
+        "token_count": 153,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-013",
+        "token_count": 145,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-014",
+        "token_count": 147,
+        "last_included_token_id": 14304,
+        "last_included_token_decoded": ".’"
+      },
+      {
+        "sonnet_id": "sonnet-015",
+        "token_count": 143,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-016",
+        "token_count": 135,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-017",
+        "token_count": 155,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-018",
+        "token_count": 150,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-019",
+        "token_count": 156,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-020",
+        "token_count": 157,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-021",
+        "token_count": 155,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-022",
+        "token_count": 161,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-023",
+        "token_count": 153,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-024",
+        "token_count": 155,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-025",
+        "token_count": 140,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-026",
+        "token_count": 155,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-027",
+        "token_count": 153,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-028",
+        "token_count": 157,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-029",
+        "token_count": 155,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-030",
+        "token_count": 157,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-031",
+        "token_count": 150,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-032",
+        "token_count": 152,
+        "last_included_token_id": 23616,
+        "last_included_token_decoded": "’."
+      },
+      {
+        "sonnet_id": "sonnet-033",
+        "token_count": 148,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-034",
+        "token_count": 152,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-035",
+        "token_count": 145,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-036",
+        "token_count": 141,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-037",
+        "token_count": 154,
+        "last_included_token_id": 0,
+        "last_included_token_decoded": "!"
+      },
+      {
+        "sonnet_id": "sonnet-038",
+        "token_count": 149,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-039",
+        "token_count": 146,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-040",
+        "token_count": 169,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-041",
+        "token_count": 150,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-042",
+        "token_count": 162,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-043",
+        "token_count": 150,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-044",
+        "token_count": 147,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-045",
+        "token_count": 144,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-046",
+        "token_count": 144,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-047",
+        "token_count": 161,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-048",
+        "token_count": 149,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-049",
+        "token_count": 140,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-050",
+        "token_count": 152,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-051",
+        "token_count": 153,
+        "last_included_token_id": 14304,
+        "last_included_token_decoded": ".’"
+      },
+      {
+        "sonnet_id": "sonnet-052",
+        "token_count": 142,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-053",
+        "token_count": 138,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-054",
+        "token_count": 163,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-055",
+        "token_count": 151,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-056",
+        "token_count": 157,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-057",
+        "token_count": 148,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-058",
+        "token_count": 145,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-059",
+        "token_count": 141,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-060",
+        "token_count": 153,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-061",
+        "token_count": 151,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-062",
+        "token_count": 144,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-063",
+        "token_count": 153,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-064",
+        "token_count": 144,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-065",
+        "token_count": 150,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-066",
+        "token_count": 140,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-067",
+        "token_count": 137,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-068",
+        "token_count": 138,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-069",
+        "token_count": 153,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-070",
+        "token_count": 149,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-071",
+        "token_count": 150,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-072",
+        "token_count": 144,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-073",
+        "token_count": 166,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-074",
+        "token_count": 140,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-075",
+        "token_count": 152,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-076",
+        "token_count": 135,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-077",
+        "token_count": 141,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-078",
+        "token_count": 139,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-079",
+        "token_count": 149,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-080",
+        "token_count": 153,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-081",
+        "token_count": 146,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-082",
+        "token_count": 146,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-083",
+        "token_count": 142,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-084",
+        "token_count": 142,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-085",
+        "token_count": 157,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-086",
+        "token_count": 144,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-087",
+        "token_count": 158,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-088",
+        "token_count": 144,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-089",
+        "token_count": 147,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-090",
+        "token_count": 159,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-091",
+        "token_count": 151,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-092",
+        "token_count": 150,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-093",
+        "token_count": 155,
+        "last_included_token_id": 0,
+        "last_included_token_decoded": "!"
+      },
+      {
+        "sonnet_id": "sonnet-094",
+        "token_count": 141,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-095",
+        "token_count": 149,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-096",
+        "token_count": 155,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-097",
+        "token_count": 150,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-098",
+        "token_count": 151,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-099",
+        "token_count": 172,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-100",
+        "token_count": 150,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-101",
+        "token_count": 154,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-102",
+        "token_count": 154,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-103",
+        "token_count": 146,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-104",
+        "token_count": 162,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-105",
+        "token_count": 150,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-106",
+        "token_count": 144,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-107",
+        "token_count": 157,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-108",
+        "token_count": 152,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-109",
+        "token_count": 147,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-110",
+        "token_count": 157,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-111",
+        "token_count": 148,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-112",
+        "token_count": 150,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-113",
+        "token_count": 155,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-114",
+        "token_count": 156,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-115",
+        "token_count": 158,
+        "last_included_token_id": 30,
+        "last_included_token_decoded": "?"
+      },
+      {
+        "sonnet_id": "sonnet-116",
+        "token_count": 143,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-117",
+        "token_count": 145,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-118",
+        "token_count": 154,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-119",
+        "token_count": 147,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-120",
+        "token_count": 158,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-121",
+        "token_count": 149,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-122",
+        "token_count": 134,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-123",
+        "token_count": 141,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-124",
+        "token_count": 147,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-125",
+        "token_count": 149,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-126",
+        "token_count": 137,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-127",
+        "token_count": 147,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-128",
+        "token_count": 149,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-129",
+        "token_count": 153,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-130",
+        "token_count": 153,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-131",
+        "token_count": 157,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-132",
+        "token_count": 140,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-133",
+        "token_count": 166,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-134",
+        "token_count": 163,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-135",
+        "token_count": 163,
+        "last_included_token_id": 14304,
+        "last_included_token_decoded": ".’"
+      },
+      {
+        "sonnet_id": "sonnet-136",
+        "token_count": 162,
+        "last_included_token_id": 14304,
+        "last_included_token_decoded": ".’"
+      },
+      {
+        "sonnet_id": "sonnet-137",
+        "token_count": 156,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-138",
+        "token_count": 149,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-139",
+        "token_count": 160,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-140",
+        "token_count": 154,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-141",
+        "token_count": 154,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-142",
+        "token_count": 160,
+        "last_included_token_id": 0,
+        "last_included_token_decoded": "!"
+      },
+      {
+        "sonnet_id": "sonnet-143",
+        "token_count": 150,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-144",
+        "token_count": 144,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-145",
+        "token_count": 131,
+        "last_included_token_id": 23616,
+        "last_included_token_decoded": "’."
+      },
+      {
+        "sonnet_id": "sonnet-146",
+        "token_count": 144,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-147",
+        "token_count": 142,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-148",
+        "token_count": 162,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-149",
+        "token_count": 164,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-150",
+        "token_count": 149,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-151",
+        "token_count": 154,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-152",
+        "token_count": 165,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-153",
+        "token_count": 152,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      },
+      {
+        "sonnet_id": "sonnet-154",
+        "token_count": 153,
+        "last_included_token_id": 13,
+        "last_included_token_decoded": "."
+      }
+    ]
+  },
+  "inferential_tests": 0,
+  "interpretation": "Descriptive selected-depth rankings and correlations. Same-token subsets change corpus composition and are sensitivity analyses, not causal punctuation interventions. Prior BERT ratio is a different, scale-sensitive isolated-line measurement. No novelty, literary-validity, significance, or incremental-value claim."
+}

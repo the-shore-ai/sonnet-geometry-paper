@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "verified_on_utc": "2026-10-18",
+  "model": {
+    "model_id": "google-bert/bert-base-uncased",
+    "revision": "86b5e0934494bd15c9632b12f734a8a67f723594",
+    "license": "apache-2.0",
+    "source": "https://huggingface.co/google-bert/bert-base-uncased",
+    "max_tokens": 512,
+    "truncation": false,
+    "specialization": "Base pretrained BERT; neither EEBO-BERT nor Poetry-BERT"
+  },
+  "source_recipe": {
+    "repository": "https://github.com/JustinStec/poetry-bert-formalism",
+    "revision": "4fd12bbbadd58af6d8cc16658bea67b1180b7f4f",
+    "notebook": "notebooks/shakespeare_sonnets_bert_analysis.ipynb",
+    "url": "https://github.com/JustinStec/poetry-bert-formalism/blob/4fd12bbbadd58af6d8cc16658bea67b1180b7f4f/notebooks/shakespeare_sonnets_bert_analysis.ipynb",
+    "raw_notebook_sha256": "72158c8e0e78829b656328ad4da8dfac9bffaa307222d6a5ee8739757485b39f",
+    "inspected_zero_based_cells": [8, 10, 12],
+    "pooling": "Each verse line encoded independently; last hidden-layer mean excluding CLS and SEP",
+    "formula": "Sum arccos(clip(dot(delta_i/(norm(delta_i)+1e-8), delta_next/(norm(delta_next)+1e-8)), -1, 1)) divided by norm(last-first); return zero for fewer than two vectors or endpoint distance below 1e-8",
+    "couplet_measure": "Euclidean distance between final two line vectors",
+    "implementation": "Vectorized mathematical reimplementation; no source code copied; metrics computed in float64"
+  }
+}

@@ -1,0 +1,2226 @@
+{
+  "schema_version": "public-verification-v1",
+  "all_pass": true,
+  "numeric_checks": 246,
+  "file_checks": 7,
+  "identity": [
+    {
+      "population": "sidney",
+      "model": "qwen",
+      "seeds": [
+        {
+          "seed": 2026101801,
+          "raw_identity": 0.10416666666666666,
+          "calibrated_identity": 0.9375,
+          "raw_rdm_rho": 0.5335089396555415,
+          "centered_rdm_rho": 0.3479162683180891
+        },
+        {
+          "seed": 2026101802,
+          "raw_identity": 0.16666666666666666,
+          "calibrated_identity": 0.9166666666666666,
+          "raw_rdm_rho": 0.4583907193105121,
+          "centered_rdm_rho": 0.2959466902584153
+        },
+        {
+          "seed": 2026101803,
+          "raw_identity": 0.16666666666666666,
+          "calibrated_identity": 0.8958333333333333,
+          "raw_rdm_rho": 0.5438067379175526,
+          "centered_rdm_rho": 0.37983419186370065
+        },
+        {
+          "seed": 2026101804,
+          "raw_identity": 0.10416666666666666,
+          "calibrated_identity": 0.9791666666666667,
+          "raw_rdm_rho": 0.5063535052296628,
+          "centered_rdm_rho": 0.38055278891568334
+        },
+        {
+          "seed": 2026101805,
+          "raw_identity": 0.0625,
+          "calibrated_identity": 0.9583333333333334,
+          "raw_rdm_rho": 0.5601095874773477,
+          "centered_rdm_rho": 0.3983847262453447
+        }
+      ],
+      "medians": {
+        "raw_identity": 0.10416666666666666,
+        "calibrated_identity": 0.9375,
+        "raw_rdm_rho": 0.5335089396555415,
+        "centered_rdm_rho": 0.37983419186370065
+      }
+    },
+    {
+      "population": "spenser",
+      "model": "qwen",
+      "seeds": [
+        {
+          "seed": 2026101801,
+          "raw_identity": 0.08333333333333333,
+          "calibrated_identity": 0.9375,
+          "raw_rdm_rho": 0.17616586521311053,
+          "centered_rdm_rho": 0.3423318731182489
+        },
+        {
+          "seed": 2026101802,
+          "raw_identity": 0.0625,
+          "calibrated_identity": 0.8125,
+          "raw_rdm_rho": 0.24893080863572156,
+          "centered_rdm_rho": 0.3778576218946648
+        },
+        {
+          "seed": 2026101803,
+          "raw_identity": 0.125,
+          "calibrated_identity": 0.9166666666666667,
+          "raw_rdm_rho": 0.22091522666628619,
+          "centered_rdm_rho": 0.35691671066337527
+        },
+        {
+          "seed": 2026101804,
+          "raw_identity": 0.0625,
+          "calibrated_identity": 0.8333333333333334,
+          "raw_rdm_rho": 0.1761915497781139,
+          "centered_rdm_rho": 0.2585916296856495
+        },
+        {
+          "seed": 2026101805,
+          "raw_identity": 0.0625,
+          "calibrated_identity": 0.8125,
+          "raw_rdm_rho": 0.4680230019548809,
+          "centered_rdm_rho": 0.3645027896291434
+        }
+      ],
+      "medians": {
+        "raw_identity": 0.0625,
+        "calibrated_identity": 0.8333333333333334,
+        "raw_rdm_rho": 0.22091522666628619,
+        "centered_rdm_rho": 0.35691671066337527
+      }
+    },
+    {
+      "population": "sidney",
+      "model": "gemma",
+      "seeds": [
+        {
+          "seed": 2026101801,
+          "raw_identity": 0.375,
+          "calibrated_identity": 0.5625,
+          "raw_rdm_rho": 0.15368445084973104,
+          "centered_rdm_rho": 0.1629600034246087
+        },
+        {
+          "seed": 2026101802,
+          "raw_identity": 0.29166666666666663,
+          "calibrated_identity": 0.4375,
+          "raw_rdm_rho": -0.011871976712661065,
+          "centered_rdm_rho": 0.17111799203778488
+        },
+        {
+          "seed": 2026101803,
+          "raw_identity": 0.3541666666666667,
+          "calibrated_identity": 0.5625,
+          "raw_rdm_rho": -0.05086457099641843,
+          "centered_rdm_rho": 0.07870093177894151
+        },
+        {
+          "seed": 2026101804,
+          "raw_identity": 0.4583333333333333,
+          "calibrated_identity": 0.5625,
+          "raw_rdm_rho": 0.24733836560551364,
+          "centered_rdm_rho": 0.31554173028352905
+        },
+        {
+          "seed": 2026101805,
+          "raw_identity": 0.3125,
+          "calibrated_identity": 0.5208333333333333,
+          "raw_rdm_rho": 0.05661791355716956,
+          "centered_rdm_rho": 0.24114267775859366
+        }
+      ],
+      "medians": {
+        "raw_identity": 0.3541666666666667,
+        "calibrated_identity": 0.5625,
+        "raw_rdm_rho": 0.05661791355716956,
+        "centered_rdm_rho": 0.17111799203778488
+      }
+    },
+    {
+      "population": "spenser",
+      "model": "gemma",
+      "seeds": [
+        {
+          "seed": 2026101801,
+          "raw_identity": 0.35416666666666663,
+          "calibrated_identity": 0.4583333333333333,
+          "raw_rdm_rho": 0.021604143776487207,
+          "centered_rdm_rho": 0.0283797320243718
+        },
+        {
+          "seed": 2026101802,
+          "raw_identity": 0.1875,
+          "calibrated_identity": 0.375,
+          "raw_rdm_rho": 0.03773119675803713,
+          "centered_rdm_rho": 0.06455159030264979
+        },
+        {
+          "seed": 2026101803,
+          "raw_identity": 0.3125,
+          "calibrated_identity": 0.3125,
+          "raw_rdm_rho": 0.011595154178736035,
+          "centered_rdm_rho": 0.17790956179278267
+        },
+        {
+          "seed": 2026101804,
+          "raw_identity": 0.22916666666666669,
+          "calibrated_identity": 0.5208333333333334,
+          "raw_rdm_rho": 0.002390947617756596,
+          "centered_rdm_rho": 0.15977968350908237
+        },
+        {
+          "seed": 2026101805,
+          "raw_identity": 0.25,
+          "calibrated_identity": 0.4375,
+          "raw_rdm_rho": -0.008146002482841284,
+          "centered_rdm_rho": 0.09736105363793325
+        }
+      ],
+      "medians": {
+        "raw_identity": 0.25,
+        "calibrated_identity": 0.4375,
+        "raw_rdm_rho": 0.011595154178736035,
+        "centered_rdm_rho": 0.09736105363793325
+      }
+    },
+    {
+      "population": "sidney",
+      "model": "muse",
+      "seeds": [
+        {
+          "seed": 2026101801,
+          "raw_identity": 0.16666666666666669,
+          "calibrated_identity": 0.9583333333333334,
+          "raw_rdm_rho": 0.5129721322469714,
+          "centered_rdm_rho": 0.41795351093734395
+        },
+        {
+          "seed": 2026101802,
+          "raw_identity": 0.1875,
+          "calibrated_identity": 0.9791666666666667,
+          "raw_rdm_rho": 0.5423798176395885,
+          "centered_rdm_rho": 0.40529044962257954
+        },
+        {
+          "seed": 2026101803,
+          "raw_identity": 0.20833333333333334,
+          "calibrated_identity": 0.9791666666666667,
+          "raw_rdm_rho": 0.6736353647921691,
+          "centered_rdm_rho": 0.6139216049999288
+        },
+        {
+          "seed": 2026101804,
+          "raw_identity": 0.14583333333333334,
+          "calibrated_identity": 0.9583333333333333,
+          "raw_rdm_rho": 0.696939256003767,
+          "centered_rdm_rho": 0.5458341062484839
+        },
+        {
+          "seed": 2026101805,
+          "raw_identity": 0.1875,
+          "calibrated_identity": 1.0,
+          "raw_rdm_rho": 0.6078006877755741,
+          "centered_rdm_rho": 0.5257978624734236
+        }
+      ],
+      "medians": {
+        "raw_identity": 0.1875,
+        "calibrated_identity": 0.9791666666666667,
+        "raw_rdm_rho": 0.6078006877755741,
+        "centered_rdm_rho": 0.5257978624734236
+      }
+    },
+    {
+      "population": "spenser",
+      "model": "muse",
+      "seeds": [
+        {
+          "seed": 2026101801,
+          "raw_identity": 0.20833333333333334,
+          "calibrated_identity": 0.9166666666666667,
+          "raw_rdm_rho": 0.428918537121331,
+          "centered_rdm_rho": 0.37174469542386673
+        },
+        {
+          "seed": 2026101802,
+          "raw_identity": 0.1875,
+          "calibrated_identity": 0.9375,
+          "raw_rdm_rho": 0.456474650761262,
+          "centered_rdm_rho": 0.4183570439919523
+        },
+        {
+          "seed": 2026101803,
+          "raw_identity": 0.10416666666666666,
+          "calibrated_identity": 0.9375,
+          "raw_rdm_rho": 0.44025855795436714,
+          "centered_rdm_rho": 0.4856169289821778
+        },
+        {
+          "seed": 2026101804,
+          "raw_identity": 0.16666666666666669,
+          "calibrated_identity": 0.8958333333333333,
+          "raw_rdm_rho": 0.42638603901200045,
+          "centered_rdm_rho": 0.4210784663460853
+        },
+        {
+          "seed": 2026101805,
+          "raw_identity": 0.1875,
+          "calibrated_identity": 0.9583333333333333,
+          "raw_rdm_rho": 0.34395114224968254,
+          "centered_rdm_rho": 0.43268960203193446
+        }
+      ],
+      "medians": {
+        "raw_identity": 0.1875,
+        "calibrated_identity": 0.9375,
+        "raw_rdm_rho": 0.428918537121331,
+        "centered_rdm_rho": 0.4210784663460853
+      }
+    }
+  ],
+  "frozen": [
+    {
+      "population": "sidney",
+      "model": "qwen",
+      "early": [
+        0.8806404018207504,
+        0.8955614217833651,
+        0.9164589546382045,
+        0.916356216378191,
+        0.9030156533154493
+      ],
+      "final": [
+        0.5335089396555415,
+        0.4583907193105121,
+        0.5438067379175526,
+        0.5063535052296628,
+        0.5601095874773477
+      ],
+      "paired_changes": [
+        0.34713146216520896,
+        0.43717070247285295,
+        0.37265221672065185,
+        0.41000271114852815,
+        0.34290606583810157
+      ],
+      "passes": true
+    },
+    {
+      "population": "sidney",
+      "model": "gemma",
+      "early": [
+        0.9381481428632582,
+        0.9323126096944965,
+        0.9217305689131148,
+        0.9248846334955266,
+        0.9397428689659109
+      ],
+      "final": [
+        0.15368445084973104,
+        -0.011871976712661065,
+        -0.05086457099641843,
+        0.24733836560551364,
+        0.05661791355716956
+      ],
+      "paired_changes": [
+        0.7844636920135272,
+        0.9441845864071575,
+        0.9725951399095332,
+        0.677546267890013,
+        0.8831249554087413
+      ],
+      "passes": true
+    },
+    {
+      "population": "sidney",
+      "model": "muse",
+      "early": [
+        0.7008056391889386,
+        0.7561153522352706,
+        0.8017522581013399,
+        0.809433084573565,
+        0.7020453475264338
+      ],
+      "final": [
+        0.5129721322469714,
+        0.5423798176395885,
+        0.6736353647921691,
+        0.696939256003767,
+        0.6078006877755741
+      ],
+      "paired_changes": [
+        0.1878335069419672,
+        0.21373553459568206,
+        0.12811689330917075,
+        0.11249382856979795,
+        0.09424465975085972
+      ],
+      "passes": false
+    },
+    {
+      "population": "sidney",
+      "models": [
+        "qwen",
+        "gemma"
+      ],
+      "original": 0.03330146544712547,
+      "shuffled": [
+        0.02701445470241578,
+        0.18057162426335244,
+        -0.011190479587905424,
+        -0.03371527232773505,
+        -0.08861060772534639
+      ],
+      "changes": [
+        -0.006287010744709692,
+        0.14727015881622696,
+        -0.04449194503503089,
+        -0.06701673777486053,
+        -0.12191207317247185
+      ],
+      "passes": false
+    },
+    {
+      "population": "sidney",
+      "models": [
+        "qwen",
+        "muse"
+      ],
+      "original": 0.7084373796036015,
+      "shuffled": [
+        0.6258911830596026,
+        0.5546125197985189,
+        0.540668654842254,
+        0.520740857008319,
+        0.4439097615616216
+      ],
+      "changes": [
+        -0.08254619654399897,
+        -0.15382485980508265,
+        -0.16776872476134752,
+        -0.18769652259528258,
+        -0.26452761804197994
+      ],
+      "passes": false
+    },
+    {
+      "population": "sidney",
+      "models": [
+        "gemma",
+        "muse"
+      ],
+      "original": 0.05385539589903112,
+      "shuffled": [
+        0.06898988313522925,
+        0.22518285983362113,
+        -0.0025610365148899133,
+        0.06074570853726403,
+        -0.194480672364835
+      ],
+      "changes": [
+        0.015134487236198126,
+        0.17132746393459,
+        -0.05641643241392103,
+        0.006890312638232907,
+        -0.24833606826386612
+      ],
+      "passes": false
+    },
+    {
+      "population": "spenser",
+      "model": "qwen",
+      "early": [
+        0.828881437194104,
+        0.8898651560337324,
+        0.8376627045846949,
+        0.8630630270686778,
+        0.8426112641086743
+      ],
+      "final": [
+        0.17616586521311053,
+        0.24893080863572156,
+        0.22091522666628619,
+        0.1761915497781139,
+        0.4680230019548809
+      ],
+      "paired_changes": [
+        0.6527155719809935,
+        0.6409343473980108,
+        0.6167474779184088,
+        0.6868714772905639,
+        0.37458826215379337
+      ],
+      "passes": true
+    },
+    {
+      "population": "spenser",
+      "model": "gemma",
+      "early": [
+        0.87960046232217,
+        0.8903463135514618,
+        0.8809617442673479,
+        0.8821049927940526,
+        0.8400747706225654
+      ],
+      "final": [
+        0.021604143776487207,
+        0.03773119675803713,
+        0.011595154178736035,
+        0.002390947617756596,
+        -0.008146002482841284
+      ],
+      "paired_changes": [
+        0.8579963185456828,
+        0.8526151167934246,
+        0.8693665900886118,
+        0.879714045176296,
+        0.8482207731054067
+      ],
+      "passes": true
+    },
+    {
+      "population": "spenser",
+      "model": "muse",
+      "early": [
+        0.6910637690672223,
+        0.6075872205019907,
+        0.5826583524778471,
+        0.5354187297555686,
+        0.5093837131319474
+      ],
+      "final": [
+        0.428918537121331,
+        0.456474650761262,
+        0.44025855795436714,
+        0.42638603901200045,
+        0.34395114224968254
+      ],
+      "paired_changes": [
+        0.26214523194589134,
+        0.15111256974072867,
+        0.14239979452348,
+        0.10903269074356814,
+        0.16543257088226487
+      ],
+      "passes": false
+    },
+    {
+      "population": "spenser",
+      "models": [
+        "qwen",
+        "gemma"
+      ],
+      "original": 0.06129592899644697,
+      "shuffled": [
+        0.06026340948331217,
+        0.05079094191007548,
+        0.04519170673934448,
+        -0.07530543228549821,
+        -0.013789186798133587
+      ],
+      "changes": [
+        -0.0010325195131348011,
+        -0.010504987086371494,
+        -0.016104222257102493,
+        -0.1366013612819452,
+        -0.07508511579458056
+      ],
+      "passes": false
+    },
+    {
+      "population": "spenser",
+      "models": [
+        "qwen",
+        "muse"
+      ],
+      "original": 0.42261954024628645,
+      "shuffled": [
+        0.3809842896077396,
+        0.30549050384555015,
+        0.5226963085572409,
+        0.39768325223669754,
+        0.4500226880324196
+      ],
+      "changes": [
+        -0.04163525063854684,
+        -0.1171290364007363,
+        0.10007676831095447,
+        -0.024936288009588914,
+        0.027403147786133175
+      ],
+      "passes": false
+    },
+    {
+      "population": "spenser",
+      "models": [
+        "gemma",
+        "muse"
+      ],
+      "original": 0.06873874516630757,
+      "shuffled": [
+        -0.019794808864028766,
+        0.04757980051654514,
+        0.21899173813159062,
+        0.17227665130349168,
+        0.1777811389677659
+      ],
+      "changes": [
+        -0.08853355403033633,
+        -0.02115894464976243,
+        0.15025299296528305,
+        0.10353790613718411,
+        0.10904239380145833
+      ],
+      "passes": false
+    }
+  ],
+  "structural": [
+    {
+      "population": "sidney",
+      "model": "qwen",
+      "state": "depth75",
+      "seed_differences": [
+        0.3295906165722521,
+        0.24420541944321572,
+        0.3436640458897562,
+        0.23896177280575326,
+        0.23334769766413155
+      ],
+      "omission_range": [
+        0.1035522733571348,
+        0.3952717372778996
+      ]
+    },
+    {
+      "population": "sidney",
+      "model": "gemma",
+      "state": "depth75",
+      "seed_differences": [
+        -0.2853806309841469,
+        -0.05978282273369387,
+        0.2104935717241478,
+        -0.1557940097886731,
+        0.031157660421512266
+      ],
+      "omission_range": [
+        -0.3671072736461302,
+        0.2986472046725385
+      ]
+    },
+    {
+      "population": "sidney",
+      "model": "muse",
+      "state": "depth75",
+      "seed_differences": [
+        0.30507441389249573,
+        0.29226238210071204,
+        0.36032476705526456,
+        0.22211041509110885,
+        0.10460923788187965
+      ],
+      "omission_range": [
+        0.03941898567026947,
+        0.4149619637466265
+      ]
+    },
+    {
+      "population": "spenser",
+      "model": "qwen",
+      "state": "depth75",
+      "seed_differences": [
+        0.47669696494056873,
+        0.4225858649277265,
+        0.4957178122458298,
+        0.6535049442787633,
+        0.3737303976826815
+      ],
+      "omission_range": [
+        0.33809805394879017,
+        0.700289440104572
+      ]
+    },
+    {
+      "population": "spenser",
+      "model": "gemma",
+      "state": "depth75",
+      "seed_differences": [
+        0.10771935331973,
+        -0.046778442088440536,
+        0.28095318274568,
+        0.14389463620667514,
+        0.37189823204577566
+      ],
+      "omission_range": [
+        -0.1524732827368911,
+        0.45566512683938226
+      ]
+    },
+    {
+      "population": "spenser",
+      "model": "muse",
+      "state": "depth75",
+      "seed_differences": [
+        0.31939384426592093,
+        0.1603356116493771,
+        0.21559795094248088,
+        0.3303953996090239,
+        0.2367688817225781
+      ],
+      "omission_range": [
+        0.0641147623345501,
+        0.41966962627695265
+      ]
+    }
+  ],
+  "response": [
+    {
+      "population": "sidney",
+      "models": [
+        "qwen",
+        "gemma"
+      ],
+      "same_seed": 0.9104347826086956,
+      "poem_average": 0.8713043478260868,
+      "within_poem": 0.7041666666666667
+    },
+    {
+      "population": "sidney",
+      "models": [
+        "qwen",
+        "muse"
+      ],
+      "same_seed": 0.874782608695652,
+      "poem_average": 0.8234782608695651,
+      "within_poem": 0.6000000000000001
+    },
+    {
+      "population": "sidney",
+      "models": [
+        "gemma",
+        "muse"
+      ],
+      "same_seed": 0.7930434782608695,
+      "poem_average": 0.737391304347826,
+      "within_poem": 0.6166666666666667
+    },
+    {
+      "population": "spenser",
+      "models": [
+        "qwen",
+        "gemma"
+      ],
+      "same_seed": 0.874782608695652,
+      "poem_average": 0.8756521739130434,
+      "within_poem": 0.5000000000000001
+    },
+    {
+      "population": "spenser",
+      "models": [
+        "qwen",
+        "muse"
+      ],
+      "same_seed": 0.8765217391304346,
+      "poem_average": 0.8234782608695651,
+      "within_poem": 0.6958333333333334
+    },
+    {
+      "population": "spenser",
+      "models": [
+        "gemma",
+        "muse"
+      ],
+      "same_seed": 0.7895652173913044,
+      "poem_average": 0.8130434782608694,
+      "within_poem": 0.6041666666666667
+    }
+  ],
+  "checks": [
+    {
+      "check": "identity/sidney/qwen/2026101801/raw",
+      "passes": true,
+      "actual": 0.10416666666666666,
+      "expected": 0.10416666666666666
+    },
+    {
+      "check": "identity/sidney/qwen/2026101801/calibrated",
+      "passes": true,
+      "actual": 0.9375,
+      "expected": 0.9375
+    },
+    {
+      "check": "geometry/sidney/qwen/2026101801/raw",
+      "passes": true,
+      "actual": 0.5335089396555415,
+      "expected": 0.5335089396555414
+    },
+    {
+      "check": "geometry/sidney/qwen/2026101801/centered",
+      "passes": true,
+      "actual": 0.3479162683180891,
+      "expected": 0.34791626831808903
+    },
+    {
+      "check": "identity/sidney/qwen/2026101802/raw",
+      "passes": true,
+      "actual": 0.16666666666666666,
+      "expected": 0.16666666666666666
+    },
+    {
+      "check": "identity/sidney/qwen/2026101802/calibrated",
+      "passes": true,
+      "actual": 0.9166666666666666,
+      "expected": 0.9166666666666666
+    },
+    {
+      "check": "geometry/sidney/qwen/2026101802/raw",
+      "passes": true,
+      "actual": 0.4583907193105121,
+      "expected": 0.45839071931051206
+    },
+    {
+      "check": "geometry/sidney/qwen/2026101802/centered",
+      "passes": true,
+      "actual": 0.2959466902584153,
+      "expected": 0.29594669025841525
+    },
+    {
+      "check": "identity/sidney/qwen/2026101803/raw",
+      "passes": true,
+      "actual": 0.16666666666666666,
+      "expected": 0.16666666666666666
+    },
+    {
+      "check": "identity/sidney/qwen/2026101803/calibrated",
+      "passes": true,
+      "actual": 0.8958333333333333,
+      "expected": 0.8958333333333333
+    },
+    {
+      "check": "geometry/sidney/qwen/2026101803/raw",
+      "passes": true,
+      "actual": 0.5438067379175526,
+      "expected": 0.5438067379175525
+    },
+    {
+      "check": "geometry/sidney/qwen/2026101803/centered",
+      "passes": true,
+      "actual": 0.37983419186370065,
+      "expected": 0.37983419186370054
+    },
+    {
+      "check": "identity/sidney/qwen/2026101804/raw",
+      "passes": true,
+      "actual": 0.10416666666666666,
+      "expected": 0.10416666666666666
+    },
+    {
+      "check": "identity/sidney/qwen/2026101804/calibrated",
+      "passes": true,
+      "actual": 0.9791666666666667,
+      "expected": 0.9791666666666667
+    },
+    {
+      "check": "geometry/sidney/qwen/2026101804/raw",
+      "passes": true,
+      "actual": 0.5063535052296628,
+      "expected": 0.5063535052296627
+    },
+    {
+      "check": "geometry/sidney/qwen/2026101804/centered",
+      "passes": true,
+      "actual": 0.38055278891568334,
+      "expected": 0.3805527889156832
+    },
+    {
+      "check": "identity/sidney/qwen/2026101805/raw",
+      "passes": true,
+      "actual": 0.0625,
+      "expected": 0.0625
+    },
+    {
+      "check": "identity/sidney/qwen/2026101805/calibrated",
+      "passes": true,
+      "actual": 0.9583333333333334,
+      "expected": 0.9583333333333334
+    },
+    {
+      "check": "geometry/sidney/qwen/2026101805/raw",
+      "passes": true,
+      "actual": 0.5601095874773477,
+      "expected": 0.5601095874773475
+    },
+    {
+      "check": "geometry/sidney/qwen/2026101805/centered",
+      "passes": true,
+      "actual": 0.3983847262453447,
+      "expected": 0.3983847262453446
+    },
+    {
+      "check": "identity/spenser/qwen/2026101801/raw",
+      "passes": true,
+      "actual": 0.08333333333333333,
+      "expected": 0.08333333333333333
+    },
+    {
+      "check": "identity/spenser/qwen/2026101801/calibrated",
+      "passes": true,
+      "actual": 0.9375,
+      "expected": 0.9375
+    },
+    {
+      "check": "geometry/spenser/qwen/2026101801/raw",
+      "passes": true,
+      "actual": 0.17616586521311053,
+      "expected": 0.1761658652131105
+    },
+    {
+      "check": "geometry/spenser/qwen/2026101801/centered",
+      "passes": true,
+      "actual": 0.3423318731182489,
+      "expected": 0.34233187311824886
+    },
+    {
+      "check": "identity/spenser/qwen/2026101802/raw",
+      "passes": true,
+      "actual": 0.0625,
+      "expected": 0.0625
+    },
+    {
+      "check": "identity/spenser/qwen/2026101802/calibrated",
+      "passes": true,
+      "actual": 0.8125,
+      "expected": 0.8125
+    },
+    {
+      "check": "geometry/spenser/qwen/2026101802/raw",
+      "passes": true,
+      "actual": 0.24893080863572156,
+      "expected": 0.24893080863572148
+    },
+    {
+      "check": "geometry/spenser/qwen/2026101802/centered",
+      "passes": true,
+      "actual": 0.3778576218946648,
+      "expected": 0.3778576218946647
+    },
+    {
+      "check": "identity/spenser/qwen/2026101803/raw",
+      "passes": true,
+      "actual": 0.125,
+      "expected": 0.125
+    },
+    {
+      "check": "identity/spenser/qwen/2026101803/calibrated",
+      "passes": true,
+      "actual": 0.9166666666666667,
+      "expected": 0.9166666666666667
+    },
+    {
+      "check": "geometry/spenser/qwen/2026101803/raw",
+      "passes": true,
+      "actual": 0.22091522666628619,
+      "expected": 0.22091522666628613
+    },
+    {
+      "check": "geometry/spenser/qwen/2026101803/centered",
+      "passes": true,
+      "actual": 0.35691671066337527,
+      "expected": 0.3569167106633752
+    },
+    {
+      "check": "identity/spenser/qwen/2026101804/raw",
+      "passes": true,
+      "actual": 0.0625,
+      "expected": 0.0625
+    },
+    {
+      "check": "identity/spenser/qwen/2026101804/calibrated",
+      "passes": true,
+      "actual": 0.8333333333333334,
+      "expected": 0.8333333333333334
+    },
+    {
+      "check": "geometry/spenser/qwen/2026101804/raw",
+      "passes": true,
+      "actual": 0.1761915497781139,
+      "expected": 0.17619154977811388
+    },
+    {
+      "check": "geometry/spenser/qwen/2026101804/centered",
+      "passes": true,
+      "actual": 0.2585916296856495,
+      "expected": 0.2585916296856494
+    },
+    {
+      "check": "identity/spenser/qwen/2026101805/raw",
+      "passes": true,
+      "actual": 0.0625,
+      "expected": 0.0625
+    },
+    {
+      "check": "identity/spenser/qwen/2026101805/calibrated",
+      "passes": true,
+      "actual": 0.8125,
+      "expected": 0.8125
+    },
+    {
+      "check": "geometry/spenser/qwen/2026101805/raw",
+      "passes": true,
+      "actual": 0.4680230019548809,
+      "expected": 0.4680230019548807
+    },
+    {
+      "check": "geometry/spenser/qwen/2026101805/centered",
+      "passes": true,
+      "actual": 0.3645027896291434,
+      "expected": 0.3645027896291434
+    },
+    {
+      "check": "identity/sidney/gemma/2026101801/raw",
+      "passes": true,
+      "actual": 0.375,
+      "expected": 0.375
+    },
+    {
+      "check": "identity/sidney/gemma/2026101801/calibrated",
+      "passes": true,
+      "actual": 0.5625,
+      "expected": 0.5625
+    },
+    {
+      "check": "geometry/sidney/gemma/2026101801/raw",
+      "passes": true,
+      "actual": 0.15368445084973104,
+      "expected": 0.153684450849731
+    },
+    {
+      "check": "geometry/sidney/gemma/2026101801/centered",
+      "passes": true,
+      "actual": 0.1629600034246087,
+      "expected": 0.16296000342460865
+    },
+    {
+      "check": "identity/sidney/gemma/2026101802/raw",
+      "passes": true,
+      "actual": 0.29166666666666663,
+      "expected": 0.29166666666666663
+    },
+    {
+      "check": "identity/sidney/gemma/2026101802/calibrated",
+      "passes": true,
+      "actual": 0.4375,
+      "expected": 0.4375
+    },
+    {
+      "check": "geometry/sidney/gemma/2026101802/raw",
+      "passes": true,
+      "actual": -0.011871976712661065,
+      "expected": -0.011871976712661061
+    },
+    {
+      "check": "geometry/sidney/gemma/2026101802/centered",
+      "passes": true,
+      "actual": 0.17111799203778488,
+      "expected": 0.17111799203778483
+    },
+    {
+      "check": "identity/sidney/gemma/2026101803/raw",
+      "passes": true,
+      "actual": 0.3541666666666667,
+      "expected": 0.3541666666666667
+    },
+    {
+      "check": "identity/sidney/gemma/2026101803/calibrated",
+      "passes": true,
+      "actual": 0.5625,
+      "expected": 0.5625
+    },
+    {
+      "check": "geometry/sidney/gemma/2026101803/raw",
+      "passes": true,
+      "actual": -0.05086457099641843,
+      "expected": -0.050864570996418425
+    },
+    {
+      "check": "geometry/sidney/gemma/2026101803/centered",
+      "passes": true,
+      "actual": 0.07870093177894151,
+      "expected": 0.0787009317789415
+    },
+    {
+      "check": "identity/sidney/gemma/2026101804/raw",
+      "passes": true,
+      "actual": 0.4583333333333333,
+      "expected": 0.4583333333333333
+    },
+    {
+      "check": "identity/sidney/gemma/2026101804/calibrated",
+      "passes": true,
+      "actual": 0.5625,
+      "expected": 0.5625
+    },
+    {
+      "check": "geometry/sidney/gemma/2026101804/raw",
+      "passes": true,
+      "actual": 0.24733836560551364,
+      "expected": 0.2473383656055136
+    },
+    {
+      "check": "geometry/sidney/gemma/2026101804/centered",
+      "passes": true,
+      "actual": 0.31554173028352905,
+      "expected": 0.315541730283529
+    },
+    {
+      "check": "identity/sidney/gemma/2026101805/raw",
+      "passes": true,
+      "actual": 0.3125,
+      "expected": 0.3125
+    },
+    {
+      "check": "identity/sidney/gemma/2026101805/calibrated",
+      "passes": true,
+      "actual": 0.5208333333333333,
+      "expected": 0.5208333333333333
+    },
+    {
+      "check": "geometry/sidney/gemma/2026101805/raw",
+      "passes": true,
+      "actual": 0.05661791355716956,
+      "expected": 0.05661791355716955
+    },
+    {
+      "check": "geometry/sidney/gemma/2026101805/centered",
+      "passes": true,
+      "actual": 0.24114267775859366,
+      "expected": 0.2411426777585936
+    },
+    {
+      "check": "identity/spenser/gemma/2026101801/raw",
+      "passes": true,
+      "actual": 0.35416666666666663,
+      "expected": 0.35416666666666663
+    },
+    {
+      "check": "identity/spenser/gemma/2026101801/calibrated",
+      "passes": true,
+      "actual": 0.4583333333333333,
+      "expected": 0.4583333333333333
+    },
+    {
+      "check": "geometry/spenser/gemma/2026101801/raw",
+      "passes": true,
+      "actual": 0.021604143776487207,
+      "expected": 0.021604143776487204
+    },
+    {
+      "check": "geometry/spenser/gemma/2026101801/centered",
+      "passes": true,
+      "actual": 0.0283797320243718,
+      "expected": 0.028379732024371794
+    },
+    {
+      "check": "identity/spenser/gemma/2026101802/raw",
+      "passes": true,
+      "actual": 0.1875,
+      "expected": 0.1875
+    },
+    {
+      "check": "identity/spenser/gemma/2026101802/calibrated",
+      "passes": true,
+      "actual": 0.375,
+      "expected": 0.375
+    },
+    {
+      "check": "geometry/spenser/gemma/2026101802/raw",
+      "passes": true,
+      "actual": 0.03773119675803713,
+      "expected": 0.03773119675803712
+    },
+    {
+      "check": "geometry/spenser/gemma/2026101802/centered",
+      "passes": true,
+      "actual": 0.06455159030264979,
+      "expected": 0.06455159030264979
+    },
+    {
+      "check": "identity/spenser/gemma/2026101803/raw",
+      "passes": true,
+      "actual": 0.3125,
+      "expected": 0.3125
+    },
+    {
+      "check": "identity/spenser/gemma/2026101803/calibrated",
+      "passes": true,
+      "actual": 0.3125,
+      "expected": 0.3125
+    },
+    {
+      "check": "geometry/spenser/gemma/2026101803/raw",
+      "passes": true,
+      "actual": 0.011595154178736035,
+      "expected": 0.011595154178736033
+    },
+    {
+      "check": "geometry/spenser/gemma/2026101803/centered",
+      "passes": true,
+      "actual": 0.17790956179278267,
+      "expected": 0.1779095617927826
+    },
+    {
+      "check": "identity/spenser/gemma/2026101804/raw",
+      "passes": true,
+      "actual": 0.22916666666666669,
+      "expected": 0.22916666666666669
+    },
+    {
+      "check": "identity/spenser/gemma/2026101804/calibrated",
+      "passes": true,
+      "actual": 0.5208333333333334,
+      "expected": 0.5208333333333334
+    },
+    {
+      "check": "geometry/spenser/gemma/2026101804/raw",
+      "passes": true,
+      "actual": 0.002390947617756596,
+      "expected": 0.0023909476177565955
+    },
+    {
+      "check": "geometry/spenser/gemma/2026101804/centered",
+      "passes": true,
+      "actual": 0.15977968350908237,
+      "expected": 0.15977968350908234
+    },
+    {
+      "check": "identity/spenser/gemma/2026101805/raw",
+      "passes": true,
+      "actual": 0.25,
+      "expected": 0.25
+    },
+    {
+      "check": "identity/spenser/gemma/2026101805/calibrated",
+      "passes": true,
+      "actual": 0.4375,
+      "expected": 0.4375
+    },
+    {
+      "check": "geometry/spenser/gemma/2026101805/raw",
+      "passes": true,
+      "actual": -0.008146002482841284,
+      "expected": -0.008146002482841282
+    },
+    {
+      "check": "geometry/spenser/gemma/2026101805/centered",
+      "passes": true,
+      "actual": 0.09736105363793325,
+      "expected": 0.09736105363793324
+    },
+    {
+      "check": "identity/sidney/muse/2026101801/raw",
+      "passes": true,
+      "actual": 0.16666666666666669,
+      "expected": 0.16666666666666669
+    },
+    {
+      "check": "identity/sidney/muse/2026101801/calibrated",
+      "passes": true,
+      "actual": 0.9583333333333334,
+      "expected": 0.9583333333333334
+    },
+    {
+      "check": "geometry/sidney/muse/2026101801/raw",
+      "passes": true,
+      "actual": 0.5129721322469714,
+      "expected": 0.5129721322469712
+    },
+    {
+      "check": "geometry/sidney/muse/2026101801/centered",
+      "passes": true,
+      "actual": 0.41795351093734395,
+      "expected": 0.4179535109373439
+    },
+    {
+      "check": "identity/sidney/muse/2026101802/raw",
+      "passes": true,
+      "actual": 0.1875,
+      "expected": 0.1875
+    },
+    {
+      "check": "identity/sidney/muse/2026101802/calibrated",
+      "passes": true,
+      "actual": 0.9791666666666667,
+      "expected": 0.9791666666666667
+    },
+    {
+      "check": "geometry/sidney/muse/2026101802/raw",
+      "passes": true,
+      "actual": 0.5423798176395885,
+      "expected": 0.5423798176395884
+    },
+    {
+      "check": "geometry/sidney/muse/2026101802/centered",
+      "passes": true,
+      "actual": 0.40529044962257954,
+      "expected": 0.40529044962257954
+    },
+    {
+      "check": "identity/sidney/muse/2026101803/raw",
+      "passes": true,
+      "actual": 0.20833333333333334,
+      "expected": 0.20833333333333334
+    },
+    {
+      "check": "identity/sidney/muse/2026101803/calibrated",
+      "passes": true,
+      "actual": 0.9791666666666667,
+      "expected": 0.9791666666666667
+    },
+    {
+      "check": "geometry/sidney/muse/2026101803/raw",
+      "passes": true,
+      "actual": 0.6736353647921691,
+      "expected": 0.673635364792169
+    },
+    {
+      "check": "geometry/sidney/muse/2026101803/centered",
+      "passes": true,
+      "actual": 0.6139216049999288,
+      "expected": 0.6139216049999285
+    },
+    {
+      "check": "identity/sidney/muse/2026101804/raw",
+      "passes": true,
+      "actual": 0.14583333333333334,
+      "expected": 0.14583333333333334
+    },
+    {
+      "check": "identity/sidney/muse/2026101804/calibrated",
+      "passes": true,
+      "actual": 0.9583333333333333,
+      "expected": 0.9583333333333333
+    },
+    {
+      "check": "geometry/sidney/muse/2026101804/raw",
+      "passes": true,
+      "actual": 0.696939256003767,
+      "expected": 0.6969392560037669
+    },
+    {
+      "check": "geometry/sidney/muse/2026101804/centered",
+      "passes": true,
+      "actual": 0.5458341062484839,
+      "expected": 0.5458341062484838
+    },
+    {
+      "check": "identity/sidney/muse/2026101805/raw",
+      "passes": true,
+      "actual": 0.1875,
+      "expected": 0.1875
+    },
+    {
+      "check": "identity/sidney/muse/2026101805/calibrated",
+      "passes": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "geometry/sidney/muse/2026101805/raw",
+      "passes": true,
+      "actual": 0.6078006877755741,
+      "expected": 0.607800687775574
+    },
+    {
+      "check": "geometry/sidney/muse/2026101805/centered",
+      "passes": true,
+      "actual": 0.5257978624734236,
+      "expected": 0.5257978624734235
+    },
+    {
+      "check": "identity/spenser/muse/2026101801/raw",
+      "passes": true,
+      "actual": 0.20833333333333334,
+      "expected": 0.20833333333333334
+    },
+    {
+      "check": "identity/spenser/muse/2026101801/calibrated",
+      "passes": true,
+      "actual": 0.9166666666666667,
+      "expected": 0.9166666666666667
+    },
+    {
+      "check": "geometry/spenser/muse/2026101801/raw",
+      "passes": true,
+      "actual": 0.428918537121331,
+      "expected": 0.428918537121331
+    },
+    {
+      "check": "geometry/spenser/muse/2026101801/centered",
+      "passes": true,
+      "actual": 0.37174469542386673,
+      "expected": 0.3717446954238666
+    },
+    {
+      "check": "identity/spenser/muse/2026101802/raw",
+      "passes": true,
+      "actual": 0.1875,
+      "expected": 0.1875
+    },
+    {
+      "check": "identity/spenser/muse/2026101802/calibrated",
+      "passes": true,
+      "actual": 0.9375,
+      "expected": 0.9375
+    },
+    {
+      "check": "geometry/spenser/muse/2026101802/raw",
+      "passes": true,
+      "actual": 0.456474650761262,
+      "expected": 0.4564746507612619
+    },
+    {
+      "check": "geometry/spenser/muse/2026101802/centered",
+      "passes": true,
+      "actual": 0.4183570439919523,
+      "expected": 0.4183570439919521
+    },
+    {
+      "check": "identity/spenser/muse/2026101803/raw",
+      "passes": true,
+      "actual": 0.10416666666666666,
+      "expected": 0.10416666666666666
+    },
+    {
+      "check": "identity/spenser/muse/2026101803/calibrated",
+      "passes": true,
+      "actual": 0.9375,
+      "expected": 0.9375
+    },
+    {
+      "check": "geometry/spenser/muse/2026101803/raw",
+      "passes": true,
+      "actual": 0.44025855795436714,
+      "expected": 0.440258557954367
+    },
+    {
+      "check": "geometry/spenser/muse/2026101803/centered",
+      "passes": true,
+      "actual": 0.4856169289821778,
+      "expected": 0.4856169289821777
+    },
+    {
+      "check": "identity/spenser/muse/2026101804/raw",
+      "passes": true,
+      "actual": 0.16666666666666669,
+      "expected": 0.16666666666666669
+    },
+    {
+      "check": "identity/spenser/muse/2026101804/calibrated",
+      "passes": true,
+      "actual": 0.8958333333333333,
+      "expected": 0.8958333333333333
+    },
+    {
+      "check": "geometry/spenser/muse/2026101804/raw",
+      "passes": true,
+      "actual": 0.42638603901200045,
+      "expected": 0.42638603901200034
+    },
+    {
+      "check": "geometry/spenser/muse/2026101804/centered",
+      "passes": true,
+      "actual": 0.4210784663460853,
+      "expected": 0.4210784663460852
+    },
+    {
+      "check": "identity/spenser/muse/2026101805/raw",
+      "passes": true,
+      "actual": 0.1875,
+      "expected": 0.1875
+    },
+    {
+      "check": "identity/spenser/muse/2026101805/calibrated",
+      "passes": true,
+      "actual": 0.9583333333333333,
+      "expected": 0.9583333333333333
+    },
+    {
+      "check": "geometry/spenser/muse/2026101805/raw",
+      "passes": true,
+      "actual": 0.34395114224968254,
+      "expected": 0.3439511422496825
+    },
+    {
+      "check": "geometry/spenser/muse/2026101805/centered",
+      "passes": true,
+      "actual": 0.43268960203193446,
+      "expected": 0.4326896020319344
+    },
+    {
+      "check": "frozen/sidney/qwen/early_stability/median",
+      "passes": true,
+      "actual": 0.9030156533154493,
+      "expected": 0.9030156533154493
+    },
+    {
+      "check": "frozen/sidney/qwen/early_stability/minimum",
+      "passes": true,
+      "actual": 0.8806404018207504,
+      "expected": 0.8806404018207504
+    },
+    {
+      "check": "frozen/sidney/qwen/early_stability/maximum",
+      "passes": true,
+      "actual": 0.9164589546382045,
+      "expected": 0.9164589546382045
+    },
+    {
+      "check": "frozen/sidney/qwen/final_raw_stability/median",
+      "passes": true,
+      "actual": 0.5335089396555415,
+      "expected": 0.5335089396555415
+    },
+    {
+      "check": "frozen/sidney/qwen/final_raw_stability/minimum",
+      "passes": true,
+      "actual": 0.4583907193105121,
+      "expected": 0.4583907193105121
+    },
+    {
+      "check": "frozen/sidney/qwen/final_raw_stability/maximum",
+      "passes": true,
+      "actual": 0.5601095874773477,
+      "expected": 0.5601095874773477
+    },
+    {
+      "check": "frozen/sidney/qwen/early_minus_final_raw/median",
+      "passes": true,
+      "actual": 0.37265221672065185,
+      "expected": 0.37265221672065185
+    },
+    {
+      "check": "frozen/sidney/qwen/early_minus_final_raw/minimum",
+      "passes": true,
+      "actual": 0.34290606583810157,
+      "expected": 0.34290606583810157
+    },
+    {
+      "check": "frozen/sidney/qwen/early_minus_final_raw/maximum",
+      "passes": true,
+      "actual": 0.43717070247285295,
+      "expected": 0.43717070247285295
+    },
+    {
+      "check": "frozen/sidney/qwen/decision",
+      "passes": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "frozen/sidney/gemma/early_stability/median",
+      "passes": true,
+      "actual": 0.9323126096944965,
+      "expected": 0.9323126096944965
+    },
+    {
+      "check": "frozen/sidney/gemma/early_stability/minimum",
+      "passes": true,
+      "actual": 0.9217305689131148,
+      "expected": 0.9217305689131148
+    },
+    {
+      "check": "frozen/sidney/gemma/early_stability/maximum",
+      "passes": true,
+      "actual": 0.9397428689659109,
+      "expected": 0.9397428689659109
+    },
+    {
+      "check": "frozen/sidney/gemma/final_raw_stability/median",
+      "passes": true,
+      "actual": 0.05661791355716956,
+      "expected": 0.05661791355716956
+    },
+    {
+      "check": "frozen/sidney/gemma/final_raw_stability/minimum",
+      "passes": true,
+      "actual": -0.05086457099641843,
+      "expected": -0.05086457099641843
+    },
+    {
+      "check": "frozen/sidney/gemma/final_raw_stability/maximum",
+      "passes": true,
+      "actual": 0.24733836560551364,
+      "expected": 0.24733836560551364
+    },
+    {
+      "check": "frozen/sidney/gemma/early_minus_final_raw/median",
+      "passes": true,
+      "actual": 0.8831249554087413,
+      "expected": 0.8831249554087413
+    },
+    {
+      "check": "frozen/sidney/gemma/early_minus_final_raw/minimum",
+      "passes": true,
+      "actual": 0.677546267890013,
+      "expected": 0.677546267890013
+    },
+    {
+      "check": "frozen/sidney/gemma/early_minus_final_raw/maximum",
+      "passes": true,
+      "actual": 0.9725951399095332,
+      "expected": 0.9725951399095332
+    },
+    {
+      "check": "frozen/sidney/gemma/decision",
+      "passes": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "frozen/sidney/muse/early_stability/median",
+      "passes": true,
+      "actual": 0.7561153522352706,
+      "expected": 0.7561153522352706
+    },
+    {
+      "check": "frozen/sidney/muse/early_stability/minimum",
+      "passes": true,
+      "actual": 0.7008056391889386,
+      "expected": 0.7008056391889386
+    },
+    {
+      "check": "frozen/sidney/muse/early_stability/maximum",
+      "passes": true,
+      "actual": 0.809433084573565,
+      "expected": 0.809433084573565
+    },
+    {
+      "check": "frozen/sidney/muse/final_raw_stability/median",
+      "passes": true,
+      "actual": 0.6078006877755741,
+      "expected": 0.6078006877755741
+    },
+    {
+      "check": "frozen/sidney/muse/final_raw_stability/minimum",
+      "passes": true,
+      "actual": 0.5129721322469714,
+      "expected": 0.5129721322469714
+    },
+    {
+      "check": "frozen/sidney/muse/final_raw_stability/maximum",
+      "passes": true,
+      "actual": 0.696939256003767,
+      "expected": 0.696939256003767
+    },
+    {
+      "check": "frozen/sidney/muse/early_minus_final_raw/median",
+      "passes": true,
+      "actual": 0.12811689330917075,
+      "expected": 0.12811689330917075
+    },
+    {
+      "check": "frozen/sidney/muse/early_minus_final_raw/minimum",
+      "passes": true,
+      "actual": 0.09424465975085972,
+      "expected": 0.09424465975085972
+    },
+    {
+      "check": "frozen/sidney/muse/early_minus_final_raw/maximum",
+      "passes": true,
+      "actual": 0.21373553459568206,
+      "expected": 0.21373553459568206
+    },
+    {
+      "check": "frozen/sidney/muse/decision",
+      "passes": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "agreement/sidney/qwen/gemma/median",
+      "passes": true,
+      "actual": -0.04449194503503089,
+      "expected": -0.04449194503503089
+    },
+    {
+      "check": "agreement/sidney/qwen/gemma/decision",
+      "passes": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "agreement/sidney/qwen/muse/median",
+      "passes": true,
+      "actual": -0.16776872476134752,
+      "expected": -0.16776872476134752
+    },
+    {
+      "check": "agreement/sidney/qwen/muse/decision",
+      "passes": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "agreement/sidney/gemma/muse/median",
+      "passes": true,
+      "actual": 0.006890312638232907,
+      "expected": 0.006890312638232907
+    },
+    {
+      "check": "agreement/sidney/gemma/muse/decision",
+      "passes": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "frozen/spenser/qwen/early_stability/median",
+      "passes": true,
+      "actual": 0.8426112641086743,
+      "expected": 0.8426112641086743
+    },
+    {
+      "check": "frozen/spenser/qwen/early_stability/minimum",
+      "passes": true,
+      "actual": 0.828881437194104,
+      "expected": 0.828881437194104
+    },
+    {
+      "check": "frozen/spenser/qwen/early_stability/maximum",
+      "passes": true,
+      "actual": 0.8898651560337324,
+      "expected": 0.8898651560337324
+    },
+    {
+      "check": "frozen/spenser/qwen/final_raw_stability/median",
+      "passes": true,
+      "actual": 0.22091522666628619,
+      "expected": 0.22091522666628619
+    },
+    {
+      "check": "frozen/spenser/qwen/final_raw_stability/minimum",
+      "passes": true,
+      "actual": 0.17616586521311053,
+      "expected": 0.17616586521311053
+    },
+    {
+      "check": "frozen/spenser/qwen/final_raw_stability/maximum",
+      "passes": true,
+      "actual": 0.4680230019548809,
+      "expected": 0.4680230019548809
+    },
+    {
+      "check": "frozen/spenser/qwen/early_minus_final_raw/median",
+      "passes": true,
+      "actual": 0.6409343473980108,
+      "expected": 0.6409343473980108
+    },
+    {
+      "check": "frozen/spenser/qwen/early_minus_final_raw/minimum",
+      "passes": true,
+      "actual": 0.37458826215379337,
+      "expected": 0.37458826215379337
+    },
+    {
+      "check": "frozen/spenser/qwen/early_minus_final_raw/maximum",
+      "passes": true,
+      "actual": 0.6868714772905639,
+      "expected": 0.6868714772905639
+    },
+    {
+      "check": "frozen/spenser/qwen/decision",
+      "passes": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "frozen/spenser/gemma/early_stability/median",
+      "passes": true,
+      "actual": 0.8809617442673479,
+      "expected": 0.8809617442673479
+    },
+    {
+      "check": "frozen/spenser/gemma/early_stability/minimum",
+      "passes": true,
+      "actual": 0.8400747706225654,
+      "expected": 0.8400747706225654
+    },
+    {
+      "check": "frozen/spenser/gemma/early_stability/maximum",
+      "passes": true,
+      "actual": 0.8903463135514618,
+      "expected": 0.8903463135514618
+    },
+    {
+      "check": "frozen/spenser/gemma/final_raw_stability/median",
+      "passes": true,
+      "actual": 0.011595154178736035,
+      "expected": 0.011595154178736035
+    },
+    {
+      "check": "frozen/spenser/gemma/final_raw_stability/minimum",
+      "passes": true,
+      "actual": -0.008146002482841284,
+      "expected": -0.008146002482841284
+    },
+    {
+      "check": "frozen/spenser/gemma/final_raw_stability/maximum",
+      "passes": true,
+      "actual": 0.03773119675803713,
+      "expected": 0.03773119675803713
+    },
+    {
+      "check": "frozen/spenser/gemma/early_minus_final_raw/median",
+      "passes": true,
+      "actual": 0.8579963185456828,
+      "expected": 0.8579963185456828
+    },
+    {
+      "check": "frozen/spenser/gemma/early_minus_final_raw/minimum",
+      "passes": true,
+      "actual": 0.8482207731054067,
+      "expected": 0.8482207731054067
+    },
+    {
+      "check": "frozen/spenser/gemma/early_minus_final_raw/maximum",
+      "passes": true,
+      "actual": 0.879714045176296,
+      "expected": 0.879714045176296
+    },
+    {
+      "check": "frozen/spenser/gemma/decision",
+      "passes": true,
+      "actual": true,
+      "expected": true
+    },
+    {
+      "check": "frozen/spenser/muse/early_stability/median",
+      "passes": true,
+      "actual": 0.5826583524778471,
+      "expected": 0.5826583524778471
+    },
+    {
+      "check": "frozen/spenser/muse/early_stability/minimum",
+      "passes": true,
+      "actual": 0.5093837131319474,
+      "expected": 0.5093837131319474
+    },
+    {
+      "check": "frozen/spenser/muse/early_stability/maximum",
+      "passes": true,
+      "actual": 0.6910637690672223,
+      "expected": 0.6910637690672223
+    },
+    {
+      "check": "frozen/spenser/muse/final_raw_stability/median",
+      "passes": true,
+      "actual": 0.428918537121331,
+      "expected": 0.428918537121331
+    },
+    {
+      "check": "frozen/spenser/muse/final_raw_stability/minimum",
+      "passes": true,
+      "actual": 0.34395114224968254,
+      "expected": 0.34395114224968254
+    },
+    {
+      "check": "frozen/spenser/muse/final_raw_stability/maximum",
+      "passes": true,
+      "actual": 0.456474650761262,
+      "expected": 0.456474650761262
+    },
+    {
+      "check": "frozen/spenser/muse/early_minus_final_raw/median",
+      "passes": true,
+      "actual": 0.15111256974072867,
+      "expected": 0.15111256974072867
+    },
+    {
+      "check": "frozen/spenser/muse/early_minus_final_raw/minimum",
+      "passes": true,
+      "actual": 0.10903269074356814,
+      "expected": 0.10903269074356814
+    },
+    {
+      "check": "frozen/spenser/muse/early_minus_final_raw/maximum",
+      "passes": true,
+      "actual": 0.26214523194589134,
+      "expected": 0.26214523194589134
+    },
+    {
+      "check": "frozen/spenser/muse/decision",
+      "passes": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "agreement/spenser/qwen/gemma/median",
+      "passes": true,
+      "actual": -0.016104222257102493,
+      "expected": -0.016104222257102493
+    },
+    {
+      "check": "agreement/spenser/qwen/gemma/decision",
+      "passes": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "agreement/spenser/qwen/muse/median",
+      "passes": true,
+      "actual": -0.024936288009588914,
+      "expected": -0.024936288009588914
+    },
+    {
+      "check": "agreement/spenser/qwen/muse/decision",
+      "passes": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "agreement/spenser/gemma/muse/median",
+      "passes": true,
+      "actual": 0.10353790613718411,
+      "expected": 0.10353790613718411
+    },
+    {
+      "check": "agreement/spenser/gemma/muse/decision",
+      "passes": true,
+      "actual": false,
+      "expected": false
+    },
+    {
+      "check": "structure/sidney/qwen/depth75/full/minimum",
+      "passes": true,
+      "actual": 0.23334769766413155,
+      "expected": 0.23334769766413144
+    },
+    {
+      "check": "structure/sidney/qwen/depth75/full/maximum",
+      "passes": true,
+      "actual": 0.3436640458897562,
+      "expected": 0.34366404588975613
+    },
+    {
+      "check": "structure/sidney/qwen/depth75/full/median",
+      "passes": true,
+      "actual": 0.24420541944321572,
+      "expected": 0.2442054194432156
+    },
+    {
+      "check": "structure/sidney/qwen/depth75/omissions/minimum",
+      "passes": true,
+      "actual": 0.1035522733571348,
+      "expected": 0.10355227335713468
+    },
+    {
+      "check": "structure/sidney/qwen/depth75/omissions/maximum",
+      "passes": true,
+      "actual": 0.3952717372778996,
+      "expected": 0.3952717372778995
+    },
+    {
+      "check": "structure/sidney/qwen/depth75/omissions/median",
+      "passes": true,
+      "actual": 0.2574368174333941,
+      "expected": 0.25743681743339397
+    },
+    {
+      "check": "structure/sidney/gemma/depth75/full/minimum",
+      "passes": true,
+      "actual": -0.2853806309841469,
+      "expected": -0.2853806309841469
+    },
+    {
+      "check": "structure/sidney/gemma/depth75/full/maximum",
+      "passes": true,
+      "actual": 0.2104935717241478,
+      "expected": 0.21049357172414773
+    },
+    {
+      "check": "structure/sidney/gemma/depth75/full/median",
+      "passes": true,
+      "actual": -0.05978282273369387,
+      "expected": -0.05978282273369387
+    },
+    {
+      "check": "structure/sidney/gemma/depth75/omissions/minimum",
+      "passes": true,
+      "actual": -0.3671072736461302,
+      "expected": -0.3671072736461302
+    },
+    {
+      "check": "structure/sidney/gemma/depth75/omissions/maximum",
+      "passes": true,
+      "actual": 0.2986472046725385,
+      "expected": 0.29864720467253847
+    },
+    {
+      "check": "structure/sidney/gemma/depth75/omissions/median",
+      "passes": true,
+      "actual": -0.0638287308948042,
+      "expected": -0.06382873089480415
+    },
+    {
+      "check": "structure/sidney/muse/depth75/full/minimum",
+      "passes": true,
+      "actual": 0.10460923788187965,
+      "expected": 0.10460923788187948
+    },
+    {
+      "check": "structure/sidney/muse/depth75/full/maximum",
+      "passes": true,
+      "actual": 0.36032476705526456,
+      "expected": 0.36032476705526456
+    },
+    {
+      "check": "structure/sidney/muse/depth75/full/median",
+      "passes": true,
+      "actual": 0.29226238210071204,
+      "expected": 0.29226238210071204
+    },
+    {
+      "check": "structure/sidney/muse/depth75/omissions/minimum",
+      "passes": true,
+      "actual": 0.03941898567026947,
+      "expected": 0.03941898567026947
+    },
+    {
+      "check": "structure/sidney/muse/depth75/omissions/maximum",
+      "passes": true,
+      "actual": 0.4149619637466265,
+      "expected": 0.4149619637466266
+    },
+    {
+      "check": "structure/sidney/muse/depth75/omissions/median",
+      "passes": true,
+      "actual": 0.2866661183162381,
+      "expected": 0.2866661183162381
+    },
+    {
+      "check": "structure/spenser/qwen/depth75/full/minimum",
+      "passes": true,
+      "actual": 0.3737303976826815,
+      "expected": 0.3737303976826814
+    },
+    {
+      "check": "structure/spenser/qwen/depth75/full/maximum",
+      "passes": true,
+      "actual": 0.6535049442787633,
+      "expected": 0.653504944278763
+    },
+    {
+      "check": "structure/spenser/qwen/depth75/full/median",
+      "passes": true,
+      "actual": 0.47669696494056873,
+      "expected": 0.4766969649405687
+    },
+    {
+      "check": "structure/spenser/qwen/depth75/omissions/minimum",
+      "passes": true,
+      "actual": 0.33809805394879017,
+      "expected": 0.33809805394879006
+    },
+    {
+      "check": "structure/spenser/qwen/depth75/omissions/maximum",
+      "passes": true,
+      "actual": 0.700289440104572,
+      "expected": 0.7002894401045718
+    },
+    {
+      "check": "structure/spenser/qwen/depth75/omissions/median",
+      "passes": true,
+      "actual": 0.4716358330702734,
+      "expected": 0.47163583307027335
+    },
+    {
+      "check": "structure/spenser/gemma/depth75/full/minimum",
+      "passes": true,
+      "actual": -0.046778442088440536,
+      "expected": -0.046778442088440536
+    },
+    {
+      "check": "structure/spenser/gemma/depth75/full/maximum",
+      "passes": true,
+      "actual": 0.37189823204577566,
+      "expected": 0.37189823204577555
+    },
+    {
+      "check": "structure/spenser/gemma/depth75/full/median",
+      "passes": true,
+      "actual": 0.14389463620667514,
+      "expected": 0.14389463620667511
+    },
+    {
+      "check": "structure/spenser/gemma/depth75/omissions/minimum",
+      "passes": true,
+      "actual": -0.1524732827368911,
+      "expected": -0.15247328273689106
+    },
+    {
+      "check": "structure/spenser/gemma/depth75/omissions/maximum",
+      "passes": true,
+      "actual": 0.45566512683938226,
+      "expected": 0.4556651268393822
+    },
+    {
+      "check": "structure/spenser/gemma/depth75/omissions/median",
+      "passes": true,
+      "actual": 0.1541835432626258,
+      "expected": 0.15418354326262576
+    },
+    {
+      "check": "structure/spenser/muse/depth75/full/minimum",
+      "passes": true,
+      "actual": 0.1603356116493771,
+      "expected": 0.1603356116493771
+    },
+    {
+      "check": "structure/spenser/muse/depth75/full/maximum",
+      "passes": true,
+      "actual": 0.3303953996090239,
+      "expected": 0.33039539960902375
+    },
+    {
+      "check": "structure/spenser/muse/depth75/full/median",
+      "passes": true,
+      "actual": 0.2367688817225781,
+      "expected": 0.2367688817225781
+    },
+    {
+      "check": "structure/spenser/muse/depth75/omissions/minimum",
+      "passes": true,
+      "actual": 0.0641147623345501,
+      "expected": 0.0641147623345501
+    },
+    {
+      "check": "structure/spenser/muse/depth75/omissions/maximum",
+      "passes": true,
+      "actual": 0.41966962627695265,
+      "expected": 0.41966962627695253
+    },
+    {
+      "check": "structure/spenser/muse/depth75/omissions/median",
+      "passes": true,
+      "actual": 0.24196518419387297,
+      "expected": 0.241965184193873
+    },
+    {
+      "check": "response/sidney/qwen/gemma/same",
+      "passes": true,
+      "actual": 0.9104347826086956,
+      "expected": 0.9104347826086957
+    },
+    {
+      "check": "response/sidney/qwen/gemma/poem",
+      "passes": true,
+      "actual": 0.8713043478260868,
+      "expected": 0.871304347826087
+    },
+    {
+      "check": "response/sidney/qwen/gemma/within",
+      "passes": true,
+      "actual": 0.7041666666666667,
+      "expected": 0.7041666666666667
+    },
+    {
+      "check": "response/sidney/qwen/muse/same",
+      "passes": true,
+      "actual": 0.874782608695652,
+      "expected": 0.8747826086956522
+    },
+    {
+      "check": "response/sidney/qwen/muse/poem",
+      "passes": true,
+      "actual": 0.8234782608695651,
+      "expected": 0.8234782608695652
+    },
+    {
+      "check": "response/sidney/qwen/muse/within",
+      "passes": true,
+      "actual": 0.6000000000000001,
+      "expected": 0.6
+    },
+    {
+      "check": "response/sidney/gemma/muse/same",
+      "passes": true,
+      "actual": 0.7930434782608695,
+      "expected": 0.7930434782608695
+    },
+    {
+      "check": "response/sidney/gemma/muse/poem",
+      "passes": true,
+      "actual": 0.737391304347826,
+      "expected": 0.7373913043478261
+    },
+    {
+      "check": "response/sidney/gemma/muse/within",
+      "passes": true,
+      "actual": 0.6166666666666667,
+      "expected": 0.6166666666666667
+    },
+    {
+      "check": "response/spenser/qwen/gemma/same",
+      "passes": true,
+      "actual": 0.874782608695652,
+      "expected": 0.8747826086956522
+    },
+    {
+      "check": "response/spenser/qwen/gemma/poem",
+      "passes": true,
+      "actual": 0.8756521739130434,
+      "expected": 0.8756521739130435
+    },
+    {
+      "check": "response/spenser/qwen/gemma/within",
+      "passes": true,
+      "actual": 0.5000000000000001,
+      "expected": 0.5
+    },
+    {
+      "check": "response/spenser/qwen/muse/same",
+      "passes": true,
+      "actual": 0.8765217391304346,
+      "expected": 0.8765217391304347
+    },
+    {
+      "check": "response/spenser/qwen/muse/poem",
+      "passes": true,
+      "actual": 0.8234782608695651,
+      "expected": 0.8234782608695652
+    },
+    {
+      "check": "response/spenser/qwen/muse/within",
+      "passes": true,
+      "actual": 0.6958333333333334,
+      "expected": 0.6958333333333333
+    },
+    {
+      "check": "response/spenser/gemma/muse/same",
+      "passes": true,
+      "actual": 0.7895652173913044,
+      "expected": 0.7895652173913044
+    },
+    {
+      "check": "response/spenser/gemma/muse/poem",
+      "passes": true,
+      "actual": 0.8130434782608694,
+      "expected": 0.8130434782608695
+    },
+    {
+      "check": "response/spenser/gemma/muse/within",
+      "passes": true,
+      "actual": 0.6041666666666667,
+      "expected": 0.6041666666666666
+    }
+  ],
+  "scope": "Recalculates selected quantitative results from compact derived data; does not repeat inference or all historical analyses.",
+  "new_model_calls": 0
+}

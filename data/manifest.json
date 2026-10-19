@@ -1,0 +1,51 @@
+{
+  "schema_version": "sonnet-public-compact-v1",
+  "source_forward_dtype": "fp32 for identity; full paired fp32/bf16 frozen RDMs and response scalars",
+  "pooled_dtype": "float64; original values, no numeric downcast",
+  "files": [
+    {
+      "path": "data/complete-exploratory-summary.json",
+      "sha256": "b8f69a9511a4ab401d47cd08da39a29999aba96682b376b5927b2aa5f6f70a80",
+      "bytes": 10290967
+    },
+    {
+      "path": "data/frozen-claims.json",
+      "sha256": "0c096cdb2639a7cc21d4592362db29349934daecfa7e2ca26f7c71e7745b0d43",
+      "bytes": 680690
+    },
+    {
+      "path": "data/frozen-rdm-index.json",
+      "sha256": "7871d8ae1388bd6bd868252faea5a0a535d4844ba8484f6720a125b2e5c70980",
+      "bytes": 577515
+    },
+    {
+      "path": "data/frozen-rdms.npz",
+      "sha256": "f9b49696dcd9c0a1dbb47069b3568ac27073c9071fc43e7016ec51f8cc197d36",
+      "bytes": 6110834
+    },
+    {
+      "path": "data/identity-final-means.npz",
+      "sha256": "cc922c6ff69a4fc66a5cc3e289f397fcb7c5541073f1b1313af3b8bde08b5e57",
+      "bytes": 29415200
+    },
+    {
+      "path": "data/response-displacements.json",
+      "sha256": "d6cc89363a4f4552a2ccb42fa6ccb5e8a2c2a7b7fe7b1d5b48342ea0ffaaa542",
+      "bytes": 6455398
+    },
+    {
+      "path": "data/selected-reference-results.json",
+      "sha256": "5ad0b970f213116324a89f8fe0d6ec70aaee01d24adc49325e8bffd6ad296a85",
+      "bytes": 232953
+    }
+  ],
+  "scope": "CPU verification of selected identity/relations, all frozen criteria, structural comparisons, response components; not a full activation or literary-feature release",
+  "not_included": [
+    "model weights",
+    "token-level activation tensors",
+    "modern editorial HTML/apparatus",
+    "credentials",
+    "private Git history"
+  ],
+  "new_model_calls": 0
+}

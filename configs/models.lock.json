@@ -1,0 +1,41 @@
+{
+  "checked_date": "2026-10-17",
+  "models": [
+    {
+      "model_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "gated": false,
+      "license": "apache-2.0",
+      "status": "selected-validation",
+      "architecture": {
+        "architectures": [
+          "Qwen3ForCausalLM"
+        ],
+        "model_type": "qwen3",
+        "hidden_size": 4096,
+        "num_hidden_layers": 36,
+        "num_attention_heads": 32,
+        "num_key_value_heads": 8,
+        "intermediate_size": 12288,
+        "torch_dtype": "bfloat16",
+        "text_config": null
+      }
+    },
+    {
+      "model_id": "google/gemma-3-12b-pt",
+      "revision": "295efb63d01a7017928f273a94ebb86105c9526f",
+      "gated": "manual",
+      "license": "gemma",
+      "status": "candidate-requires-access",
+      "config_access": "HTTPError"
+    },
+    {
+      "model_id": "meta-llama/Llama-3.1-8B",
+      "revision": "d04e592bb4f6aa9cfee91e2e20afa771667e1d4b",
+      "gated": "manual",
+      "license": "llama3.1",
+      "status": "candidate-requires-access",
+      "config_access": "HTTPError"
+    }
+  ]
+}

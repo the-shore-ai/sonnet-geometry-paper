@@ -1,0 +1,458 @@
+{
+  "analysis": {
+    "arithmetic_maximum_delta_ratio": 0.1,
+    "arithmetic_minimum_rho": 0.95,
+    "expected_poems": 24,
+    "expected_seeds": [
+      2026101801,
+      2026101802,
+      2026101803,
+      2026101804,
+      2026101805
+    ],
+    "loo_require_all_directions_positive": true,
+    "minimum_median_cross_model_increase": 0.2,
+    "minimum_median_early_minus_final_raw": 0.3,
+    "minimum_median_early_stability": 0.8,
+    "primary_intervention": "token_shuffle",
+    "primary_pooling": "mean",
+    "primary_precision": "fp32",
+    "require_all_seed_directions_positive": true,
+    "schema_version": "confirmation-analysis-plan-v4"
+  },
+  "claim_scope": {
+    "depth_resolution": "Five sampled processing stages, not a dense layer scan or a universal monotonicity claim.",
+    "literary_usefulness": "Blinded human judgments remain a separate pending study. No human responses or AI-generated ratings are inferred here.",
+    "missing_or_constant": "Incomplete execution prevents confirmation output. Constant or undefined RDMs remain explicit; never remove unfavorable seeds or poems.",
+    "primary": [
+      "Qwen FP32 mean token-shuffle early stability and early-to-final-raw decrease",
+      "Muse same criterion",
+      "Qwen-Muse FP32 final-raw mean RSA increase after token shuffling"
+    ],
+    "secondary": "Gemma depth criterion and both Gemma-containing pair criteria are separately prespecified; every model, state, readout, intervention, precision and seed remains in the output.",
+    "sensitivity": "All 24 omissions x five seeds for six primary/prespecified-secondary token/mean contrasts; positivity across every omission separately qualifies sensitivity, without replacing full-cohort criteria.",
+    "thresholds": "Pragmatic descriptive effect sizes chosen after v3 and before v4 inference. Not significance tests, power calculations, public preregistration, semantic scores or proof of mechanism. The same thresholds and directions are retained for the third poet after Sidney outcomes were known; no new favorable criterion is substituted."
+  },
+  "conditions": [
+    {
+      "intervention": "original",
+      "name": "original_padded_bf16",
+      "precision": "bf16",
+      "seed": null
+    },
+    {
+      "intervention": "original",
+      "name": "original_padded_fp32",
+      "precision": "fp32",
+      "seed": null
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101801_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101801
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101801_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101801
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101802_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101802
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101802_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101802
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101803_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101803
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101803_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101803
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101804_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101804
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101804_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101804
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101805_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101805
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101805_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101805
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101801_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101801
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101801_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101801
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101802_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101802
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101802_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101802
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101803_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101803
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101803_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101803
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101804_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101804
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101804_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101804
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101805_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101805
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101805_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101805
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101801_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101801
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101801_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101801
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101802_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101802
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101802_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101802
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101803_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101803
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101803_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101803
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101804_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101804
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101804_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101804
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101805_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101805
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101805_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101805
+    }
+  ],
+  "execution": {
+    "accounting": "Preserve all canonical ledgers and failed reservations. Conservative accounting is not a provider invoice or billing cap. Storage and transfer remain separate.",
+    "accounting_baseline": {
+      "path": "experiments/confirmation-v5-spenser/accounting-baseline.json",
+      "sha256": "5f7243d63eb798134ecb3e52a917d1bea04fa7528bab8e3ab3867077a91f4e9a"
+    },
+    "allocations_usd": {
+      "gemma": 15.21,
+      "muse": 21.6,
+      "qwen": 14.32
+    },
+    "approval_date_local": "2026-10-18",
+    "approval_text": "The owner said: \"Can you extend this to cover yet another poet? I authorize additional spend.\" This pass bounds that authorization to one new 24-poem Spenser population, three sequential $5 reservations ($15 additional conservative accounting), preserving all prior history. No further population or automatic recovery is scheduled.",
+    "approved_total_usd": 51.13,
+    "authorization_status": "user_approved_bounded_compute",
+    "durable_finalization_policy": {
+      "capture_completion_checkpoint_before_pooling": true,
+      "create_only_checkpoint_writes": true,
+      "detached_app": true,
+      "runtime_checkpoint_before_each_phase": true,
+      "runtime_checkpoint_phases": [
+        "pilot_bf16",
+        "pilot_fp32",
+        "remaining_bf16",
+        "remaining_fp32"
+      ],
+      "schema_version": "confirmation-durable-finalization-v1",
+      "single_spawn": true
+    },
+    "maximum_cumulative_accounting_with_three_reservations_usd": 51.12220037090073,
+    "maximum_new_reservations_usd": 15,
+    "no_paid_execution_this_pass": false,
+    "operational_execution_policy": {
+      "finalization_margin_seconds": 60,
+      "max_pending_uploads": 4,
+      "pilot_projection": "twice_drained_phase_seconds_per_case",
+      "schema_version": "confirmation-upload-pipeline-v1"
+    },
+    "pilot": "First two selected poems, all 16 unique inputs in both precisions, in the same bounded worker. Measure both dtypes before scaling; retain incomplete work and do not retry automatically.",
+    "prior_conservative_accounting_usd": 36.12220037090073,
+    "rates_source": "https://modal.com/pricing",
+    "rates_verified_date": "2026-10-18",
+    "reservation_per_model_usd": 5,
+    "resource_envelopes": {
+      "gemma": {
+        "download_timeout_seconds": 600,
+        "gpu_timeout_seconds": 1800,
+        "max_containers": 1,
+        "max_cpu": 4,
+        "max_memory_gib": 96,
+        "min_containers": 0,
+        "retries": 0,
+        "scaledown_window_seconds": 2,
+        "soft_timeout_seconds": 1740,
+        "startup_timeout_seconds": 120
+      },
+      "muse": {
+        "download_timeout_seconds": 600,
+        "gpu_timeout_seconds": 1800,
+        "max_containers": 1,
+        "max_cpu": 4,
+        "max_memory_gib": 96,
+        "min_containers": 0,
+        "retries": 0,
+        "scaledown_window_seconds": 2,
+        "soft_timeout_seconds": 1740,
+        "startup_timeout_seconds": 120
+      },
+      "qwen": {
+        "download_timeout_seconds": 600,
+        "gpu_timeout_seconds": 1800,
+        "max_containers": 1,
+        "max_cpu": 4,
+        "max_memory_gib": 96,
+        "min_containers": 0,
+        "retries": 0,
+        "scaledown_window_seconds": 2,
+        "soft_timeout_seconds": 1740,
+        "startup_timeout_seconds": 120
+      }
+    },
+    "resource_rate_usd_per_second": 0.00152652,
+    "scope": "One new population; one bounded detached attempt per model; $15 additional maximum"
+  },
+  "extension": {
+    "analysis_plan_unchanged": true,
+    "model_locks_unchanged": true,
+    "parent_protocol": "experiments/confirmation-v4/protocol.json",
+    "parent_protocol_sha256": "5dd5ffaa4f3a54179111c0b95a660262e5f1483f9c66b5d15167e6099682607a",
+    "schema_version": "third-poet-extension-v1",
+    "shape_audit": {
+      "path": "experiments/confirmation-v5-spenser/shape-audit.json",
+      "sha256": "9a0be75515590c1d98386b0f3a7c2e8179e34a75c43940b0e68b58ed69c066a7"
+    },
+    "shape_difference_is_a_confound": false,
+    "sidney_outcomes_known_before_choice": true
+  },
+  "frozen_at_utc": "2026-10-18T21:05:55.489926+00:00",
+  "model_locks": {
+    "gemma": {
+      "hidden_size": 5376,
+      "model_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475"
+    },
+    "muse": {
+      "hidden_size": 6656,
+      "model_id": "meta-models/Muse-Glimmer-30B",
+      "revision": "a4e59da52a7bc87ae7251dd5545c0dd437c44b68"
+    },
+    "qwen": {
+      "hidden_size": 4096,
+      "model_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    }
+  },
+  "models": [
+    "qwen",
+    "gemma",
+    "muse"
+  ],
+  "pad_length": 256,
+  "planned_counts": {
+    "forwards_per_model": 768,
+    "fp32_forwards": 1152,
+    "models": 3,
+    "poems": 24,
+    "total_forwards": 2304,
+    "unique_inputs_per_poem": 16
+  },
+  "poolings": [
+    "mean",
+    "last",
+    "last_lexical"
+  ],
+  "population": {
+    "author": "Edmund Spenser",
+    "edition": "1595 original readings in the Spenser Archive Prototype; original span view with explicitly labeled 1595 apparatus reading",
+    "identity": "Spenser Archive am_ep.sonnets.N identifier",
+    "independence": "New to this study; training exposure unknown; one related cycle/author/edition.",
+    "new_population_limits": "Author, spelling, edition, and population change together. This third population was chosen after Shakespeare and Sidney outcomes were known; no claim of blinded selection or public preregistration.",
+    "path": "datasets/confirmation-v5-spenser/selected-sonnets.jsonl",
+    "selection": "24 of89 complete14-line sonnets, ranked by SHA256('20261018\\n'+stable1595ID), serialized in original order. No model outputs or token counts used to choose poems.",
+    "selection_path": "datasets/confirmation-v5-spenser/selection.json",
+    "selection_sha256": "2da4a03e5c3f36f0d5e530c101e82dd25da48bc9e6ecfb6bbbda21c9c9828644",
+    "sha256": "24a8a7a578473ffd9ed65026ca9aa84f7191182621e9367e350e8fbaba907a4f",
+    "source_url": "https://talus.artsci.wustl.edu/spenserArchivePrototype/html/am_ep_amoretti.html",
+    "work": "Amoretti"
+  },
+  "precision": {
+    "arithmetic_gate": "Original AND perturbed BF16/FP32 RDM rho>=.95 and max median precision RDM delta<=.10 times FP32 intervention delta. A failure prevents describing BF16 as an adequate proxy, but is not substituted for the primary FP32 result.",
+    "paired": [
+      "bf16",
+      "fp32"
+    ],
+    "primary": "fp32",
+    "requirements": "Original and all fifteen perturbations run in both dtypes with identical token IDs, right-padding masks and position IDs; no TF32 or autocast; evaluation/inference mode; actual dtypes recorded and validated.",
+    "semantics": "Load the same pinned BF16 checkpoint values, then promote arithmetic to FP32. This does not recover higher-precision source weights."
+  },
+  "privacy": "Private repository and private GCS only. No public release authorized.",
+  "question": "Which depth-dependent relationships survive a new poem population, repeated order interventions, and FP32 execution of both original and perturbed inputs?",
+  "randomization": {
+    "controls": [
+      "word_shuffle",
+      "line_shuffle",
+      "token_shuffle"
+    ],
+    "cross_model": "Word/line controls use identical surface texts across families. Token controls preserve each tokenizer's own IDs: the same seed is not an identical perturbed surface text across models.",
+    "inference_unit": "Five seeds are repeated interventions on the same 24 poems; 276 pairwise distances and leave-one-poem-out subsets are dependent observations.",
+    "line_control": "Shuffle lines except final two; preserve complete line strings, entire lexical inventory and final couplet. Retokenize; token differences remain measured confounds.",
+    "method": "SHA256 domain-separated record identity, intervention and seed initializes Python random.Random; all seeds frozen before inference. Preserve duplicate/no-op realizations, never resample for effect.",
+    "seeds": [
+      2026101801,
+      2026101802,
+      2026101803,
+      2026101804,
+      2026101805
+    ],
+    "token_control": "Shuffle eligible lexical token pieces within original line slots; preserve special/separator tokens and final lexical token of each line. Exactly preserve token IDs multiset and forward length; not grammatical word order. The last eligible piece per line also stays fixed, as in v3.",
+    "word_control": "Shuffle lexical word strings inside each line, preserving punctuation slots, character count, word inventory and each final word. Retokenize; token-count differences are measured."
+  },
+  "schema_version": "frozen-depth-confirmation-v4",
+  "sonnets": [
+    2,
+    3,
+    7,
+    12,
+    16,
+    21,
+    23,
+    25,
+    29,
+    33,
+    35,
+    39,
+    43,
+    45,
+    51,
+    52,
+    54,
+    60,
+    65,
+    71,
+    79,
+    81,
+    82,
+    83
+  ],
+  "states": {
+    "depth75": {
+      "gemma": 44,
+      "muse": 38,
+      "qwen": 26
+    },
+    "early": {
+      "gemma": 4,
+      "muse": 4,
+      "qwen": 1
+    },
+    "final_normalized": "separate final decoder normalization",
+    "final_raw": {
+      "gemma": 59,
+      "muse": 51,
+      "qwen": 35
+    },
+    "input": "actual first-block input"
+  },
+  "status": "frozen_before_new_inference",
+  "study_namespace": "confirmation-v5-spenser"
+}

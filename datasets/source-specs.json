@@ -1,0 +1,1033 @@
+{
+  "shakespeare": {
+    "url": "https://www.gutenberg.org/cache/epub/1041/pg1041.txt",
+    "raw_sha256": "4a3a5466591e30ca93b2c19daeb24770bb08833b57b1616c972b97246e23580f",
+    "raw_bytes": 119936,
+    "poems": [
+      {
+        "number": 1,
+        "poem_id": "sonnet-001",
+        "text_sha256": "1558d8743700173a6385df13139afbd50e39b51197f08c9c5d088d33da899dad"
+      },
+      {
+        "number": 2,
+        "poem_id": "sonnet-002",
+        "text_sha256": "edf73959117a194302ab99249810f7e9a1f0f0276528086fc21b41c5226e38ca"
+      },
+      {
+        "number": 3,
+        "poem_id": "sonnet-003",
+        "text_sha256": "583f511b0618e288d0e0bc8c2f2622c3d597c3ddaef7715fe5f03a8e2d21764f"
+      },
+      {
+        "number": 4,
+        "poem_id": "sonnet-004",
+        "text_sha256": "093531968ea1d0d3c4e8ec2c6313d76749ec30c3cffb8af60bb88897ab9de726"
+      },
+      {
+        "number": 5,
+        "poem_id": "sonnet-005",
+        "text_sha256": "624ad58139bcf3ae4e5656329dec383862a356bd88f98164566010fd475930e6"
+      },
+      {
+        "number": 6,
+        "poem_id": "sonnet-006",
+        "text_sha256": "65cddb5bb0b2dd9edd2bab1f851a302a41618d6ade8901efe6a166739efeec83"
+      },
+      {
+        "number": 7,
+        "poem_id": "sonnet-007",
+        "text_sha256": "712042bbe264aaa554a563d4598cdac4cd79c975bb5da2c9946a2b616eee7f00"
+      },
+      {
+        "number": 8,
+        "poem_id": "sonnet-008",
+        "text_sha256": "3ba16f8fd161f039a5f254c16a3086770f1794abbb56fed2665d79759e1bd234"
+      },
+      {
+        "number": 9,
+        "poem_id": "sonnet-009",
+        "text_sha256": "8ebd44c42f6114b5bdfcde3df464ae1041036f9e373c6a0d48cc41206ca05c2a"
+      },
+      {
+        "number": 10,
+        "poem_id": "sonnet-010",
+        "text_sha256": "7e0a5162a3d8b0c317627feba0278adce853e85dbe84419e91cc70cc8f906328"
+      },
+      {
+        "number": 11,
+        "poem_id": "sonnet-011",
+        "text_sha256": "7dff020396aa5641ed1561a9535c134d39b49d13da86a8ad1ea0094227ba5197"
+      },
+      {
+        "number": 12,
+        "poem_id": "sonnet-012",
+        "text_sha256": "d79cf20c584795ef5dc573ffb9fffbf4d62aea42af964dfd20f21269bfa9cd1c"
+      },
+      {
+        "number": 13,
+        "poem_id": "sonnet-013",
+        "text_sha256": "519abeae9acda2ae86b12808c37ede60cce8a9ab419f99ef05ec9215670f10b9"
+      },
+      {
+        "number": 14,
+        "poem_id": "sonnet-014",
+        "text_sha256": "6b5ba158aeaed7841255977c19f382fc111ca0e1daa843756a16ce919ba5953f"
+      },
+      {
+        "number": 15,
+        "poem_id": "sonnet-015",
+        "text_sha256": "e5457717ed949097e241a794a38d695b03678ffcf06f720af070babfecb4afb6"
+      },
+      {
+        "number": 16,
+        "poem_id": "sonnet-016",
+        "text_sha256": "1893fc150ee8852dd01e5f3a08ab82a0613c61d5d78133944d4301bf21fe6aad"
+      },
+      {
+        "number": 17,
+        "poem_id": "sonnet-017",
+        "text_sha256": "70d2445ac6caa606119aa18a1a090338881ff9dde380b3db4ffacf68f607eac2"
+      },
+      {
+        "number": 18,
+        "poem_id": "sonnet-018",
+        "text_sha256": "231b542a1fa4b3dac94ca5828cbc92367bba35e47f72b36aa3cab343298f7a85"
+      },
+      {
+        "number": 19,
+        "poem_id": "sonnet-019",
+        "text_sha256": "e24a3c801c063b0b3b0677e999d2f91f7d1eefc12a8ee791c5dd62a1afb49234"
+      },
+      {
+        "number": 20,
+        "poem_id": "sonnet-020",
+        "text_sha256": "c94396098ec7576c92018bba17091bd4a3d15bce02e813a79b70a8b6f5d87676"
+      },
+      {
+        "number": 21,
+        "poem_id": "sonnet-021",
+        "text_sha256": "36846e28b55ed325f5a335a475a490ed85d57da482c83b413172c6b5c3686058"
+      },
+      {
+        "number": 22,
+        "poem_id": "sonnet-022",
+        "text_sha256": "a04a06546cd68d64845b9f198f79ca2fb218677226e5717d57cc8e5c6613cd5d"
+      },
+      {
+        "number": 23,
+        "poem_id": "sonnet-023",
+        "text_sha256": "556c6b65c595ffb40df3742b494d5255eabe5624598a18c27570e788e4c1a509"
+      },
+      {
+        "number": 24,
+        "poem_id": "sonnet-024",
+        "text_sha256": "50d439b0d94739e99b04ee58faffaa6673a19f593eac531605c1bfaadbda75d7"
+      },
+      {
+        "number": 25,
+        "poem_id": "sonnet-025",
+        "text_sha256": "c2b74e651dcdd7bee015737c693de5ef816cf8dd9b81cbf52880fefe9dc82983"
+      },
+      {
+        "number": 26,
+        "poem_id": "sonnet-026",
+        "text_sha256": "372323ee0a14f06879596ca49260ab560176ca34c33e7afc816550769af42c9b"
+      },
+      {
+        "number": 27,
+        "poem_id": "sonnet-027",
+        "text_sha256": "de88df788344556cfd54e6b13c0e85b616f0f2768064188f8118e7d55f840e34"
+      },
+      {
+        "number": 28,
+        "poem_id": "sonnet-028",
+        "text_sha256": "ae4c7688989f3c7444547b26222facb8e5e2da1eff804b7aafeae51e84f3cfc6"
+      },
+      {
+        "number": 29,
+        "poem_id": "sonnet-029",
+        "text_sha256": "2ed0f6d0461e268250d69bc55546152c1744dea7b650d3eacaa940b2a1d10cf7"
+      },
+      {
+        "number": 30,
+        "poem_id": "sonnet-030",
+        "text_sha256": "03f13587dbd123052592ccdf9d7e49a8dbaf4dd20a7637191fafce9f505c7151"
+      },
+      {
+        "number": 31,
+        "poem_id": "sonnet-031",
+        "text_sha256": "5f649ead36bcfc83d377a24879bb944bfbc060d29f2aa436ebb7d99dbea2400c"
+      },
+      {
+        "number": 32,
+        "poem_id": "sonnet-032",
+        "text_sha256": "6acc827cff1dbb99eea9260b18e84ab48c53bf3090ee948e1f817e48b3e7b9cd"
+      },
+      {
+        "number": 33,
+        "poem_id": "sonnet-033",
+        "text_sha256": "2af8653d586db459529ddd858c7a3f150140b7a2ce3fb98485c8959d9deb22d9"
+      },
+      {
+        "number": 34,
+        "poem_id": "sonnet-034",
+        "text_sha256": "85d1d0a4bb0e637cbe1ab9112d88d8e309efac22f2371f10f4dbb93d4639f6de"
+      },
+      {
+        "number": 35,
+        "poem_id": "sonnet-035",
+        "text_sha256": "26cb1ef7918cf085dca2471d3c10be73df0282f182f4f7c0f8145a3c0f4d75ad"
+      },
+      {
+        "number": 36,
+        "poem_id": "sonnet-036",
+        "text_sha256": "5f56b5c3001b07b0a259fffcbafde7ec562a264359dae7ee01413853dc60c119"
+      },
+      {
+        "number": 37,
+        "poem_id": "sonnet-037",
+        "text_sha256": "e2c074a93ee0820002bc5e9450ba991e23078ef6b12ea5bba88952a31a2e6425"
+      },
+      {
+        "number": 38,
+        "poem_id": "sonnet-038",
+        "text_sha256": "fc6a89f10c65c8bb00dab83bf4a271f1075097d0d181d905bd7cb416fb6096cf"
+      },
+      {
+        "number": 39,
+        "poem_id": "sonnet-039",
+        "text_sha256": "a638ea44b2bc6c441afaea24e9ac69c25d9b0990a985e741aba70fa87991a927"
+      },
+      {
+        "number": 40,
+        "poem_id": "sonnet-040",
+        "text_sha256": "6734a58eb52eba10f9ddc268a13b4d91d0df3ba8c9fbe1c8d032c37bac7f17fd"
+      },
+      {
+        "number": 41,
+        "poem_id": "sonnet-041",
+        "text_sha256": "e37b76ff6947a7424cef283514cd4f70439c874497ec5cb188acc512aa5133f6"
+      },
+      {
+        "number": 42,
+        "poem_id": "sonnet-042",
+        "text_sha256": "87f80b2500bec11047f70efa29073ee5889832693d755e0dbed137e4781f045a"
+      },
+      {
+        "number": 43,
+        "poem_id": "sonnet-043",
+        "text_sha256": "486aa96ec6f08750e7a69aaa8952f29a6e4c1c4bc576e708fd4202203d041d2b"
+      },
+      {
+        "number": 44,
+        "poem_id": "sonnet-044",
+        "text_sha256": "d0188c1ead08b648995aa5bfd10562598857c6388c9ae424d6c6570fd95ea7aa"
+      },
+      {
+        "number": 45,
+        "poem_id": "sonnet-045",
+        "text_sha256": "db6f19f6e63a2d73a21d53fcf5fc553a918c99c8f5bdfe42dc73dd4682a6b791"
+      },
+      {
+        "number": 46,
+        "poem_id": "sonnet-046",
+        "text_sha256": "76a5d277c92f655e9765601b35721b637ed4235dedf9b54e6cec18d5569e7b84"
+      },
+      {
+        "number": 47,
+        "poem_id": "sonnet-047",
+        "text_sha256": "e5533ca2350d6e9e139cf182ba5201331b2d1856414ad5d9ec129902c7e6de08"
+      },
+      {
+        "number": 48,
+        "poem_id": "sonnet-048",
+        "text_sha256": "b20de5b50c2f876a4b31f49e1b3de57ebd3cf340436d0e7683fd4d4b1de54fea"
+      },
+      {
+        "number": 49,
+        "poem_id": "sonnet-049",
+        "text_sha256": "df5a071ca1620b964a3f4d386dfbfc3d43291f87f4f8f5efa1442cb9a7d6821a"
+      },
+      {
+        "number": 50,
+        "poem_id": "sonnet-050",
+        "text_sha256": "ccb63a4c566e5f832e30ffb0b3f18d63b1289b20b65ff96c41cb2c9a9430e680"
+      },
+      {
+        "number": 51,
+        "poem_id": "sonnet-051",
+        "text_sha256": "b17f5e8bb4d9efae36e554f505879a7f52af0099310a3afa1d5c89bd96d28d1c"
+      },
+      {
+        "number": 52,
+        "poem_id": "sonnet-052",
+        "text_sha256": "07cbc6bab5aa652823632fc37812dba2d9a6ff194c86a43f9c7dee015ad32328"
+      },
+      {
+        "number": 53,
+        "poem_id": "sonnet-053",
+        "text_sha256": "c2d43aad03ebb8c60e80bb283a89157fa23a0b90a85a17c6017b0361d550e4cd"
+      },
+      {
+        "number": 54,
+        "poem_id": "sonnet-054",
+        "text_sha256": "03193abf30fc4953118aa386383364ce9c931ee70b9a6f4ee6bf508736d9879d"
+      },
+      {
+        "number": 55,
+        "poem_id": "sonnet-055",
+        "text_sha256": "506113d982ea9bfee2f04c0677152c563a897b1c8529a84dd0ebd06ae0d59942"
+      },
+      {
+        "number": 56,
+        "poem_id": "sonnet-056",
+        "text_sha256": "ce692669a365c268b4da53c1c9baa6ce1cacf281df032690afaa4a352efb4576"
+      },
+      {
+        "number": 57,
+        "poem_id": "sonnet-057",
+        "text_sha256": "478a8f4300ce7b11d0e0108de8e134af937b720373d56e60a966b11e78c85280"
+      },
+      {
+        "number": 58,
+        "poem_id": "sonnet-058",
+        "text_sha256": "287d18e0c17d4c932ac91072866a01b8e6c894cc7dc3c0afc9821d2400fc8da2"
+      },
+      {
+        "number": 59,
+        "poem_id": "sonnet-059",
+        "text_sha256": "381c734da3fc032981ec96b91d562f5bf9a5fe03fb799d74f79b2903aff4f5bd"
+      },
+      {
+        "number": 60,
+        "poem_id": "sonnet-060",
+        "text_sha256": "d1074c38c78b9ed6ce384c6a2df04ab50d9869580b61fd89bf2ccfe3c7adfc81"
+      },
+      {
+        "number": 61,
+        "poem_id": "sonnet-061",
+        "text_sha256": "07581323d1c2c8ab68bb33c624f2314f9a39de90814f33298bfe9a771e675572"
+      },
+      {
+        "number": 62,
+        "poem_id": "sonnet-062",
+        "text_sha256": "fd801a091dfcc4143e8b27357f0236879d926232f0c5bc833e00e54fb1452289"
+      },
+      {
+        "number": 63,
+        "poem_id": "sonnet-063",
+        "text_sha256": "7f6d783ac5c722b4ce874404adf2c039649c2e8065b8d4a022a7565d123044c5"
+      },
+      {
+        "number": 64,
+        "poem_id": "sonnet-064",
+        "text_sha256": "16979532bcfea247715c295855af1c076335b4ed844b6798b09bcac3008ef3e1"
+      },
+      {
+        "number": 65,
+        "poem_id": "sonnet-065",
+        "text_sha256": "199b95d71752be13346960c0771acaeb66878bcd3894cc513f3f2f821a74f883"
+      },
+      {
+        "number": 66,
+        "poem_id": "sonnet-066",
+        "text_sha256": "465fd9b2a5f502b498152afa0966eb19828ec556ba17ce5d288f924c930fb7e5"
+      },
+      {
+        "number": 67,
+        "poem_id": "sonnet-067",
+        "text_sha256": "0f3341182fb3f7fe48ccdda9f2609995bcfec82fec5fee2938af3d421582a93b"
+      },
+      {
+        "number": 68,
+        "poem_id": "sonnet-068",
+        "text_sha256": "ff9a744f89952f1b696d39cd3f42c078592e243436667e79c9f7ddfd60446fa8"
+      },
+      {
+        "number": 69,
+        "poem_id": "sonnet-069",
+        "text_sha256": "dffe05249a3101f698c6fe0e715da49403b40c0a7ce771010ccce12adcd10d6f"
+      },
+      {
+        "number": 70,
+        "poem_id": "sonnet-070",
+        "text_sha256": "d0052416c33255588b41bf31fcb15b39935a504f3e8d1b9601a7a46a387ba049"
+      },
+      {
+        "number": 71,
+        "poem_id": "sonnet-071",
+        "text_sha256": "ae9bd58cd9a8272ef47be626f0088f2d39ac02f3593cebd4dd01c109858ab229"
+      },
+      {
+        "number": 72,
+        "poem_id": "sonnet-072",
+        "text_sha256": "f50e26113d289b0912de37c5d24867267deb53423809003badc7ed2b7ed2e375"
+      },
+      {
+        "number": 73,
+        "poem_id": "sonnet-073",
+        "text_sha256": "3ee3728f5545e69a7c65a6efe43a73de067af951c93006867102b1a56b93fdb1"
+      },
+      {
+        "number": 74,
+        "poem_id": "sonnet-074",
+        "text_sha256": "28d98bdfdd10839d383ffa52dd88ef866526a9d635d6731b7cb3afa1a56615f9"
+      },
+      {
+        "number": 75,
+        "poem_id": "sonnet-075",
+        "text_sha256": "fb66d6d186dda200d56e3d4c5e52d63f349848c2f8e4f2887e6d53ec178ec70f"
+      },
+      {
+        "number": 76,
+        "poem_id": "sonnet-076",
+        "text_sha256": "0d16b8640990ca4beb1b2b38963072a5e2b3170576e3d5377469d9d44c39000d"
+      },
+      {
+        "number": 77,
+        "poem_id": "sonnet-077",
+        "text_sha256": "a9a6e944c1730dccb3bb13692b3b9d69813edd22d9f6cd29ff01fe3baf7c0a0a"
+      },
+      {
+        "number": 78,
+        "poem_id": "sonnet-078",
+        "text_sha256": "4df346c71e8200318766ad11bb20f4c0ae19f8a85f1b42d8ee5cd2c902b380ef"
+      },
+      {
+        "number": 79,
+        "poem_id": "sonnet-079",
+        "text_sha256": "00bd03522c099b1b8f8378a66c2f9a54e91c34015fed0533c238756665a47f8b"
+      },
+      {
+        "number": 80,
+        "poem_id": "sonnet-080",
+        "text_sha256": "67ee82c725cae5283c8eb504c7914f9c83f62c4668d2ae3aff24ae3cbca6e553"
+      },
+      {
+        "number": 81,
+        "poem_id": "sonnet-081",
+        "text_sha256": "72ff8c4b3a6c23bc304cae7d6172e81941aac5a18a27749b8a69c259cda2cbf1"
+      },
+      {
+        "number": 82,
+        "poem_id": "sonnet-082",
+        "text_sha256": "5b9c6fd0958e680be7e554b198e066da1737257932dbe6346f8629e101f76bb3"
+      },
+      {
+        "number": 83,
+        "poem_id": "sonnet-083",
+        "text_sha256": "a7a8c841c21cb1b40822c784fc6e968f950ea5837215da31b6014cd72129bd08"
+      },
+      {
+        "number": 84,
+        "poem_id": "sonnet-084",
+        "text_sha256": "30b5944a322ea31ab81feee9481746afe04610913582aca01c41dc75b3bc6ed9"
+      },
+      {
+        "number": 85,
+        "poem_id": "sonnet-085",
+        "text_sha256": "4d4bd6d80876e405afa0b68b1be4a45356fd775183cb8e2b603590153ab8fb73"
+      },
+      {
+        "number": 86,
+        "poem_id": "sonnet-086",
+        "text_sha256": "7e1485218da1949e7e83f5af9983d28dbda7499cd421bcfa94de2bfb34a70255"
+      },
+      {
+        "number": 87,
+        "poem_id": "sonnet-087",
+        "text_sha256": "760963d9487128040cacbc3ffb18d6c7195ecb5c6b15d7cc268fbcc2c29743da"
+      },
+      {
+        "number": 88,
+        "poem_id": "sonnet-088",
+        "text_sha256": "d88d40ec6f42180010df47a3ccd9b88e8fc44e16639d95da1de8a4f8741eb0cc"
+      },
+      {
+        "number": 89,
+        "poem_id": "sonnet-089",
+        "text_sha256": "69f6320326602b972dba3e1ca445c2b58ad5dd4aaeb419237f85999f91f9c58c"
+      },
+      {
+        "number": 90,
+        "poem_id": "sonnet-090",
+        "text_sha256": "120de15af23eae187ecc7f758b1251fc228b6fdbbb106d935935a53ec5d3afe0"
+      },
+      {
+        "number": 91,
+        "poem_id": "sonnet-091",
+        "text_sha256": "984180fb995b99ab0c27cac7fa63e6d5f28e30ad202adce53757e8c38cbf3599"
+      },
+      {
+        "number": 92,
+        "poem_id": "sonnet-092",
+        "text_sha256": "c51c38d79bdcc3d0eb4b715dd5ebbcaa44f7ff79d42e7fc4267b6a6df8db28a6"
+      },
+      {
+        "number": 93,
+        "poem_id": "sonnet-093",
+        "text_sha256": "821b93d6e9bab40ca0d442ddc767e234796279de20afb04659e557c8ea289791"
+      },
+      {
+        "number": 94,
+        "poem_id": "sonnet-094",
+        "text_sha256": "f44f1542c2780f829071c1f5e5ff06834d2210ce8ed6489a6421343d635c4b15"
+      },
+      {
+        "number": 95,
+        "poem_id": "sonnet-095",
+        "text_sha256": "22ab4de8e97e2ff5d16c2b2bf6d1310ca498cb866711db6150777bef40e6265d"
+      },
+      {
+        "number": 96,
+        "poem_id": "sonnet-096",
+        "text_sha256": "fe35a22d2791f9db824893c2d32275a6e91b3de62dfc02b578c3195c01be324e"
+      },
+      {
+        "number": 97,
+        "poem_id": "sonnet-097",
+        "text_sha256": "b199336ca9eac2bcdd9605857482e80dc1d70c4bf99c673fc53958963af82e18"
+      },
+      {
+        "number": 98,
+        "poem_id": "sonnet-098",
+        "text_sha256": "221c7ea32c91e98bc23e9ec852f4305b87574c5d05e0c1e091fb98b71af84640"
+      },
+      {
+        "number": 99,
+        "poem_id": "sonnet-099",
+        "text_sha256": "a1196f62b3e946f79364c150e16d9762ac04194d3a433da278fc737857712bff"
+      },
+      {
+        "number": 100,
+        "poem_id": "sonnet-100",
+        "text_sha256": "1476e9a486d81aecc57f6adf2c6ecb51688eeb3c6be16494f2e15a3b68def132"
+      },
+      {
+        "number": 101,
+        "poem_id": "sonnet-101",
+        "text_sha256": "750b224110a363f014726e8b7815ae53ea2ca24ea1215f5999e0d2ea79fbe0df"
+      },
+      {
+        "number": 102,
+        "poem_id": "sonnet-102",
+        "text_sha256": "56093c0f6881b8e97090f34b93d52d25506bfd3620456e3441dfa803d4c7a926"
+      },
+      {
+        "number": 103,
+        "poem_id": "sonnet-103",
+        "text_sha256": "abfd30059b0d6d94052e21640730702c31d25a13591d4ed39dcffc9abbd2fe55"
+      },
+      {
+        "number": 104,
+        "poem_id": "sonnet-104",
+        "text_sha256": "f8902c46ee0b587856ab82c291c6785f191a9cdcf756fe9aed42ed035d78de4f"
+      },
+      {
+        "number": 105,
+        "poem_id": "sonnet-105",
+        "text_sha256": "134e14e217cf8f1bb1bedd6cc1b9f2bbf242bc640eaf1215dd2ddd39077c5560"
+      },
+      {
+        "number": 106,
+        "poem_id": "sonnet-106",
+        "text_sha256": "56108f72bc5d5c436d94e3cd0a098cafac7ecf3b5a29bdfcde4dd972a0f5a377"
+      },
+      {
+        "number": 107,
+        "poem_id": "sonnet-107",
+        "text_sha256": "c7c998e2c9fccdd28a53ca76968f7043f3c15546a4461965dcefa1886d072ee2"
+      },
+      {
+        "number": 108,
+        "poem_id": "sonnet-108",
+        "text_sha256": "8b9b521ddc8c25134097715576bca22c550ffe27a4eb0f375ce857177f36be76"
+      },
+      {
+        "number": 109,
+        "poem_id": "sonnet-109",
+        "text_sha256": "d1b209c6faaf2d65afbad9c3155fc5edc47de72a3dfe379e15ce94e93bfc8f7d"
+      },
+      {
+        "number": 110,
+        "poem_id": "sonnet-110",
+        "text_sha256": "27474ab12061a311a87560f614fd7f476e6c04fe8d9cbed0f25895a49f31c308"
+      },
+      {
+        "number": 111,
+        "poem_id": "sonnet-111",
+        "text_sha256": "3c6e6bf3d2a5d2f41fad98161d58082dab050e8f63b7b2ee794be542167dde30"
+      },
+      {
+        "number": 112,
+        "poem_id": "sonnet-112",
+        "text_sha256": "09512e7151b7cedba51f65ac21227f22a23fbbba7a5ba691c6151d4f47e4b9fd"
+      },
+      {
+        "number": 113,
+        "poem_id": "sonnet-113",
+        "text_sha256": "372a2e99bc2f959755f178fef4b2ba466ef559a052bdea1bad565bbbe7b2d359"
+      },
+      {
+        "number": 114,
+        "poem_id": "sonnet-114",
+        "text_sha256": "7356cf6f49a0bc7d862886b494128576a906f3623c8c7d37003b3473dfc4f6bc"
+      },
+      {
+        "number": 115,
+        "poem_id": "sonnet-115",
+        "text_sha256": "b903bb54d3ee2a16400019984c08002e9e6767679aacf8847b3b008672b8739c"
+      },
+      {
+        "number": 116,
+        "poem_id": "sonnet-116",
+        "text_sha256": "1fbfc86ad4e961a5d04ddb357285f41c370a0750b1aa3f00cd91c1250dabc11b"
+      },
+      {
+        "number": 117,
+        "poem_id": "sonnet-117",
+        "text_sha256": "db21000c6d282ede9472d4610e99adde297d641898fdeef2f999c7aa68250637"
+      },
+      {
+        "number": 118,
+        "poem_id": "sonnet-118",
+        "text_sha256": "e2ca7f14b7da60536dde4c50b4dda99bfbc45d6363339ee3afec1f782deb6783"
+      },
+      {
+        "number": 119,
+        "poem_id": "sonnet-119",
+        "text_sha256": "946991dc9bb1c4358859100518b610ed0a10105a4af16dea44aaa6cdc4c8919f"
+      },
+      {
+        "number": 120,
+        "poem_id": "sonnet-120",
+        "text_sha256": "cc704610ea3be4064d10f4aa5f56a9e3cf48fdb014b4ed223cecae6be454715d"
+      },
+      {
+        "number": 121,
+        "poem_id": "sonnet-121",
+        "text_sha256": "cda2db4b95531cbe693c8559a9c5fd8897282989fa0b84966f05db8a66305f84"
+      },
+      {
+        "number": 122,
+        "poem_id": "sonnet-122",
+        "text_sha256": "ad4680333dd0204d85759aac533f71ae1f1ab1bcb107b887483ea7153d6f9540"
+      },
+      {
+        "number": 123,
+        "poem_id": "sonnet-123",
+        "text_sha256": "69e61619e5ab2e24c28d32bd124d64a4a3de09f08f6a016147fb035ad6b5a37a"
+      },
+      {
+        "number": 124,
+        "poem_id": "sonnet-124",
+        "text_sha256": "3f32c3a3ec97c88dd09f683e12a9d2afb23b351fd66a6b31fa32a138ec900ae8"
+      },
+      {
+        "number": 125,
+        "poem_id": "sonnet-125",
+        "text_sha256": "03066fc3248bf28aa047c8a0ec0dcc8a8a02d7cf8bb3f03da5f51540b217e58a"
+      },
+      {
+        "number": 126,
+        "poem_id": "sonnet-126",
+        "text_sha256": "158e1cab120860970aa4e9ca03d41980f72a5a89a5650125f34f41a0b8c4ea71"
+      },
+      {
+        "number": 127,
+        "poem_id": "sonnet-127",
+        "text_sha256": "8636a37087ecaf979fcfe36dda1c827e43f1497bc8a52a523b783fa874ad2827"
+      },
+      {
+        "number": 128,
+        "poem_id": "sonnet-128",
+        "text_sha256": "efa2b60e115e187db8a830fbecdc7a480cb6ab8ff5f03d876a9f955f306303ed"
+      },
+      {
+        "number": 129,
+        "poem_id": "sonnet-129",
+        "text_sha256": "31ef17726e47321c0b431a5e4a496b40016cde5d5d826713299859b1f0cc8239"
+      },
+      {
+        "number": 130,
+        "poem_id": "sonnet-130",
+        "text_sha256": "f49c937de7d3110e263f5e794d74422d268583a64058c7a1d2cba6681aba2f26"
+      },
+      {
+        "number": 131,
+        "poem_id": "sonnet-131",
+        "text_sha256": "6db669dccfa795dc732b20258ef7b6fb23020dad63e660d469a130d2af5d3f6b"
+      },
+      {
+        "number": 132,
+        "poem_id": "sonnet-132",
+        "text_sha256": "0da847b899fb8657a171d1cc76f7ef131da18869044a740665b81c51861c4fee"
+      },
+      {
+        "number": 133,
+        "poem_id": "sonnet-133",
+        "text_sha256": "a6ae733cc6a5bc6b1208716b516087043e0a8361140f9ab5189374399eb2e22d"
+      },
+      {
+        "number": 134,
+        "poem_id": "sonnet-134",
+        "text_sha256": "6549528128aedd693c50d9b04be13a08eed37dc888b534f66ea36f3abe2e880c"
+      },
+      {
+        "number": 135,
+        "poem_id": "sonnet-135",
+        "text_sha256": "7b8cb0a945edeb5387314007668fdcb459334c7172e01df72bcba3a5e13905aa"
+      },
+      {
+        "number": 136,
+        "poem_id": "sonnet-136",
+        "text_sha256": "eba7e4d7c423916d692d8dbb1298a2594f4304f08074dd1fa04309deaf19c8f7"
+      },
+      {
+        "number": 137,
+        "poem_id": "sonnet-137",
+        "text_sha256": "1016317b53dc53d86af0816fdc071263d02b27df5c44a8a07499ef481b9fa394"
+      },
+      {
+        "number": 138,
+        "poem_id": "sonnet-138",
+        "text_sha256": "6cf35acfb84fda958dfad5046b3b10c60450683e91306ecd7d56122b77221353"
+      },
+      {
+        "number": 139,
+        "poem_id": "sonnet-139",
+        "text_sha256": "8675e65c9cbe67bae4b80582bab2afd63b6fd0557eb21abb251a563359969228"
+      },
+      {
+        "number": 140,
+        "poem_id": "sonnet-140",
+        "text_sha256": "52d4e74d46acad643eaeaaac73564a079189080ff60094bf5fb8c83a4fd7b752"
+      },
+      {
+        "number": 141,
+        "poem_id": "sonnet-141",
+        "text_sha256": "7335d8fdddeb0071cb722f8c305635817a67779ac9646deb144b495dcef8816a"
+      },
+      {
+        "number": 142,
+        "poem_id": "sonnet-142",
+        "text_sha256": "23f4d57ede2ce2f92c7e01af084ea3466326495add99e588eac47e74dc2d4b32"
+      },
+      {
+        "number": 143,
+        "poem_id": "sonnet-143",
+        "text_sha256": "695908748f3c61dbd47e19408bd2f85180862c20e6f0c56c0d4b29ae2db5db74"
+      },
+      {
+        "number": 144,
+        "poem_id": "sonnet-144",
+        "text_sha256": "c0948d4a7a9cb3eef4120b8b7e5986fba8f3a71c843f7fcd1199e8ac855d0a69"
+      },
+      {
+        "number": 145,
+        "poem_id": "sonnet-145",
+        "text_sha256": "b3ffe0da131bb7d83fe75e90b9bb4f91593a75475d9c91f1bc0d9231c4f54a50"
+      },
+      {
+        "number": 146,
+        "poem_id": "sonnet-146",
+        "text_sha256": "cca189250390028c7415c3a3c6ca59710c9ec28a1c3297c28b08d3c2dbc2d77b"
+      },
+      {
+        "number": 147,
+        "poem_id": "sonnet-147",
+        "text_sha256": "04c924028f8da3ae73bedbb67f220c10382f5a9d70ac67d2451b0fd5cb553f65"
+      },
+      {
+        "number": 148,
+        "poem_id": "sonnet-148",
+        "text_sha256": "b37a16f7085f88a62134d78d83ebe395f7157590c15b32c961fc3ac0f14e9c15"
+      },
+      {
+        "number": 149,
+        "poem_id": "sonnet-149",
+        "text_sha256": "4d0c23a659eb88ca49eb93cef742a712232291ab93c228a371bc9377a4c67313"
+      },
+      {
+        "number": 150,
+        "poem_id": "sonnet-150",
+        "text_sha256": "0d150dc3e81e83a8dd4a9b645a9db2e536e6cd78a1105400a8509fde4f2b3e30"
+      },
+      {
+        "number": 151,
+        "poem_id": "sonnet-151",
+        "text_sha256": "1fd38b8b06a2fbf4ddd7b80f053f62abd8abc245ca6633d71183f87ad4ec5730"
+      },
+      {
+        "number": 152,
+        "poem_id": "sonnet-152",
+        "text_sha256": "f6d9ce32a40234f58ceac6ec8487fd66e745d3c1f7a89834b3699e62176280fe"
+      },
+      {
+        "number": 153,
+        "poem_id": "sonnet-153",
+        "text_sha256": "3dac4e63dfe98e2aeaac3d94fd299a3ebfe09ff5b4a5c817a5887e8b55ba60a1"
+      },
+      {
+        "number": 154,
+        "poem_id": "sonnet-154",
+        "text_sha256": "1f14ad1fdc63fb5477fe986911e6bc62ce2423774332509441b6ea6e31caf820"
+      }
+    ]
+  },
+  "sidney": {
+    "url": "https://www.gutenberg.org/cache/epub/56375/pg56375.txt",
+    "raw_sha256": "98fe173b6f9fbfd8ad8e99afb4929ef978bbe76056c80b20cc6bf6742f310a35",
+    "raw_bytes": 117362,
+    "poems": [
+      {
+        "number": 3,
+        "poem_id": "sidney-newman1591-003",
+        "text_sha256": "07d62b994c8d5325c39e23c41df088e62e0a3e7bcfaf9a2cd6b76f96a05a1cdf"
+      },
+      {
+        "number": 5,
+        "poem_id": "sidney-newman1591-005",
+        "text_sha256": "21bdc39e1558931610fe15fd9307fd7b541d47b34e3b8c77e50fb23463491e5f"
+      },
+      {
+        "number": 8,
+        "poem_id": "sidney-newman1591-008",
+        "text_sha256": "d3eb349cebcdd5e2a0c59157a69f4eb7181d060f20bd602cf58d06a7464bc1a7"
+      },
+      {
+        "number": 9,
+        "poem_id": "sidney-newman1591-009",
+        "text_sha256": "178904b3fe2ccc153373a5261ca1ea6dc3f8fbdb82d9fffe6bf40c76db227102"
+      },
+      {
+        "number": 19,
+        "poem_id": "sidney-newman1591-019",
+        "text_sha256": "88fa092f8522c8c8c38e0907b1142240391190121cdc6b3c4e627a7b3be73421"
+      },
+      {
+        "number": 21,
+        "poem_id": "sidney-newman1591-021",
+        "text_sha256": "e4fd8678a3f08d25de55855af854d8cbc1a55385375753fa76e4607d84cc3705"
+      },
+      {
+        "number": 23,
+        "poem_id": "sidney-newman1591-023",
+        "text_sha256": "853d4444b0827a273635a12108d2499d6203a75c211e1334cbb76f092b1701ff"
+      },
+      {
+        "number": 25,
+        "poem_id": "sidney-newman1591-025",
+        "text_sha256": "5908375d8a1b507e1733836955350dee806b6cb2c7829a420110c31d56c393ff"
+      },
+      {
+        "number": 28,
+        "poem_id": "sidney-newman1591-028",
+        "text_sha256": "90413aacfa520960541466d10f37a2a11337db0ce29510574d19b8c7ff0010d5"
+      },
+      {
+        "number": 36,
+        "poem_id": "sidney-newman1591-036",
+        "text_sha256": "1ed35cc95e06c34a7faa35b2388315713649d6b7952fb244c70ec5aba3fff878"
+      },
+      {
+        "number": 37,
+        "poem_id": "sidney-newman1591-037",
+        "text_sha256": "de0e6c7270562ff4ded3efd9ed757b87129907a607f6573d4fa0d9bba0c1d568"
+      },
+      {
+        "number": 38,
+        "poem_id": "sidney-newman1591-038",
+        "text_sha256": "d442160428e6df444767e6febd7d6cc9d6483eb0a5fd4abd81c3b81291245cc0"
+      },
+      {
+        "number": 41,
+        "poem_id": "sidney-newman1591-041",
+        "text_sha256": "3a910518d90493a1c0e51fa341006f988badca850c4bfe0cc47d053da8fe250b"
+      },
+      {
+        "number": 46,
+        "poem_id": "sidney-newman1591-046",
+        "text_sha256": "7973a6e5231457ead619e692f36ed542726c8c2d8686c901818fb318f5306348"
+      },
+      {
+        "number": 57,
+        "poem_id": "sidney-newman1591-057",
+        "text_sha256": "e8663d868fc6e7569f6c9a6ce46f4c21794e6e571e3825d16b184b145d0561b1"
+      },
+      {
+        "number": 59,
+        "poem_id": "sidney-newman1591-059",
+        "text_sha256": "1494410ce4973764037f645c351b4f921a8744c93c97f31ce2db277c3adf3033"
+      },
+      {
+        "number": 63,
+        "poem_id": "sidney-newman1591-063",
+        "text_sha256": "0ce0e73294a409794a09e1ac6e6222e75b055890672a6c6a14c58d684db8a6c9"
+      },
+      {
+        "number": 65,
+        "poem_id": "sidney-newman1591-065",
+        "text_sha256": "4c035e2b291e54d8eebd3e445abbbd4703a80604a257d4f104217dd3a78045d8"
+      },
+      {
+        "number": 72,
+        "poem_id": "sidney-newman1591-072",
+        "text_sha256": "2b1998be89310a99e0c7bc8f254730bfd3c7612f38afb0a4101c41f527ee5f7b"
+      },
+      {
+        "number": 77,
+        "poem_id": "sidney-newman1591-077",
+        "text_sha256": "2d515a2a8789688b7530ef63c1e90b245c4cbdbb8cb288be73d240c58ef9de6d"
+      },
+      {
+        "number": 81,
+        "poem_id": "sidney-newman1591-081",
+        "text_sha256": "861577f85775b0e683e76426988341378adffda051ae07e137f73a4ed1cafb0d"
+      },
+      {
+        "number": 86,
+        "poem_id": "sidney-newman1591-086",
+        "text_sha256": "861508e3a36d5b1ec56a41dfde3ec83bf9f75cda9d2e288436b1073ab5bfe752"
+      },
+      {
+        "number": 92,
+        "poem_id": "sidney-newman1591-092",
+        "text_sha256": "74f589201533d72ff4d4f58ee9628bfd971130180249b7f2356aa9134b12c9ac"
+      },
+      {
+        "number": 98,
+        "poem_id": "sidney-newman1591-098",
+        "text_sha256": "ffd915ee79250977bbcc6067c086f45c4930d5543a67340c8fc30aac9a11f278"
+      }
+    ]
+  },
+  "spenser": {
+    "url": "https://talus.artsci.wustl.edu/spenserArchivePrototype/html/am_ep_amoretti.html",
+    "raw_sha256": "fde713f02f21c18378a8e07e79a7933ef5c224413a841574ff5caa50e9a3d40e",
+    "raw_bytes": 780632,
+    "poems": [
+      {
+        "number": 2,
+        "poem_id": "spenser-archive1595-002",
+        "text_sha256": "6c76b5d0d550eddfd240c469940cf4f656ed43465d0828cad39d918c0e98ad87"
+      },
+      {
+        "number": 3,
+        "poem_id": "spenser-archive1595-003",
+        "text_sha256": "ddf74df61b21e6c9456c818a69a5c44cd1cae91ef77becfd0d294975645a1be9"
+      },
+      {
+        "number": 7,
+        "poem_id": "spenser-archive1595-007",
+        "text_sha256": "265548d52f68441746cbcffc7bb106b347c8e85c1257390ece4c31a44e688afb"
+      },
+      {
+        "number": 12,
+        "poem_id": "spenser-archive1595-012",
+        "text_sha256": "19eac3b47dd6a81c66bc6ecad6853c467f6f0c79d84a1f39fa5e4de27ba8a17d"
+      },
+      {
+        "number": 16,
+        "poem_id": "spenser-archive1595-016",
+        "text_sha256": "a25bdb2cf5894942389ac01c2f645227cf133ac1d5297263f4e7c605795f8f5d"
+      },
+      {
+        "number": 21,
+        "poem_id": "spenser-archive1595-021",
+        "text_sha256": "33b8cb1e81bfb37abc6b42737dcf7ed8a73451206f87870c1c8ba91241afd756"
+      },
+      {
+        "number": 23,
+        "poem_id": "spenser-archive1595-023",
+        "text_sha256": "f2e02e042452f5a164a6fff7b987bddb7c70032e1aa505bca44a674f85579f55"
+      },
+      {
+        "number": 25,
+        "poem_id": "spenser-archive1595-025",
+        "text_sha256": "ea56f79f0207d4c22450dfca56406578d5e64e5294e99608b5b17bbb71d9183c"
+      },
+      {
+        "number": 29,
+        "poem_id": "spenser-archive1595-029",
+        "text_sha256": "e3ce605bd2507b411e11b411b4d20ab0f75664cd1c4700c9592515d4cedf4aaf"
+      },
+      {
+        "number": 33,
+        "poem_id": "spenser-archive1595-033",
+        "text_sha256": "54c08a3b5a054b69a49c833daa71ba6ffbc3fb2b897c62fce627774b63106116"
+      },
+      {
+        "number": 35,
+        "poem_id": "spenser-archive1595-035",
+        "text_sha256": "5dc41c07b638e08980995713e97cdf91156c4b2b589548f1504abc1c4bd07de9"
+      },
+      {
+        "number": 39,
+        "poem_id": "spenser-archive1595-039",
+        "text_sha256": "dda3e550d8855b3f0e21b6f13e874734a2d8dec9f478a97629b536bfd8c1f0ff"
+      },
+      {
+        "number": 43,
+        "poem_id": "spenser-archive1595-043",
+        "text_sha256": "dddc015bc81aae718b6377f900e314fd46255bcad45fa19865421b32aa6a94e6"
+      },
+      {
+        "number": 45,
+        "poem_id": "spenser-archive1595-045",
+        "text_sha256": "352749e514ecee194f4155bf376c059177680f1bbb3dc3dd509c048637f421da"
+      },
+      {
+        "number": 51,
+        "poem_id": "spenser-archive1595-051",
+        "text_sha256": "7a521f54906732e0832f2d4dae008cfaf10e22dae6e06d20e316064299d4ffc4"
+      },
+      {
+        "number": 52,
+        "poem_id": "spenser-archive1595-052",
+        "text_sha256": "3eeb4ae6bde66a5846f3083e43c8bcd6bc2c68f3e986ccc0b48b96ea625301df"
+      },
+      {
+        "number": 54,
+        "poem_id": "spenser-archive1595-054",
+        "text_sha256": "90b03f9cc12f28809d467c4989bb5e86e9b0955f01cb0cddfc6e149e5e99e3f6"
+      },
+      {
+        "number": 60,
+        "poem_id": "spenser-archive1595-060",
+        "text_sha256": "08204534944a2294febf6702a46414b6693dacd9e076e6352bcb93414ac1832b"
+      },
+      {
+        "number": 65,
+        "poem_id": "spenser-archive1595-065",
+        "text_sha256": "de671f66cc1c8b4febc1abd3beda5886ab7551afc502a912562bb2e5022be6b5"
+      },
+      {
+        "number": 71,
+        "poem_id": "spenser-archive1595-071",
+        "text_sha256": "9172fe8ab434cd510d2a5663519c2d53832cd5dfd115222d4c7150ac30519a95"
+      },
+      {
+        "number": 79,
+        "poem_id": "spenser-archive1595-079",
+        "text_sha256": "5aa9a179b4a67b51c41c5e0454bf8d206558dc995cb30effe1888fc42f5a9306"
+      },
+      {
+        "number": 81,
+        "poem_id": "spenser-archive1595-081",
+        "text_sha256": "b72cc46090dde2c93f978447f336098c81ce8e9313f4bf31bcb59cc3b394ea4b"
+      },
+      {
+        "number": 82,
+        "poem_id": "spenser-archive1595-082",
+        "text_sha256": "9ce370d9dbf082b4e4d958f17878be77c1ab5892717957f076595561b82c8935"
+      },
+      {
+        "number": 83,
+        "poem_id": "spenser-archive1595-083",
+        "text_sha256": "38f0df13166e4891d946707710a73139f094723ed0438000a2b7e0cc42f4d66f"
+      }
+    ]
+  }
+}

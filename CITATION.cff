@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the paper and identify this release when using the recipes or compact data."
+title: "Recoverable Poem Identity and Changing Relational Geometry Across Transformer Depth"
+type: software
+version: 1.0.0-preprint
+date-released: 2026-10-18
+authors:
+  - family-names: "O'Brien"
+    given-names: "Timothy"
+    affiliation: "The Shore"
+    orcid: "https://orcid.org/0009-0001-2589-347X"
+repository-code: "https://github.com/the-shore-ai/sonnet-geometry-paper"
+license: MIT
+doi: "10.5281/zenodo.23464450"

@@ -1,0 +1,1572 @@
+{
+  "scope": "Exact data-generation source files exported from recorded execution commits; no Git objects/history, credentials or data. Historical cloud wrappers retain original project/bucket identifiers, not access. Public local wrapper is a separately labeled adaptation.",
+  "stages": {
+    "v1": [
+      "039aea67488b989fe03a178139bbde28262e190a",
+      "fb8818c84598773bfdb4a04f6a3c21675feefc9a"
+    ],
+    "v3": [
+      "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "9fa962f55f7c37ce63e73bdc7a03b819026ee91a"
+    ],
+    "v5": [
+      "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb"
+    ],
+    "v4": [
+      "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "af7732d3949e4f46330ce96cf72d51be75e0207d"
+    ]
+  },
+  "files": [
+    {
+      "commit": "039aea67488b989fe03a178139bbde28262e190a",
+      "path": "infra/modal_app.py",
+      "sha256": "a7186420d486d6b71888eb84a9a66f0d3e0972303d495967394cf172d25ba745",
+      "bytes": 9141
+    },
+    {
+      "commit": "039aea67488b989fe03a178139bbde28262e190a",
+      "path": "scripts/run_modal.py",
+      "sha256": "c49b890f0a7d230c8b1ac115693b7d307c3aab7e7b4d1f50e3e4a9eace2ff15b",
+      "bytes": 7123
+    },
+    {
+      "commit": "039aea67488b989fe03a178139bbde28262e190a",
+      "path": "src/sonnet_geometry/__init__.py",
+      "sha256": "9dd224d1d6b415e113991a29411d060a916b9b4e1a3bc01db22bb5132e742757",
+      "bytes": 84
+    },
+    {
+      "commit": "039aea67488b989fe03a178139bbde28262e190a",
+      "path": "src/sonnet_geometry/adapters.py",
+      "sha256": "8239c076841a8d7fd9606f02841d9161cbb3899187a3a92172223ff27d8a64ff",
+      "bytes": 4102
+    },
+    {
+      "commit": "039aea67488b989fe03a178139bbde28262e190a",
+      "path": "src/sonnet_geometry/analysis.py",
+      "sha256": "6b22a4b84e976a04f523e0c87ee6a64f49b505219993d6e2401a3af90af61602",
+      "bytes": 10760
+    },
+    {
+      "commit": "039aea67488b989fe03a178139bbde28262e190a",
+      "path": "src/sonnet_geometry/baselines.py",
+      "sha256": "ad51139bb16df1d3d90e8f9a7ce2c62a75a85267d06a1f3585907bfd58d800fe",
+      "bytes": 8532
+    },
+    {
+      "commit": "039aea67488b989fe03a178139bbde28262e190a",
+      "path": "src/sonnet_geometry/budget.py",
+      "sha256": "68bfbded6ba44d3c5253a9ca357d663d4b3a7fd3c78c3f4544c522eda15ab5aa",
+      "bytes": 1699
+    },
+    {
+      "commit": "039aea67488b989fe03a178139bbde28262e190a",
+      "path": "src/sonnet_geometry/cli.py",
+      "sha256": "3d092a33fc8b9dff274e5e1127444467ec169a3d5275421e3cf02559a8a9fdcf",
+      "bytes": 4822
+    },
+    {
+      "commit": "039aea67488b989fe03a178139bbde28262e190a",
+      "path": "src/sonnet_geometry/comparisons.py",
+      "sha256": "f90f5d728defacd09711f2c8613bb1a81ab7662da5dfbdc14bb2269982a79914",
+      "bytes": 14711
+    },
+    {
+      "commit": "039aea67488b989fe03a178139bbde28262e190a",
+      "path": "src/sonnet_geometry/corpus.py",
+      "sha256": "1004dda0a2d51978571fe0c687681d3866ecb35f493b852f64379d40bef1f14f",
+      "bytes": 11718
+    },
+    {
+      "commit": "039aea67488b989fe03a178139bbde28262e190a",
+      "path": "src/sonnet_geometry/extraction.py",
+      "sha256": "f8a42833230c1e8c86e47da6da4c00e8ce11714f64dacd8e917b222a5bf10e15",
+      "bytes": 28542
+    },
+    {
+      "commit": "039aea67488b989fe03a178139bbde28262e190a",
+      "path": "src/sonnet_geometry/modern_adapters.py",
+      "sha256": "ab54d18a5e670d9dc1f8181008d2cb068b8f10b170facd48a5e0d6ce5f29dea7",
+      "bytes": 7657
+    },
+    {
+      "commit": "039aea67488b989fe03a178139bbde28262e190a",
+      "path": "src/sonnet_geometry/reporting.py",
+      "sha256": "1a0e7599469f0b61a8e02296f9f5fca02e55e4645f5995ce0eae1fe1c70faa7e",
+      "bytes": 13408
+    },
+    {
+      "commit": "039aea67488b989fe03a178139bbde28262e190a",
+      "path": "src/sonnet_geometry/storage.py",
+      "sha256": "fc91d85abec28b63bef7fa88b1d3e04e7c19e6ade7f455efe8c3280193c839f7",
+      "bytes": 7032
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "infra/modal_app.py",
+      "sha256": "d5ee2f6b870506ced7d1e17b92e9a5859d15340c5424cbfb7ad0c8a5093c9093",
+      "bytes": 10267
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "infra/modal_confirmation.py",
+      "sha256": "d027c5a7135d6c5e0d74d691363ce81aaf29872ac59a9ed093b1611e78059e61",
+      "bytes": 44384
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "infra/modal_controls.py",
+      "sha256": "23bbc2198caedebf680d15c534512c19c9215f2d00d07f499744560b8cb86763",
+      "bytes": 9113
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "scripts/prepare_confirmation.py",
+      "sha256": "806ea460690543306c12d4be925e711450ff8230fa469ad2111610ca16132dac",
+      "bytes": 3921
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "scripts/run_confirmation.py",
+      "sha256": "c13a98c9ddbd903b55304f89ba8839ef23b312a7ae413170d9fe02e0f4a09275",
+      "bytes": 19146
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "scripts/run_modal.py",
+      "sha256": "4ba1c69f116d2e8b539a289921a6d134ec7efa1202703a7d3b4cf6f4d4ffe4ae",
+      "bytes": 8304
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "scripts/run_text_controls.py",
+      "sha256": "d562e25ae32ac5bb60edfa17e0705d7bfc9a4d818fe62150b5dd4788c13e6881",
+      "bytes": 4916
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/__init__.py",
+      "sha256": "9dd224d1d6b415e113991a29411d060a916b9b4e1a3bc01db22bb5132e742757",
+      "bytes": 84
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/adapters.py",
+      "sha256": "8239c076841a8d7fd9606f02841d9161cbb3899187a3a92172223ff27d8a64ff",
+      "bytes": 4102
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/analysis.py",
+      "sha256": "6b22a4b84e976a04f523e0c87ee6a64f49b505219993d6e2401a3af90af61602",
+      "bytes": 10760
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/baselines.py",
+      "sha256": "ad51139bb16df1d3d90e8f9a7ce2c62a75a85267d06a1f3585907bfd58d800fe",
+      "bytes": 8532
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/budget.py",
+      "sha256": "1c81b7be51ba07913ef81fa6cfdc0d4ca43b76ecab0149eaa61859e41ca8c178",
+      "bytes": 9023
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/cli.py",
+      "sha256": "3d092a33fc8b9dff274e5e1127444467ec169a3d5275421e3cf02559a8a9fdcf",
+      "bytes": 4822
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/comparisons.py",
+      "sha256": "641807927fc0fc5497e85021156aea96058617b1261f8539962d7369a4919cc7",
+      "bytes": 15322
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/confirmation_analysis.py",
+      "sha256": "1522f1e118589931aeca9389c3a20e9af6767340e0d86f55328b9ffe18719b26",
+      "bytes": 27375
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/confirmation_corpus.py",
+      "sha256": "58991f80aef4418bcc78ca420d2def4151dd3bc969d30c29e8ce3866a9bb331a",
+      "bytes": 13257
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/confirmation_inputs.py",
+      "sha256": "b7220a43cd3097cebd1ccfe4fec4d71d950d3e84aa348cca5a810b72c8a522f4",
+      "bytes": 9266
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/corpus.py",
+      "sha256": "1004dda0a2d51978571fe0c687681d3866ecb35f493b852f64379d40bef1f14f",
+      "bytes": 11718
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/depth_discovery.py",
+      "sha256": "6425744ed5fb63620cfd9cf9f08156964ce452b3656ce5bada44b4ceda6c6ed3",
+      "bytes": 29506
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/distance_policy.py",
+      "sha256": "eeb93ce80adf4b433c5fd6c664839f201734eb8a31802dcb2a902557f96e685f",
+      "bytes": 1869
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/editorial_diagnostic.py",
+      "sha256": "4bef2e87a67e367b93b8ee41b092ad795333f294a7ff1940ba71e2f8f657e68d",
+      "bytes": 10405
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/endpoint_controls.py",
+      "sha256": "3a85fd259d4582bed3806712b09353e46492449b2b5955689a4a84e62691adbf",
+      "bytes": 8348
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/extraction.py",
+      "sha256": "5c6315ef1edef1e9cbf14be4c0436d43146c299d1ab166a1398a738fa70c78c5",
+      "bytes": 29279
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/line_baselines.py",
+      "sha256": "d73f88afc263c6a1e2779628e513108266bff2bda8366b5851f49a9fd864d0e2",
+      "bytes": 12127
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/line_comparisons.py",
+      "sha256": "90f6cd2acad9f76cec9acffb098a44a0c6d346f8cf4c36423cf659142467f624",
+      "bytes": 20944
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/line_discovery.py",
+      "sha256": "a7d86cbe087a6d777fbabd7b5ec9a8671417a41b8079544b528433e4f65220f2",
+      "bytes": 28060
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/line_positions.py",
+      "sha256": "4dcf1937dc8965515a1a72f8c716d236704b6675338f4d0675d5c9f5186e5cb8",
+      "bytes": 13274
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/modern_adapters.py",
+      "sha256": "ab54d18a5e670d9dc1f8181008d2cb068b8f10b170facd48a5e0d6ce5f29dea7",
+      "bytes": 7657
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/prior_replica.py",
+      "sha256": "7cf1f54b90b00d4e1a2688eb4eb27eb472acec28813ed994a8ca972f4e63540e",
+      "bytes": 9568
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/reporting.py",
+      "sha256": "5ac06f6b158023a91bdb5047149b13fb49ad9fda3d3d324c043d93e27661f2ff",
+      "bytes": 13471
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/storage.py",
+      "sha256": "fc91d85abec28b63bef7fa88b1d3e04e7c19e6ade7f455efe8c3280193c839f7",
+      "bytes": 7032
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/structure.py",
+      "sha256": "24658ddd49414a6b447c265a25ac60ab5d72acee29fa3e70333578dc5c0deacc",
+      "bytes": 9772
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/text_control_analysis.py",
+      "sha256": "76234fc36ac9b93056a7ade0be3456b358ad9f014dabc100a07a17221b6714a7",
+      "bytes": 13964
+    },
+    {
+      "commit": "3052fe6fc0230dc5599fd89bd8d5cbcee0f6d0a1",
+      "path": "src/sonnet_geometry/text_controls.py",
+      "sha256": "030b74055687b004b2e6f394af6def1b285e69efbfb1dab702ce3aa964058144",
+      "bytes": 7825
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "infra/modal_app.py",
+      "sha256": "d5ee2f6b870506ced7d1e17b92e9a5859d15340c5424cbfb7ad0c8a5093c9093",
+      "bytes": 10267
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "infra/modal_confirmation.py",
+      "sha256": "e020beb0a02497318cfd9306c42cf3e17da2dd04bde25549d57a9f0b5b1fe38e",
+      "bytes": 48675
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "infra/modal_controls.py",
+      "sha256": "23bbc2198caedebf680d15c534512c19c9215f2d00d07f499744560b8cb86763",
+      "bytes": 9113
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "scripts/prepare_confirmation.py",
+      "sha256": "806ea460690543306c12d4be925e711450ff8230fa469ad2111610ca16132dac",
+      "bytes": 3921
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "scripts/run_confirmation.py",
+      "sha256": "a19d02481164eb86d1c8a23e84a4c3e3e86375c09fcd0594b9ffc3bf7112d927",
+      "bytes": 20288
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "scripts/run_modal.py",
+      "sha256": "4ba1c69f116d2e8b539a289921a6d134ec7efa1202703a7d3b4cf6f4d4ffe4ae",
+      "bytes": 8304
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "scripts/run_text_controls.py",
+      "sha256": "d562e25ae32ac5bb60edfa17e0705d7bfc9a4d818fe62150b5dd4788c13e6881",
+      "bytes": 4916
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/__init__.py",
+      "sha256": "9dd224d1d6b415e113991a29411d060a916b9b4e1a3bc01db22bb5132e742757",
+      "bytes": 84
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/adapters.py",
+      "sha256": "8239c076841a8d7fd9606f02841d9161cbb3899187a3a92172223ff27d8a64ff",
+      "bytes": 4102
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/analysis.py",
+      "sha256": "6b22a4b84e976a04f523e0c87ee6a64f49b505219993d6e2401a3af90af61602",
+      "bytes": 10760
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/baselines.py",
+      "sha256": "ad51139bb16df1d3d90e8f9a7ce2c62a75a85267d06a1f3585907bfd58d800fe",
+      "bytes": 8532
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/budget.py",
+      "sha256": "1c81b7be51ba07913ef81fa6cfdc0d4ca43b76ecab0149eaa61859e41ca8c178",
+      "bytes": 9023
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/cli.py",
+      "sha256": "3d092a33fc8b9dff274e5e1127444467ec169a3d5275421e3cf02559a8a9fdcf",
+      "bytes": 4822
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/comparisons.py",
+      "sha256": "641807927fc0fc5497e85021156aea96058617b1261f8539962d7369a4919cc7",
+      "bytes": 15322
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/confirmation_analysis.py",
+      "sha256": "290f94650845d1ea1ff0fca763899c09506bb36da35a127eeea8308c6a7ab6cf",
+      "bytes": 27913
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/confirmation_corpus.py",
+      "sha256": "58991f80aef4418bcc78ca420d2def4151dd3bc969d30c29e8ce3866a9bb331a",
+      "bytes": 13257
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/confirmation_inputs.py",
+      "sha256": "b7220a43cd3097cebd1ccfe4fec4d71d950d3e84aa348cca5a810b72c8a522f4",
+      "bytes": 9266
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/corpus.py",
+      "sha256": "1004dda0a2d51978571fe0c687681d3866ecb35f493b852f64379d40bef1f14f",
+      "bytes": 11718
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/depth_discovery.py",
+      "sha256": "6425744ed5fb63620cfd9cf9f08156964ce452b3656ce5bada44b4ceda6c6ed3",
+      "bytes": 29506
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/distance_policy.py",
+      "sha256": "eeb93ce80adf4b433c5fd6c664839f201734eb8a31802dcb2a902557f96e685f",
+      "bytes": 1869
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/editorial_diagnostic.py",
+      "sha256": "4bef2e87a67e367b93b8ee41b092ad795333f294a7ff1940ba71e2f8f657e68d",
+      "bytes": 10405
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/endpoint_controls.py",
+      "sha256": "3a85fd259d4582bed3806712b09353e46492449b2b5955689a4a84e62691adbf",
+      "bytes": 8348
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/extraction.py",
+      "sha256": "5c6315ef1edef1e9cbf14be4c0436d43146c299d1ab166a1398a738fa70c78c5",
+      "bytes": 29279
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/line_baselines.py",
+      "sha256": "d73f88afc263c6a1e2779628e513108266bff2bda8366b5851f49a9fd864d0e2",
+      "bytes": 12127
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/line_comparisons.py",
+      "sha256": "90f6cd2acad9f76cec9acffb098a44a0c6d346f8cf4c36423cf659142467f624",
+      "bytes": 20944
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/line_discovery.py",
+      "sha256": "a7d86cbe087a6d777fbabd7b5ec9a8671417a41b8079544b528433e4f65220f2",
+      "bytes": 28060
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/line_positions.py",
+      "sha256": "4dcf1937dc8965515a1a72f8c716d236704b6675338f4d0675d5c9f5186e5cb8",
+      "bytes": 13274
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/modern_adapters.py",
+      "sha256": "ab54d18a5e670d9dc1f8181008d2cb068b8f10b170facd48a5e0d6ce5f29dea7",
+      "bytes": 7657
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/prior_replica.py",
+      "sha256": "7cf1f54b90b00d4e1a2688eb4eb27eb472acec28813ed994a8ca972f4e63540e",
+      "bytes": 9568
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/reporting.py",
+      "sha256": "5ac06f6b158023a91bdb5047149b13fb49ad9fda3d3d324c043d93e27661f2ff",
+      "bytes": 13471
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/storage.py",
+      "sha256": "fc91d85abec28b63bef7fa88b1d3e04e7c19e6ade7f455efe8c3280193c839f7",
+      "bytes": 7032
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/structure.py",
+      "sha256": "24658ddd49414a6b447c265a25ac60ab5d72acee29fa3e70333578dc5c0deacc",
+      "bytes": 9772
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/text_control_analysis.py",
+      "sha256": "76234fc36ac9b93056a7ade0be3456b358ad9f014dabc100a07a17221b6714a7",
+      "bytes": 13964
+    },
+    {
+      "commit": "3b7abf0d945525c395182488fe616b4524c1e0d5",
+      "path": "src/sonnet_geometry/text_controls.py",
+      "sha256": "030b74055687b004b2e6f394af6def1b285e69efbfb1dab702ce3aa964058144",
+      "bytes": 7825
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "infra/modal_app.py",
+      "sha256": "d5ee2f6b870506ced7d1e17b92e9a5859d15340c5424cbfb7ad0c8a5093c9093",
+      "bytes": 10267
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "infra/modal_controls.py",
+      "sha256": "23bbc2198caedebf680d15c534512c19c9215f2d00d07f499744560b8cb86763",
+      "bytes": 9113
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "scripts/run_modal.py",
+      "sha256": "4ba1c69f116d2e8b539a289921a6d134ec7efa1202703a7d3b4cf6f4d4ffe4ae",
+      "bytes": 8304
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "scripts/run_text_controls.py",
+      "sha256": "d562e25ae32ac5bb60edfa17e0705d7bfc9a4d818fe62150b5dd4788c13e6881",
+      "bytes": 4916
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/__init__.py",
+      "sha256": "9dd224d1d6b415e113991a29411d060a916b9b4e1a3bc01db22bb5132e742757",
+      "bytes": 84
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/adapters.py",
+      "sha256": "8239c076841a8d7fd9606f02841d9161cbb3899187a3a92172223ff27d8a64ff",
+      "bytes": 4102
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/analysis.py",
+      "sha256": "6b22a4b84e976a04f523e0c87ee6a64f49b505219993d6e2401a3af90af61602",
+      "bytes": 10760
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/baselines.py",
+      "sha256": "ad51139bb16df1d3d90e8f9a7ce2c62a75a85267d06a1f3585907bfd58d800fe",
+      "bytes": 8532
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/budget.py",
+      "sha256": "2b2e54df0364ac7a5e5fb7e6c028cf5e2b84dd1c05be7a5216bcb971b2f51eca",
+      "bytes": 6170
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/cli.py",
+      "sha256": "3d092a33fc8b9dff274e5e1127444467ec169a3d5275421e3cf02559a8a9fdcf",
+      "bytes": 4822
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/comparisons.py",
+      "sha256": "641807927fc0fc5497e85021156aea96058617b1261f8539962d7369a4919cc7",
+      "bytes": 15322
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/corpus.py",
+      "sha256": "1004dda0a2d51978571fe0c687681d3866ecb35f493b852f64379d40bef1f14f",
+      "bytes": 11718
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/depth_discovery.py",
+      "sha256": "6425744ed5fb63620cfd9cf9f08156964ce452b3656ce5bada44b4ceda6c6ed3",
+      "bytes": 29506
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/distance_policy.py",
+      "sha256": "eeb93ce80adf4b433c5fd6c664839f201734eb8a31802dcb2a902557f96e685f",
+      "bytes": 1869
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/editorial_diagnostic.py",
+      "sha256": "4bef2e87a67e367b93b8ee41b092ad795333f294a7ff1940ba71e2f8f657e68d",
+      "bytes": 10405
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/endpoint_controls.py",
+      "sha256": "3a85fd259d4582bed3806712b09353e46492449b2b5955689a4a84e62691adbf",
+      "bytes": 8348
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/extraction.py",
+      "sha256": "5c6315ef1edef1e9cbf14be4c0436d43146c299d1ab166a1398a738fa70c78c5",
+      "bytes": 29279
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/line_baselines.py",
+      "sha256": "d73f88afc263c6a1e2779628e513108266bff2bda8366b5851f49a9fd864d0e2",
+      "bytes": 12127
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/line_comparisons.py",
+      "sha256": "90f6cd2acad9f76cec9acffb098a44a0c6d346f8cf4c36423cf659142467f624",
+      "bytes": 20944
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/line_discovery.py",
+      "sha256": "a7d86cbe087a6d777fbabd7b5ec9a8671417a41b8079544b528433e4f65220f2",
+      "bytes": 28060
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/line_positions.py",
+      "sha256": "4dcf1937dc8965515a1a72f8c716d236704b6675338f4d0675d5c9f5186e5cb8",
+      "bytes": 13274
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/modern_adapters.py",
+      "sha256": "ab54d18a5e670d9dc1f8181008d2cb068b8f10b170facd48a5e0d6ce5f29dea7",
+      "bytes": 7657
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/prior_replica.py",
+      "sha256": "7cf1f54b90b00d4e1a2688eb4eb27eb472acec28813ed994a8ca972f4e63540e",
+      "bytes": 9568
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/reporting.py",
+      "sha256": "5ac06f6b158023a91bdb5047149b13fb49ad9fda3d3d324c043d93e27661f2ff",
+      "bytes": 13471
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/storage.py",
+      "sha256": "fc91d85abec28b63bef7fa88b1d3e04e7c19e6ade7f455efe8c3280193c839f7",
+      "bytes": 7032
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/structure.py",
+      "sha256": "24658ddd49414a6b447c265a25ac60ab5d72acee29fa3e70333578dc5c0deacc",
+      "bytes": 9772
+    },
+    {
+      "commit": "9c6252c1e985916a05568052dca2efa45a6eb93d",
+      "path": "src/sonnet_geometry/text_controls.py",
+      "sha256": "030b74055687b004b2e6f394af6def1b285e69efbfb1dab702ce3aa964058144",
+      "bytes": 7825
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "infra/modal_app.py",
+      "sha256": "d5ee2f6b870506ced7d1e17b92e9a5859d15340c5424cbfb7ad0c8a5093c9093",
+      "bytes": 10267
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "infra/modal_controls.py",
+      "sha256": "23bbc2198caedebf680d15c534512c19c9215f2d00d07f499744560b8cb86763",
+      "bytes": 9113
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "scripts/run_modal.py",
+      "sha256": "4ba1c69f116d2e8b539a289921a6d134ec7efa1202703a7d3b4cf6f4d4ffe4ae",
+      "bytes": 8304
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "scripts/run_text_controls.py",
+      "sha256": "d562e25ae32ac5bb60edfa17e0705d7bfc9a4d818fe62150b5dd4788c13e6881",
+      "bytes": 4916
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/__init__.py",
+      "sha256": "9dd224d1d6b415e113991a29411d060a916b9b4e1a3bc01db22bb5132e742757",
+      "bytes": 84
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/adapters.py",
+      "sha256": "8239c076841a8d7fd9606f02841d9161cbb3899187a3a92172223ff27d8a64ff",
+      "bytes": 4102
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/analysis.py",
+      "sha256": "6b22a4b84e976a04f523e0c87ee6a64f49b505219993d6e2401a3af90af61602",
+      "bytes": 10760
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/baselines.py",
+      "sha256": "ad51139bb16df1d3d90e8f9a7ce2c62a75a85267d06a1f3585907bfd58d800fe",
+      "bytes": 8532
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/budget.py",
+      "sha256": "2b2e54df0364ac7a5e5fb7e6c028cf5e2b84dd1c05be7a5216bcb971b2f51eca",
+      "bytes": 6170
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/cli.py",
+      "sha256": "3d092a33fc8b9dff274e5e1127444467ec169a3d5275421e3cf02559a8a9fdcf",
+      "bytes": 4822
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/comparisons.py",
+      "sha256": "641807927fc0fc5497e85021156aea96058617b1261f8539962d7369a4919cc7",
+      "bytes": 15322
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/corpus.py",
+      "sha256": "1004dda0a2d51978571fe0c687681d3866ecb35f493b852f64379d40bef1f14f",
+      "bytes": 11718
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/depth_discovery.py",
+      "sha256": "6425744ed5fb63620cfd9cf9f08156964ce452b3656ce5bada44b4ceda6c6ed3",
+      "bytes": 29506
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/distance_policy.py",
+      "sha256": "eeb93ce80adf4b433c5fd6c664839f201734eb8a31802dcb2a902557f96e685f",
+      "bytes": 1869
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/editorial_diagnostic.py",
+      "sha256": "4bef2e87a67e367b93b8ee41b092ad795333f294a7ff1940ba71e2f8f657e68d",
+      "bytes": 10405
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/endpoint_controls.py",
+      "sha256": "3a85fd259d4582bed3806712b09353e46492449b2b5955689a4a84e62691adbf",
+      "bytes": 8348
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/extraction.py",
+      "sha256": "5c6315ef1edef1e9cbf14be4c0436d43146c299d1ab166a1398a738fa70c78c5",
+      "bytes": 29279
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/line_baselines.py",
+      "sha256": "d73f88afc263c6a1e2779628e513108266bff2bda8366b5851f49a9fd864d0e2",
+      "bytes": 12127
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/line_comparisons.py",
+      "sha256": "90f6cd2acad9f76cec9acffb098a44a0c6d346f8cf4c36423cf659142467f624",
+      "bytes": 20944
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/line_discovery.py",
+      "sha256": "a7d86cbe087a6d777fbabd7b5ec9a8671417a41b8079544b528433e4f65220f2",
+      "bytes": 28060
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/line_positions.py",
+      "sha256": "4dcf1937dc8965515a1a72f8c716d236704b6675338f4d0675d5c9f5186e5cb8",
+      "bytes": 13274
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/modern_adapters.py",
+      "sha256": "ab54d18a5e670d9dc1f8181008d2cb068b8f10b170facd48a5e0d6ce5f29dea7",
+      "bytes": 7657
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/prior_replica.py",
+      "sha256": "7cf1f54b90b00d4e1a2688eb4eb27eb472acec28813ed994a8ca972f4e63540e",
+      "bytes": 9568
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/reporting.py",
+      "sha256": "5ac06f6b158023a91bdb5047149b13fb49ad9fda3d3d324c043d93e27661f2ff",
+      "bytes": 13471
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/storage.py",
+      "sha256": "fc91d85abec28b63bef7fa88b1d3e04e7c19e6ade7f455efe8c3280193c839f7",
+      "bytes": 7032
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/structure.py",
+      "sha256": "24658ddd49414a6b447c265a25ac60ab5d72acee29fa3e70333578dc5c0deacc",
+      "bytes": 9772
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/text_control_analysis.py",
+      "sha256": "76234fc36ac9b93056a7ade0be3456b358ad9f014dabc100a07a17221b6714a7",
+      "bytes": 13964
+    },
+    {
+      "commit": "9fa962f55f7c37ce63e73bdc7a03b819026ee91a",
+      "path": "src/sonnet_geometry/text_controls.py",
+      "sha256": "030b74055687b004b2e6f394af6def1b285e69efbfb1dab702ce3aa964058144",
+      "bytes": 7825
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "infra/modal_app.py",
+      "sha256": "d5ee2f6b870506ced7d1e17b92e9a5859d15340c5424cbfb7ad0c8a5093c9093",
+      "bytes": 10267
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "infra/modal_confirmation.py",
+      "sha256": "d027c5a7135d6c5e0d74d691363ce81aaf29872ac59a9ed093b1611e78059e61",
+      "bytes": 44384
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "infra/modal_controls.py",
+      "sha256": "23bbc2198caedebf680d15c534512c19c9215f2d00d07f499744560b8cb86763",
+      "bytes": 9113
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "scripts/prepare_confirmation.py",
+      "sha256": "806ea460690543306c12d4be925e711450ff8230fa469ad2111610ca16132dac",
+      "bytes": 3921
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "scripts/run_confirmation.py",
+      "sha256": "c13a98c9ddbd903b55304f89ba8839ef23b312a7ae413170d9fe02e0f4a09275",
+      "bytes": 19146
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "scripts/run_modal.py",
+      "sha256": "4ba1c69f116d2e8b539a289921a6d134ec7efa1202703a7d3b4cf6f4d4ffe4ae",
+      "bytes": 8304
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "scripts/run_text_controls.py",
+      "sha256": "d562e25ae32ac5bb60edfa17e0705d7bfc9a4d818fe62150b5dd4788c13e6881",
+      "bytes": 4916
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/__init__.py",
+      "sha256": "9dd224d1d6b415e113991a29411d060a916b9b4e1a3bc01db22bb5132e742757",
+      "bytes": 84
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/adapters.py",
+      "sha256": "8239c076841a8d7fd9606f02841d9161cbb3899187a3a92172223ff27d8a64ff",
+      "bytes": 4102
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/analysis.py",
+      "sha256": "6b22a4b84e976a04f523e0c87ee6a64f49b505219993d6e2401a3af90af61602",
+      "bytes": 10760
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/baselines.py",
+      "sha256": "ad51139bb16df1d3d90e8f9a7ce2c62a75a85267d06a1f3585907bfd58d800fe",
+      "bytes": 8532
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/budget.py",
+      "sha256": "1c81b7be51ba07913ef81fa6cfdc0d4ca43b76ecab0149eaa61859e41ca8c178",
+      "bytes": 9023
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/cli.py",
+      "sha256": "3d092a33fc8b9dff274e5e1127444467ec169a3d5275421e3cf02559a8a9fdcf",
+      "bytes": 4822
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/comparisons.py",
+      "sha256": "641807927fc0fc5497e85021156aea96058617b1261f8539962d7369a4919cc7",
+      "bytes": 15322
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/confirmation_analysis.py",
+      "sha256": "1522f1e118589931aeca9389c3a20e9af6767340e0d86f55328b9ffe18719b26",
+      "bytes": 27375
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/confirmation_corpus.py",
+      "sha256": "58991f80aef4418bcc78ca420d2def4151dd3bc969d30c29e8ce3866a9bb331a",
+      "bytes": 13257
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/confirmation_inputs.py",
+      "sha256": "b7220a43cd3097cebd1ccfe4fec4d71d950d3e84aa348cca5a810b72c8a522f4",
+      "bytes": 9266
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/corpus.py",
+      "sha256": "1004dda0a2d51978571fe0c687681d3866ecb35f493b852f64379d40bef1f14f",
+      "bytes": 11718
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/depth_discovery.py",
+      "sha256": "6425744ed5fb63620cfd9cf9f08156964ce452b3656ce5bada44b4ceda6c6ed3",
+      "bytes": 29506
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/distance_policy.py",
+      "sha256": "eeb93ce80adf4b433c5fd6c664839f201734eb8a31802dcb2a902557f96e685f",
+      "bytes": 1869
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/editorial_diagnostic.py",
+      "sha256": "4bef2e87a67e367b93b8ee41b092ad795333f294a7ff1940ba71e2f8f657e68d",
+      "bytes": 10405
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/endpoint_controls.py",
+      "sha256": "3a85fd259d4582bed3806712b09353e46492449b2b5955689a4a84e62691adbf",
+      "bytes": 8348
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/extraction.py",
+      "sha256": "5c6315ef1edef1e9cbf14be4c0436d43146c299d1ab166a1398a738fa70c78c5",
+      "bytes": 29279
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/line_baselines.py",
+      "sha256": "d73f88afc263c6a1e2779628e513108266bff2bda8366b5851f49a9fd864d0e2",
+      "bytes": 12127
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/line_comparisons.py",
+      "sha256": "90f6cd2acad9f76cec9acffb098a44a0c6d346f8cf4c36423cf659142467f624",
+      "bytes": 20944
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/line_discovery.py",
+      "sha256": "a7d86cbe087a6d777fbabd7b5ec9a8671417a41b8079544b528433e4f65220f2",
+      "bytes": 28060
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/line_positions.py",
+      "sha256": "4dcf1937dc8965515a1a72f8c716d236704b6675338f4d0675d5c9f5186e5cb8",
+      "bytes": 13274
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/modern_adapters.py",
+      "sha256": "ab54d18a5e670d9dc1f8181008d2cb068b8f10b170facd48a5e0d6ce5f29dea7",
+      "bytes": 7657
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/prior_replica.py",
+      "sha256": "7cf1f54b90b00d4e1a2688eb4eb27eb472acec28813ed994a8ca972f4e63540e",
+      "bytes": 9568
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/reporting.py",
+      "sha256": "5ac06f6b158023a91bdb5047149b13fb49ad9fda3d3d324c043d93e27661f2ff",
+      "bytes": 13471
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/storage.py",
+      "sha256": "fc91d85abec28b63bef7fa88b1d3e04e7c19e6ade7f455efe8c3280193c839f7",
+      "bytes": 7032
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/structure.py",
+      "sha256": "24658ddd49414a6b447c265a25ac60ab5d72acee29fa3e70333578dc5c0deacc",
+      "bytes": 9772
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/text_control_analysis.py",
+      "sha256": "76234fc36ac9b93056a7ade0be3456b358ad9f014dabc100a07a17221b6714a7",
+      "bytes": 13964
+    },
+    {
+      "commit": "af7732d3949e4f46330ce96cf72d51be75e0207d",
+      "path": "src/sonnet_geometry/text_controls.py",
+      "sha256": "030b74055687b004b2e6f394af6def1b285e69efbfb1dab702ce3aa964058144",
+      "bytes": 7825
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "infra/modal_app.py",
+      "sha256": "d5ee2f6b870506ced7d1e17b92e9a5859d15340c5424cbfb7ad0c8a5093c9093",
+      "bytes": 10267
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "infra/modal_confirmation.py",
+      "sha256": "95dfcb816b476c230e80b7d8bb0ed6053becff6ad2030672346002b6bffed413",
+      "bytes": 49339
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "infra/modal_controls.py",
+      "sha256": "23bbc2198caedebf680d15c534512c19c9215f2d00d07f499744560b8cb86763",
+      "bytes": 9113
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "scripts/prepare_confirmation.py",
+      "sha256": "806ea460690543306c12d4be925e711450ff8230fa469ad2111610ca16132dac",
+      "bytes": 3921
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "scripts/run_confirmation.py",
+      "sha256": "bc6eb0237680dbcff97146c3e9fa23ed7c214ee415d3639500ac79ebd48462f5",
+      "bytes": 22335
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "scripts/run_modal.py",
+      "sha256": "4ba1c69f116d2e8b539a289921a6d134ec7efa1202703a7d3b4cf6f4d4ffe4ae",
+      "bytes": 8304
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "scripts/run_text_controls.py",
+      "sha256": "d562e25ae32ac5bb60edfa17e0705d7bfc9a4d818fe62150b5dd4788c13e6881",
+      "bytes": 4916
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/__init__.py",
+      "sha256": "9dd224d1d6b415e113991a29411d060a916b9b4e1a3bc01db22bb5132e742757",
+      "bytes": 84
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/adapters.py",
+      "sha256": "8239c076841a8d7fd9606f02841d9161cbb3899187a3a92172223ff27d8a64ff",
+      "bytes": 4102
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/analysis.py",
+      "sha256": "6b22a4b84e976a04f523e0c87ee6a64f49b505219993d6e2401a3af90af61602",
+      "bytes": 10760
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/baselines.py",
+      "sha256": "ad51139bb16df1d3d90e8f9a7ce2c62a75a85267d06a1f3585907bfd58d800fe",
+      "bytes": 8532
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/budget.py",
+      "sha256": "1c81b7be51ba07913ef81fa6cfdc0d4ca43b76ecab0149eaa61859e41ca8c178",
+      "bytes": 9023
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/cli.py",
+      "sha256": "3d092a33fc8b9dff274e5e1127444467ec169a3d5275421e3cf02559a8a9fdcf",
+      "bytes": 4822
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/comparisons.py",
+      "sha256": "641807927fc0fc5497e85021156aea96058617b1261f8539962d7369a4919cc7",
+      "bytes": 15322
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/confirmation_analysis.py",
+      "sha256": "290f94650845d1ea1ff0fca763899c09506bb36da35a127eeea8308c6a7ab6cf",
+      "bytes": 27913
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/confirmation_corpus.py",
+      "sha256": "58991f80aef4418bcc78ca420d2def4151dd3bc969d30c29e8ce3866a9bb331a",
+      "bytes": 13257
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/confirmation_inputs.py",
+      "sha256": "b7220a43cd3097cebd1ccfe4fec4d71d950d3e84aa348cca5a810b72c8a522f4",
+      "bytes": 9266
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/corpus.py",
+      "sha256": "1004dda0a2d51978571fe0c687681d3866ecb35f493b852f64379d40bef1f14f",
+      "bytes": 11718
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/depth_discovery.py",
+      "sha256": "6425744ed5fb63620cfd9cf9f08156964ce452b3656ce5bada44b4ceda6c6ed3",
+      "bytes": 29506
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/distance_policy.py",
+      "sha256": "eeb93ce80adf4b433c5fd6c664839f201734eb8a31802dcb2a902557f96e685f",
+      "bytes": 1869
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/editorial_diagnostic.py",
+      "sha256": "4bef2e87a67e367b93b8ee41b092ad795333f294a7ff1940ba71e2f8f657e68d",
+      "bytes": 10405
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/endpoint_controls.py",
+      "sha256": "3a85fd259d4582bed3806712b09353e46492449b2b5955689a4a84e62691adbf",
+      "bytes": 8348
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/extraction.py",
+      "sha256": "5c6315ef1edef1e9cbf14be4c0436d43146c299d1ab166a1398a738fa70c78c5",
+      "bytes": 29279
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/line_baselines.py",
+      "sha256": "d73f88afc263c6a1e2779628e513108266bff2bda8366b5851f49a9fd864d0e2",
+      "bytes": 12127
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/line_comparisons.py",
+      "sha256": "90f6cd2acad9f76cec9acffb098a44a0c6d346f8cf4c36423cf659142467f624",
+      "bytes": 20944
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/line_discovery.py",
+      "sha256": "a7d86cbe087a6d777fbabd7b5ec9a8671417a41b8079544b528433e4f65220f2",
+      "bytes": 28060
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/line_positions.py",
+      "sha256": "4dcf1937dc8965515a1a72f8c716d236704b6675338f4d0675d5c9f5186e5cb8",
+      "bytes": 13274
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/modern_adapters.py",
+      "sha256": "ab54d18a5e670d9dc1f8181008d2cb068b8f10b170facd48a5e0d6ce5f29dea7",
+      "bytes": 7657
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/prior_replica.py",
+      "sha256": "7cf1f54b90b00d4e1a2688eb4eb27eb472acec28813ed994a8ca972f4e63540e",
+      "bytes": 9568
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/reporting.py",
+      "sha256": "5ac06f6b158023a91bdb5047149b13fb49ad9fda3d3d324c043d93e27661f2ff",
+      "bytes": 13471
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/spenser_corpus.py",
+      "sha256": "7e4985c46541be249b72cb5027fbde3360f3732b966bdfc1bbd5372173e809ef",
+      "bytes": 8509
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/storage.py",
+      "sha256": "fc91d85abec28b63bef7fa88b1d3e04e7c19e6ade7f455efe8c3280193c839f7",
+      "bytes": 7032
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/structure.py",
+      "sha256": "24658ddd49414a6b447c265a25ac60ab5d72acee29fa3e70333578dc5c0deacc",
+      "bytes": 9772
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/text_control_analysis.py",
+      "sha256": "76234fc36ac9b93056a7ade0be3456b358ad9f014dabc100a07a17221b6714a7",
+      "bytes": 13964
+    },
+    {
+      "commit": "cfa2f417dca356b82dc067d54e5914853b844d53",
+      "path": "src/sonnet_geometry/text_controls.py",
+      "sha256": "030b74055687b004b2e6f394af6def1b285e69efbfb1dab702ce3aa964058144",
+      "bytes": 7825
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "infra/modal_app.py",
+      "sha256": "d5ee2f6b870506ced7d1e17b92e9a5859d15340c5424cbfb7ad0c8a5093c9093",
+      "bytes": 10267
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "infra/modal_confirmation.py",
+      "sha256": "95dfcb816b476c230e80b7d8bb0ed6053becff6ad2030672346002b6bffed413",
+      "bytes": 49339
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "infra/modal_controls.py",
+      "sha256": "23bbc2198caedebf680d15c534512c19c9215f2d00d07f499744560b8cb86763",
+      "bytes": 9113
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "scripts/prepare_confirmation.py",
+      "sha256": "806ea460690543306c12d4be925e711450ff8230fa469ad2111610ca16132dac",
+      "bytes": 3921
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "scripts/run_confirmation.py",
+      "sha256": "bc6eb0237680dbcff97146c3e9fa23ed7c214ee415d3639500ac79ebd48462f5",
+      "bytes": 22335
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "scripts/run_modal.py",
+      "sha256": "4ba1c69f116d2e8b539a289921a6d134ec7efa1202703a7d3b4cf6f4d4ffe4ae",
+      "bytes": 8304
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "scripts/run_text_controls.py",
+      "sha256": "d562e25ae32ac5bb60edfa17e0705d7bfc9a4d818fe62150b5dd4788c13e6881",
+      "bytes": 4916
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/__init__.py",
+      "sha256": "9dd224d1d6b415e113991a29411d060a916b9b4e1a3bc01db22bb5132e742757",
+      "bytes": 84
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/adapters.py",
+      "sha256": "8239c076841a8d7fd9606f02841d9161cbb3899187a3a92172223ff27d8a64ff",
+      "bytes": 4102
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/analysis.py",
+      "sha256": "6b22a4b84e976a04f523e0c87ee6a64f49b505219993d6e2401a3af90af61602",
+      "bytes": 10760
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/baselines.py",
+      "sha256": "ad51139bb16df1d3d90e8f9a7ce2c62a75a85267d06a1f3585907bfd58d800fe",
+      "bytes": 8532
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/budget.py",
+      "sha256": "1c81b7be51ba07913ef81fa6cfdc0d4ca43b76ecab0149eaa61859e41ca8c178",
+      "bytes": 9023
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/cli.py",
+      "sha256": "3d092a33fc8b9dff274e5e1127444467ec169a3d5275421e3cf02559a8a9fdcf",
+      "bytes": 4822
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/comparisons.py",
+      "sha256": "641807927fc0fc5497e85021156aea96058617b1261f8539962d7369a4919cc7",
+      "bytes": 15322
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/confirmation_analysis.py",
+      "sha256": "290f94650845d1ea1ff0fca763899c09506bb36da35a127eeea8308c6a7ab6cf",
+      "bytes": 27913
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/confirmation_corpus.py",
+      "sha256": "58991f80aef4418bcc78ca420d2def4151dd3bc969d30c29e8ce3866a9bb331a",
+      "bytes": 13257
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/confirmation_inputs.py",
+      "sha256": "b7220a43cd3097cebd1ccfe4fec4d71d950d3e84aa348cca5a810b72c8a522f4",
+      "bytes": 9266
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/corpus.py",
+      "sha256": "1004dda0a2d51978571fe0c687681d3866ecb35f493b852f64379d40bef1f14f",
+      "bytes": 11718
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/depth_discovery.py",
+      "sha256": "6425744ed5fb63620cfd9cf9f08156964ce452b3656ce5bada44b4ceda6c6ed3",
+      "bytes": 29506
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/distance_policy.py",
+      "sha256": "eeb93ce80adf4b433c5fd6c664839f201734eb8a31802dcb2a902557f96e685f",
+      "bytes": 1869
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/editorial_diagnostic.py",
+      "sha256": "4bef2e87a67e367b93b8ee41b092ad795333f294a7ff1940ba71e2f8f657e68d",
+      "bytes": 10405
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/endpoint_controls.py",
+      "sha256": "3a85fd259d4582bed3806712b09353e46492449b2b5955689a4a84e62691adbf",
+      "bytes": 8348
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/extraction.py",
+      "sha256": "5c6315ef1edef1e9cbf14be4c0436d43146c299d1ab166a1398a738fa70c78c5",
+      "bytes": 29279
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/line_baselines.py",
+      "sha256": "d73f88afc263c6a1e2779628e513108266bff2bda8366b5851f49a9fd864d0e2",
+      "bytes": 12127
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/line_comparisons.py",
+      "sha256": "90f6cd2acad9f76cec9acffb098a44a0c6d346f8cf4c36423cf659142467f624",
+      "bytes": 20944
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/line_discovery.py",
+      "sha256": "a7d86cbe087a6d777fbabd7b5ec9a8671417a41b8079544b528433e4f65220f2",
+      "bytes": 28060
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/line_positions.py",
+      "sha256": "4dcf1937dc8965515a1a72f8c716d236704b6675338f4d0675d5c9f5186e5cb8",
+      "bytes": 13274
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/modern_adapters.py",
+      "sha256": "ab54d18a5e670d9dc1f8181008d2cb068b8f10b170facd48a5e0d6ce5f29dea7",
+      "bytes": 7657
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/prior_replica.py",
+      "sha256": "7cf1f54b90b00d4e1a2688eb4eb27eb472acec28813ed994a8ca972f4e63540e",
+      "bytes": 9568
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/reporting.py",
+      "sha256": "5ac06f6b158023a91bdb5047149b13fb49ad9fda3d3d324c043d93e27661f2ff",
+      "bytes": 13471
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/spenser_corpus.py",
+      "sha256": "7e4985c46541be249b72cb5027fbde3360f3732b966bdfc1bbd5372173e809ef",
+      "bytes": 8509
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/storage.py",
+      "sha256": "fc91d85abec28b63bef7fa88b1d3e04e7c19e6ade7f455efe8c3280193c839f7",
+      "bytes": 7032
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/structure.py",
+      "sha256": "24658ddd49414a6b447c265a25ac60ab5d72acee29fa3e70333578dc5c0deacc",
+      "bytes": 9772
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/text_control_analysis.py",
+      "sha256": "76234fc36ac9b93056a7ade0be3456b358ad9f014dabc100a07a17221b6714a7",
+      "bytes": 13964
+    },
+    {
+      "commit": "e8fa3d64b5c7f9ec2b1aa62dd32140117dbb18bb",
+      "path": "src/sonnet_geometry/text_controls.py",
+      "sha256": "030b74055687b004b2e6f394af6def1b285e69efbfb1dab702ce3aa964058144",
+      "bytes": 7825
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "infra/modal_app.py",
+      "sha256": "d5ee2f6b870506ced7d1e17b92e9a5859d15340c5424cbfb7ad0c8a5093c9093",
+      "bytes": 10267
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "scripts/run_modal.py",
+      "sha256": "4ba1c69f116d2e8b539a289921a6d134ec7efa1202703a7d3b4cf6f4d4ffe4ae",
+      "bytes": 8304
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "src/sonnet_geometry/__init__.py",
+      "sha256": "9dd224d1d6b415e113991a29411d060a916b9b4e1a3bc01db22bb5132e742757",
+      "bytes": 84
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "src/sonnet_geometry/adapters.py",
+      "sha256": "8239c076841a8d7fd9606f02841d9161cbb3899187a3a92172223ff27d8a64ff",
+      "bytes": 4102
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "src/sonnet_geometry/analysis.py",
+      "sha256": "6b22a4b84e976a04f523e0c87ee6a64f49b505219993d6e2401a3af90af61602",
+      "bytes": 10760
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "src/sonnet_geometry/baselines.py",
+      "sha256": "ad51139bb16df1d3d90e8f9a7ce2c62a75a85267d06a1f3585907bfd58d800fe",
+      "bytes": 8532
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "src/sonnet_geometry/budget.py",
+      "sha256": "76901df3c926f88a473ec277f949c5d6a754f39cb3e5326eb5fa6e783d064c3e",
+      "bytes": 5181
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "src/sonnet_geometry/cli.py",
+      "sha256": "3d092a33fc8b9dff274e5e1127444467ec169a3d5275421e3cf02559a8a9fdcf",
+      "bytes": 4822
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "src/sonnet_geometry/comparisons.py",
+      "sha256": "f90f5d728defacd09711f2c8613bb1a81ab7662da5dfbdc14bb2269982a79914",
+      "bytes": 14711
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "src/sonnet_geometry/corpus.py",
+      "sha256": "1004dda0a2d51978571fe0c687681d3866ecb35f493b852f64379d40bef1f14f",
+      "bytes": 11718
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "src/sonnet_geometry/extraction.py",
+      "sha256": "f8a42833230c1e8c86e47da6da4c00e8ce11714f64dacd8e917b222a5bf10e15",
+      "bytes": 28542
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "src/sonnet_geometry/line_comparisons.py",
+      "sha256": "76cdc0d45554461d7dc838dc13746693b7ca2aa1603fe52ec259f76dea1e3874",
+      "bytes": 19483
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "src/sonnet_geometry/modern_adapters.py",
+      "sha256": "ab54d18a5e670d9dc1f8181008d2cb068b8f10b170facd48a5e0d6ce5f29dea7",
+      "bytes": 7657
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "src/sonnet_geometry/prior_replica.py",
+      "sha256": "7cf1f54b90b00d4e1a2688eb4eb27eb472acec28813ed994a8ca972f4e63540e",
+      "bytes": 9568
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "src/sonnet_geometry/reporting.py",
+      "sha256": "5ac06f6b158023a91bdb5047149b13fb49ad9fda3d3d324c043d93e27661f2ff",
+      "bytes": 13471
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "src/sonnet_geometry/storage.py",
+      "sha256": "fc91d85abec28b63bef7fa88b1d3e04e7c19e6ade7f455efe8c3280193c839f7",
+      "bytes": 7032
+    },
+    {
+      "commit": "fb8818c84598773bfdb4a04f6a3c21675feefc9a",
+      "path": "src/sonnet_geometry/structure.py",
+      "sha256": "3a819da0eb3e80f622bdc1ad06795d0e06b4ca99261dec362d8d782bea1741f3",
+      "bytes": 8126
+    }
+  ]
+}

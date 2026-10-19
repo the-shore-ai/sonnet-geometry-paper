@@ -1,0 +1,596 @@
+{
+  "source_baseline_commit": "ded1734fe705fda2a2a4c10db3f5e8e7abfa1121",
+  "scope": "Reviewed baseline source files; byte-exact against the private release worktree at export. Scientific baseline commit is separate from the revised manuscript. Exact historical executed versions are separately exported in executed-source-manifest.json.",
+  "files": [
+    {
+      "source": "src/sonnet_geometry/__init__.py",
+      "public_path": "src/sonnet_geometry/__init__.py",
+      "sha256": "9dd224d1d6b415e113991a29411d060a916b9b4e1a3bc01db22bb5132e742757",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/adapters.py",
+      "public_path": "src/sonnet_geometry/adapters.py",
+      "sha256": "8239c076841a8d7fd9606f02841d9161cbb3899187a3a92172223ff27d8a64ff",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/analysis.py",
+      "public_path": "src/sonnet_geometry/analysis.py",
+      "sha256": "6b22a4b84e976a04f523e0c87ee6a64f49b505219993d6e2401a3af90af61602",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/baselines.py",
+      "public_path": "src/sonnet_geometry/baselines.py",
+      "sha256": "ad51139bb16df1d3d90e8f9a7ce2c62a75a85267d06a1f3585907bfd58d800fe",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/budget.py",
+      "public_path": "src/sonnet_geometry/budget.py",
+      "sha256": "1c81b7be51ba07913ef81fa6cfdc0d4ca43b76ecab0149eaa61859e41ca8c178",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/cli.py",
+      "public_path": "src/sonnet_geometry/cli.py",
+      "sha256": "3d092a33fc8b9dff274e5e1127444467ec169a3d5275421e3cf02559a8a9fdcf",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/comparisons.py",
+      "public_path": "src/sonnet_geometry/comparisons.py",
+      "sha256": "641807927fc0fc5497e85021156aea96058617b1261f8539962d7369a4919cc7",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/confirmation_analysis.py",
+      "public_path": "src/sonnet_geometry/confirmation_analysis.py",
+      "sha256": "290f94650845d1ea1ff0fca763899c09506bb36da35a127eeea8308c6a7ab6cf",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/confirmation_corpus.py",
+      "public_path": "src/sonnet_geometry/confirmation_corpus.py",
+      "sha256": "58991f80aef4418bcc78ca420d2def4151dd3bc969d30c29e8ce3866a9bb331a",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/confirmation_inputs.py",
+      "public_path": "src/sonnet_geometry/confirmation_inputs.py",
+      "sha256": "b7220a43cd3097cebd1ccfe4fec4d71d950d3e84aa348cca5a810b72c8a522f4",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/corpus.py",
+      "public_path": "src/sonnet_geometry/corpus.py",
+      "sha256": "1004dda0a2d51978571fe0c687681d3866ecb35f493b852f64379d40bef1f14f",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/depth_discovery.py",
+      "public_path": "src/sonnet_geometry/depth_discovery.py",
+      "sha256": "6425744ed5fb63620cfd9cf9f08156964ce452b3656ce5bada44b4ceda6c6ed3",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/distance_policy.py",
+      "public_path": "src/sonnet_geometry/distance_policy.py",
+      "sha256": "eeb93ce80adf4b433c5fd6c664839f201734eb8a31802dcb2a902557f96e685f",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/editorial_diagnostic.py",
+      "public_path": "src/sonnet_geometry/editorial_diagnostic.py",
+      "sha256": "4bef2e87a67e367b93b8ee41b092ad795333f294a7ff1940ba71e2f8f657e68d",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/endpoint_controls.py",
+      "public_path": "src/sonnet_geometry/endpoint_controls.py",
+      "sha256": "3a85fd259d4582bed3806712b09353e46492449b2b5955689a4a84e62691adbf",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/extraction.py",
+      "public_path": "src/sonnet_geometry/extraction.py",
+      "sha256": "5c6315ef1edef1e9cbf14be4c0436d43146c299d1ab166a1398a738fa70c78c5",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/line_baselines.py",
+      "public_path": "src/sonnet_geometry/line_baselines.py",
+      "sha256": "d73f88afc263c6a1e2779628e513108266bff2bda8366b5851f49a9fd864d0e2",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/line_comparisons.py",
+      "public_path": "src/sonnet_geometry/line_comparisons.py",
+      "sha256": "90f6cd2acad9f76cec9acffb098a44a0c6d346f8cf4c36423cf659142467f624",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/line_discovery.py",
+      "public_path": "src/sonnet_geometry/line_discovery.py",
+      "sha256": "a7d86cbe087a6d777fbabd7b5ec9a8671417a41b8079544b528433e4f65220f2",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/line_positions.py",
+      "public_path": "src/sonnet_geometry/line_positions.py",
+      "sha256": "4dcf1937dc8965515a1a72f8c716d236704b6675338f4d0675d5c9f5186e5cb8",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/modern_adapters.py",
+      "public_path": "src/sonnet_geometry/modern_adapters.py",
+      "sha256": "ab54d18a5e670d9dc1f8181008d2cb068b8f10b170facd48a5e0d6ce5f29dea7",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/prior_replica.py",
+      "public_path": "src/sonnet_geometry/prior_replica.py",
+      "sha256": "7cf1f54b90b00d4e1a2688eb4eb27eb472acec28813ed994a8ca972f4e63540e",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/reporting.py",
+      "public_path": "src/sonnet_geometry/reporting.py",
+      "sha256": "5ac06f6b158023a91bdb5047149b13fb49ad9fda3d3d324c043d93e27661f2ff",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/signal_audit.py",
+      "public_path": "src/sonnet_geometry/signal_audit.py",
+      "sha256": "365025b84132507b0eb7c7a6d1766711d64b441724b3fa74b853903691aeb793",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/spenser_corpus.py",
+      "public_path": "src/sonnet_geometry/spenser_corpus.py",
+      "sha256": "7e4985c46541be249b72cb5027fbde3360f3732b966bdfc1bbd5372173e809ef",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/storage.py",
+      "public_path": "src/sonnet_geometry/storage.py",
+      "sha256": "fc91d85abec28b63bef7fa88b1d3e04e7c19e6ade7f455efe8c3280193c839f7",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/structure.py",
+      "public_path": "src/sonnet_geometry/structure.py",
+      "sha256": "24658ddd49414a6b447c265a25ac60ab5d72acee29fa3e70333578dc5c0deacc",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/text_control_analysis.py",
+      "public_path": "src/sonnet_geometry/text_control_analysis.py",
+      "sha256": "76234fc36ac9b93056a7ade0be3456b358ad9f014dabc100a07a17221b6714a7",
+      "byte_exact": true
+    },
+    {
+      "source": "src/sonnet_geometry/text_controls.py",
+      "public_path": "src/sonnet_geometry/text_controls.py",
+      "sha256": "030b74055687b004b2e6f394af6def1b285e69efbfb1dab702ce3aa964058144",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/analyze_signal_audit.py",
+      "public_path": "historical/scripts/analyze_signal_audit.py",
+      "sha256": "8e72b6c61f12dd3ed758c012edae6f5b8fab13d12591d54443d07b7c20c841cb",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/followup_signal_audit.py",
+      "public_path": "historical/scripts/followup_signal_audit.py",
+      "sha256": "11106aecf1d998b5a4e2071f43c534bb93e35c84b34ce4fa895f9b9cd273ddd8",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/refine_signal_geometry.py",
+      "public_path": "historical/scripts/refine_signal_geometry.py",
+      "sha256": "7a57c0508b8341a22a67b02a485e4ffd615c0064f8419f33ff66c2fd9f331f8b",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/refine_signal_responses.py",
+      "public_path": "historical/scripts/refine_signal_responses.py",
+      "sha256": "24111d188eb40ad3cfde1f9d6d1a67f17a51b24926a3c73de360ea82fe1528e2",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/decompose_signal_responses.py",
+      "public_path": "historical/scripts/decompose_signal_responses.py",
+      "sha256": "3f68c8a5b3214bec07e53e7114a1183e20fdb745e77d39d3a67ab9bf9f740a0e",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/analyze_confirmation.py",
+      "public_path": "historical/scripts/analyze_confirmation.py",
+      "sha256": "7786de5a23ff37bc277136fe9640628b36306e52dec6680ff706b72bdfaa848e",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/prepare_confirmation.py",
+      "public_path": "historical/scripts/prepare_confirmation.py",
+      "sha256": "806ea460690543306c12d4be925e711450ff8230fa469ad2111610ca16132dac",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/summarize_signal_audit.py",
+      "public_path": "historical/scripts/summarize_signal_audit.py",
+      "sha256": "296e5b23e6a11d9253bd6db2c8147f3ad118e532b6615d967fa1f251802a8761",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/revise_signal_identity_figure.py",
+      "public_path": "historical/scripts/revise_signal_identity_figure.py",
+      "sha256": "aa8732870a5b88a40b7e37ad15a98170ea73bc81c7b0d7aac0f0b133e74a85ca",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/analyze_confirmation.py",
+      "public_path": "historical/scripts/analyze_confirmation.py",
+      "sha256": "7786de5a23ff37bc277136fe9640628b36306e52dec6680ff706b72bdfaa848e",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/analyze_depth_discovery.py",
+      "public_path": "historical/scripts/analyze_depth_discovery.py",
+      "sha256": "3481fdd421f73ba256ada7c6e45164cd83833bc63c80d5405eafd46312371c9d",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/analyze_editorial_links.py",
+      "public_path": "historical/scripts/analyze_editorial_links.py",
+      "sha256": "84b0712a9669af1073cb928db54835dbb0354456f6427c16b11067fcb9d8f68d",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/analyze_editorial_single_depth.py",
+      "public_path": "historical/scripts/analyze_editorial_single_depth.py",
+      "sha256": "48df349d031c8a1a74a02f1681a91722c3109a0d380a0cba5d501dfe6efd90c7",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/analyze_editorial_transfer.py",
+      "public_path": "historical/scripts/analyze_editorial_transfer.py",
+      "sha256": "88d253e2c35cac910c869846d028c1c448aea7069d9dcf0b8f95a89146af5a1e",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/analyze_line_discovery.py",
+      "public_path": "historical/scripts/analyze_line_discovery.py",
+      "sha256": "e1ab708c3818e4ce5e426885168e50abbf37b194a4174200b0280a9155e96919",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/analyze_line_positions.py",
+      "public_path": "historical/scripts/analyze_line_positions.py",
+      "sha256": "2b9a25f08e635f4ab5164ac79eb41baa5df96b2453a1fef7f9f8002f166366ba",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/analyze_signal_audit.py",
+      "public_path": "historical/scripts/analyze_signal_audit.py",
+      "sha256": "8e72b6c61f12dd3ed758c012edae6f5b8fab13d12591d54443d07b7c20c841cb",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/analyze_structure.py",
+      "public_path": "historical/scripts/analyze_structure.py",
+      "sha256": "b4328f49adeaa9c16548981b35a4155587250be44079076f595ac8e988913e3f",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/analyze_text_control_loo.py",
+      "public_path": "historical/scripts/analyze_text_control_loo.py",
+      "sha256": "d2e11e540b4deeffeffe25b128d286071f27cb37e8ab81adec979e1f345f2c82",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/analyze_text_controls.py",
+      "public_path": "historical/scripts/analyze_text_controls.py",
+      "sha256": "20e3327142c2bcf2102393cdc31a341db704757f5bf406c15affbf9e9c7d6f66",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/analyze_volta_labels.py",
+      "public_path": "historical/scripts/analyze_volta_labels.py",
+      "sha256": "77f8a16ec655c9bdf59e8e9ac214d5c236710a155c8796e79106e9cad8240cf5",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/compare_confirmation_repetition.py",
+      "public_path": "historical/scripts/compare_confirmation_repetition.py",
+      "sha256": "19eb884666980603d5888062788e58c583509cf64734914add4becae9355fcc8",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/compare_line_baseline.py",
+      "public_path": "historical/scripts/compare_line_baseline.py",
+      "sha256": "78b5ce26d77607aa1c3237ca508b8aef3d6031b8e8de83093ec510b118da905a",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/compare_lines.py",
+      "public_path": "historical/scripts/compare_lines.py",
+      "sha256": "50d0f7ea964edff00174af31f69ae1f2c8bc705f353d6d3a8e05078a0055534b",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/compare_models.py",
+      "public_path": "historical/scripts/compare_models.py",
+      "sha256": "e09be24902247e8020447bed0f03f6049f5a8fa48ee1f9c7ec0980d47713462a",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/compare_poet_populations.py",
+      "public_path": "historical/scripts/compare_poet_populations.py",
+      "sha256": "892ef8a01f42c343bb2f1361ce1b75f0e23b021ad399c130e01bf6afbec75ebb",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/plot_comparisons.py",
+      "public_path": "historical/scripts/plot_comparisons.py",
+      "sha256": "e3f26f48a08dd6443032312636d4d659dd74e8e72f6ebb01462e1cfa821ff35a",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/plot_confirmation.py",
+      "public_path": "historical/scripts/plot_confirmation.py",
+      "sha256": "bfba1eee58a1e2b93a6ac6992be5b9006d7b39a1d1fd0d04d8f3a86e3aa9c957",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/plot_deep_study.py",
+      "public_path": "historical/scripts/plot_deep_study.py",
+      "sha256": "79c3f16ffb4384bb55fd439be175e1b565ee14491e26c2f0f961e1eb001df836",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/plot_followup_controls.py",
+      "public_path": "historical/scripts/plot_followup_controls.py",
+      "sha256": "46d6404217d1ebca117abb1430cba7c404e95208534906219754ed80237c0407",
+      "byte_exact": true
+    },
+    {
+      "source": "scripts/render_confirmation_tables.py",
+      "public_path": "historical/scripts/render_confirmation_tables.py",
+      "sha256": "71bd96f96ef3904d2ca26ef6418e0cdbe1b2204b2f15612ddb0817f06dead4b6",
+      "byte_exact": true
+    },
+    {
+      "source": "infra/modal_app.py",
+      "public_path": "historical/infra/modal_app.py",
+      "sha256": "d5ee2f6b870506ced7d1e17b92e9a5859d15340c5424cbfb7ad0c8a5093c9093",
+      "byte_exact": true
+    },
+    {
+      "source": "infra/modal_controls.py",
+      "public_path": "historical/infra/modal_controls.py",
+      "sha256": "23bbc2198caedebf680d15c534512c19c9215f2d00d07f499744560b8cb86763",
+      "byte_exact": true
+    },
+    {
+      "source": "infra/modal_confirmation.py",
+      "public_path": "historical/infra/modal_confirmation.py",
+      "sha256": "95dfcb816b476c230e80b7d8bb0ed6053becff6ad2030672346002b6bffed413",
+      "byte_exact": true
+    },
+    {
+      "source": "configs/models-candidates.lock.json",
+      "public_path": "configs/models-candidates.lock.json",
+      "sha256": "8783433731a9f18ad1ff1d124600f1eb515955ccaeadd47e673b4da980e11372",
+      "byte_exact": true
+    },
+    {
+      "source": "configs/models.lock.json",
+      "public_path": "configs/models.lock.json",
+      "sha256": "daacb8bcdb4ef607a0c041efffa0267c39d913322e936ab3aa0a1632f61e9c7b",
+      "byte_exact": true
+    },
+    {
+      "source": "configs/baselines.lock.json",
+      "public_path": "configs/baselines.lock.json",
+      "sha256": "aa084f928aaf0e0122fc7784da013c1ed266a8f5ef5bbfe4807ab2dd6376d3b2",
+      "byte_exact": true
+    },
+    {
+      "source": "configs/Qwen--Qwen3-8B.config.json",
+      "public_path": "configs/Qwen--Qwen3-8B.config.json",
+      "sha256": "deaa300e5384a480c2cafd0db33cba0da89db8eeeb8ddc2b584b89bd46d52ffb",
+      "byte_exact": true
+    },
+    {
+      "source": "configs/prior-replica.lock.json",
+      "public_path": "configs/prior-replica.lock.json",
+      "sha256": "39cd7febcaad5b819d3f8eda28f4c3d052cb72ba323400648643f0429d65507f",
+      "byte_exact": true
+    },
+    {
+      "source": "configs/google--gemma-4-31B-it.config.json",
+      "public_path": "configs/google--gemma-4-31B-it.config.json",
+      "sha256": "e967dd38bc5cfd38bd09a995a7bf4a754075df2b46aba68f7fbb5a791e6d8dd1",
+      "byte_exact": true
+    },
+    {
+      "source": "configs/meta-models--Muse-Glimmer-30B.config.json",
+      "public_path": "configs/meta-models--Muse-Glimmer-30B.config.json",
+      "sha256": "5a9df2d8a385b3d361ab6ae68d73586f4e775033933bd0cd863fb7f3820e6a14",
+      "byte_exact": true
+    },
+    {
+      "source": "configs/Qwen--Qwen3.8-27B.config.json",
+      "public_path": "configs/Qwen--Qwen3.8-27B.config.json",
+      "sha256": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+      "byte_exact": true
+    },
+    {
+      "source": "pyproject.toml",
+      "public_path": "environments/pyproject.toml",
+      "sha256": "e71190a835d10590c5ef1f2555bb8540d955ef103964ab25b1d8e36dbc68c98e",
+      "byte_exact": true
+    },
+    {
+      "source": "uv.lock",
+      "public_path": "environments/uv.lock",
+      "sha256": "24b4312e84ae1673b66e12f2848af698d6e70fe6d167ca273a738ba750f31037",
+      "byte_exact": true
+    },
+    {
+      "source": "infra/modern_runtime/pyproject.toml",
+      "public_path": "environments/infra/modern_runtime/pyproject.toml",
+      "sha256": "02121805ba277606e3b784132a19e91f16740292248337c1ee96b3f74aa99ab2",
+      "byte_exact": true
+    },
+    {
+      "source": "infra/modern_runtime/uv.lock",
+      "public_path": "environments/infra/modern_runtime/uv.lock",
+      "sha256": "0e47b2c1d4b03ab41e803d37ed8c801c04a923edebfd833010b6357c2f684c87",
+      "byte_exact": true
+    },
+    {
+      "source": "tests/test_signal_audit.py",
+      "public_path": "tests/test_signal_audit.py",
+      "sha256": "297ae739035f6fd4a077d574338d3257f932cfa7e12d64d05f4b58df3eafa808",
+      "byte_exact": true
+    },
+    {
+      "source": "tests/test_analysis.py",
+      "public_path": "tests/test_analysis.py",
+      "sha256": "2710c4bf5851246775aed7319fa1ab5802e48b85c5de8907965271bca61d04bf",
+      "byte_exact": true
+    },
+    {
+      "source": "tests/test_confirmation_inputs.py",
+      "public_path": "tests/test_confirmation_inputs.py",
+      "sha256": "481adbcf827faf2001a2eca5d67168128f7a7ece396c7f9f728c15049596b550",
+      "byte_exact": true
+    },
+    {
+      "source": "tests/test_extraction.py",
+      "public_path": "tests/test_extraction.py",
+      "sha256": "4080b3c126ad23d185e401b7994d301179697a288af1f03b5ae629d018dce01f",
+      "byte_exact": true
+    },
+    {
+      "source": "tests/test_storage.py",
+      "public_path": "tests/test_storage.py",
+      "sha256": "0c5c847d122389747fd19114096899138b58f6b7c1c0da14c22916cccfd466d9",
+      "byte_exact": true
+    },
+    {
+      "source": "tests/test_modern_adapters.py",
+      "public_path": "tests/test_modern_adapters.py",
+      "sha256": "1b242dff42cd29fd89ed93b0e25caad430e37b440ce7039bede2fdde65a71f37",
+      "byte_exact": true
+    },
+    {
+      "source": "paper/manuscript.md",
+      "public_path": "paper/manuscript.md",
+      "sha256": "5d0768c948013b8be57645dad792dedd9a6dd8b66d6b39279d9dc82d1afb58f9",
+      "byte_exact": true
+    },
+    {
+      "source": "paper/references.bib",
+      "public_path": "paper/references.bib",
+      "sha256": "6631cfed3c2ff80154a68b24357c2b6adc6a8ea1be84632b81140d5b1cc65e73",
+      "byte_exact": true
+    },
+    {
+      "source": "docs/literature-review.md",
+      "public_path": "docs/literature-review.md",
+      "sha256": "b66bcb282e4b02f02830f65984e9eba9de599029bd47f2ce0b29a76e67f67602",
+      "byte_exact": true
+    },
+    {
+      "source": "docs/signal-audit-v6-prior-work.md",
+      "public_path": "docs/signal-audit-v6-prior-work.md",
+      "sha256": "38b8e898d297f18d0e4682e8291726e92efed315f3a3d4d0c22166987ab45d01",
+      "byte_exact": true
+    },
+    {
+      "source": "docs/confirmation-v4-prior-work.md",
+      "public_path": "docs/confirmation-v4-prior-work.md",
+      "sha256": "d13e2b0a2ced58e5b3692d7deb1e2412edee9dfe6d4d86013275a5c659eea024",
+      "byte_exact": true
+    },
+    {
+      "source": "docs/model-selection.md",
+      "public_path": "docs/model-selection.md",
+      "sha256": "eb62dc38ae9d68417bdc818307acf6738b8ecd5574011cd0f2947679efaf9b22",
+      "byte_exact": true
+    },
+    {
+      "source": "docs/publication-v1-review.md",
+      "public_path": "docs/publication-v1-review.md",
+      "sha256": "fb7099099845e47687e4752c5d100c0c20c9de9842ac9e4afe9f0f8cbc568489",
+      "byte_exact": true
+    },
+    {
+      "source": "experiments/confirmation-v4/protocol.json",
+      "public_path": "historical/protocols/sidney.json",
+      "sha256": "5dd5ffaa4f3a54179111c0b95a660262e5f1483f9c66b5d15167e6099682607a",
+      "byte_exact": true
+    },
+    {
+      "source": "datasets/confirmation-v4/selection.json",
+      "public_path": "datasets/sidney-selection.json",
+      "sha256": "f5c33533409703293c487993617cee5554a110901718f5ec764849481db475ac",
+      "byte_exact": true
+    },
+    {
+      "source": "experiments/confirmation-v5-spenser/protocol.json",
+      "public_path": "historical/protocols/spenser.json",
+      "sha256": "8be796f14da791202375fd8c5e849cc0e2d900636fe4fec443ad2c229f956b8b",
+      "byte_exact": true
+    },
+    {
+      "source": "datasets/confirmation-v5-spenser/selection.json",
+      "public_path": "datasets/spenser-selection.json",
+      "sha256": "2da4a03e5c3f36f0d5e530c101e82dd25da48bc9e6ecfb6bbbda21c9c9828644",
+      "byte_exact": true
+    }
+  ],
+  "compact_numeric_sources": [
+    {
+      "population": "sidney",
+      "model": "gemma",
+      "pooled_source_sha256": "6ae8df53a51e789abdf86ea4b5f0e042ea6df50ad11b2a5c275bf7dad504f981",
+      "pooled_source_bytes": 496946808
+    },
+    {
+      "population": "sidney",
+      "model": "muse",
+      "pooled_source_sha256": "e849ac3e8f89b88a5ecac39c8079949df5f841051232d06ed0a733e238934632",
+      "pooled_source_bytes": 614912608
+    },
+    {
+      "population": "sidney",
+      "model": "qwen",
+      "pooled_source_sha256": "2017206e5b97f62a535a507a3d1d405fdc48cffc083fcd724d6762f9d05ce7b8",
+      "pooled_source_bytes": 378980392
+    },
+    {
+      "population": "spenser",
+      "model": "gemma",
+      "pooled_source_sha256": "daf310726d33699367766c052d4bca307851a1669f37b4e7d369f61e0b181755",
+      "pooled_source_bytes": 496946808
+    },
+    {
+      "population": "spenser",
+      "model": "muse",
+      "pooled_source_sha256": "b9be40cdf4f9dd6b1e903ba7c9f63a19680143687c846b7e305d7480e37205d2",
+      "pooled_source_bytes": 614912608
+    },
+    {
+      "population": "spenser",
+      "model": "qwen",
+      "pooled_source_sha256": "40b589609ed9e534b49d129410c1034a087c87e8bb9f963e291ceaf673927598",
+      "pooled_source_bytes": 378980392
+    }
+  ]
+}

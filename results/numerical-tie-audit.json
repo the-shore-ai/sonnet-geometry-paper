@@ -1,0 +1,1778 @@
+{
+  "schema_version": "numerical-tie-forensic-audit-v1",
+  "created_at_utc": "2026-10-18T05:40:41.428084+00:00",
+  "status": "Post hoc forensic diagnostic. Original reports unchanged; Q12 results here are not a replacement inferential family.",
+  "scope": "Last-token residual.embedding within each native model; compare sonnet-pair ranks across models, never coordinate-wise activation values across models.",
+  "inputs": [
+    {
+      "path": "outputs/cross-model-full/blocked.json",
+      "size_bytes": 8867770,
+      "sha256": "a479449e991b8574997977b17966d27c41e6c927001259480642ebfcd29576e2"
+    },
+    {
+      "path": "experiments/cross-model-v1/permutation-sensitivity-union60.json",
+      "size_bytes": 132600,
+      "sha256": "3212833dfae03ab9ae2173fe683011a20637b2fb34abbf4c5c7e26cc361a9d6c"
+    },
+    {
+      "path": "outputs/full-qwen-v1/report.json",
+      "size_bytes": 119472574,
+      "sha256": "a0eb694880fd52ee7f375ee312c312a8d090a7a70a8551ac7c389e71dfa96173"
+    },
+    {
+      "path": "experiments/full-qwen-v1/descriptive-observations.json",
+      "size_bytes": 59377,
+      "sha256": "dfcd2c38e3c1d6f017c29c794e764a5a8f07f02af463e17f6f3ffc88590aaf4d"
+    },
+    {
+      "path": "outputs/full-gemma-v1/report.json",
+      "size_bytes": 196843225,
+      "sha256": "68511324bd1305d72e3e2e05dbe1c59346349a09b9c10b55e42ffa549ba59f09"
+    },
+    {
+      "path": "experiments/full-gemma-v1/descriptive-observations.json",
+      "size_bytes": 60580,
+      "sha256": "8916bc653574e74000682a17a3028d5b0fbb12cc843c8bbb5ac654dcfbf2d8df"
+    },
+    {
+      "path": "outputs/full-muse-v1/report.json",
+      "size_bytes": 169954977,
+      "sha256": "3310441c4d6ba57e5795a432219f6713abe6f5e9482bf65bbd82cf23f8fa0f30"
+    },
+    {
+      "path": "experiments/full-muse-v1/descriptive-observations.json",
+      "size_bytes": 59382,
+      "sha256": "22a801b018bf5e04a95c2fa74dd398d8a220094c381c7fe68aeeee7a479095ce"
+    }
+  ],
+  "procedure": [
+    "Align each original model RDM and cached terminal-token audit by unique sonnet ID.",
+    "Group within each model by recorded native terminal token ID; confirm each decoded group maps to one ID.",
+    "Measure pairwise-distance spreads for every expected token-pair class, excluding the diagonal, and maximum distance-row differences among identical-token groups.",
+    "Inspect unchanged stored embedding blocked permutation statistics, null draws, add-one p-values, and union60 q-values.",
+    "Reproduce the original 9999 seed999 within-block label permutations and verify their JSON SHA256.",
+    "For the named Q12 diagnostic only, round complete embedding RDMs to 12 decimal places before average-tie ranking; verify bitwise RDM invariance for every recorded blocked permutation."
+  ],
+  "source_algorithm": {
+    "cosine": "Float64 row normalization, clipped unit @ unit.T; distance = 1 - similarity; only matrix diagonal forcibly zero.",
+    "rank": "Exact-value average ties on upper-triangle distances; machine-epsilon splits therefore become distinct ranks.",
+    "permutation_tail": "Original code uses null >= observed - 1e-12 after ranking; this does not repair distance ties lost before ranking."
+  },
+  "permutation_reproduction": {
+    "count": 9999,
+    "seed": 999,
+    "blocks": {
+      "sonnet-001": "word_q1|terminal_002E",
+      "sonnet-002": "word_q3|terminal_002E",
+      "sonnet-003": "word_q3|terminal_002E",
+      "sonnet-004": "word_q1|terminal_002E",
+      "sonnet-005": "word_q1|terminal_002E",
+      "sonnet-006": "word_q2|terminal_002E",
+      "sonnet-007": "word_q1|terminal_002E",
+      "sonnet-008": "word_q2|terminal_002E_2019",
+      "sonnet-009": "word_q3|terminal_002E",
+      "sonnet-010": "word_q2|terminal_002E",
+      "sonnet-011": "word_q3|terminal_002E",
+      "sonnet-012": "word_q4|terminal_002E",
+      "sonnet-013": "word_q1|terminal_002E",
+      "sonnet-014": "word_q2|terminal_002E_2019",
+      "sonnet-015": "word_q2|terminal_002E",
+      "sonnet-016": "word_q1|terminal_002E",
+      "sonnet-017": "word_q4|terminal_002E",
+      "sonnet-018": "word_q2|terminal_002E",
+      "sonnet-019": "word_q3|terminal_002E",
+      "sonnet-020": "word_q3|terminal_002E",
+      "sonnet-021": "word_q4|terminal_002E",
+      "sonnet-022": "word_q4|terminal_002E",
+      "sonnet-023": "word_q2|terminal_002E",
+      "sonnet-024": "word_q4|terminal_002E",
+      "sonnet-025": "word_q1|terminal_002E",
+      "sonnet-026": "word_q4|terminal_002E",
+      "sonnet-027": "word_q2|terminal_002E",
+      "sonnet-028": "word_q3|terminal_002E",
+      "sonnet-029": "word_q3|terminal_002E",
+      "sonnet-030": "word_q3|terminal_002E",
+      "sonnet-031": "word_q3|terminal_002E",
+      "sonnet-032": "word_q3|terminal_2019_002E",
+      "sonnet-033": "word_q2|terminal_002E",
+      "sonnet-034": "word_q4|terminal_002E",
+      "sonnet-035": "word_q1|terminal_002E",
+      "sonnet-036": "word_q2|terminal_002E",
+      "sonnet-037": "word_q3|terminal_0021",
+      "sonnet-038": "word_q2|terminal_002E",
+      "sonnet-039": "word_q4|terminal_002E",
+      "sonnet-040": "word_q4|terminal_002E",
+      "sonnet-041": "word_q2|terminal_002E",
+      "sonnet-042": "word_q4|terminal_002E",
+      "sonnet-043": "word_q4|terminal_002E",
+      "sonnet-044": "word_q3|terminal_002E",
+      "sonnet-045": "word_q1|terminal_002E",
+      "sonnet-046": "word_q3|terminal_002E",
+      "sonnet-047": "word_q4|terminal_002E",
+      "sonnet-048": "word_q3|terminal_002E",
+      "sonnet-049": "word_q2|terminal_002E",
+      "sonnet-050": "word_q4|terminal_002E",
+      "sonnet-051": "word_q4|terminal_002E_2019",
+      "sonnet-052": "word_q2|terminal_002E",
+      "sonnet-053": "word_q1|terminal_002E",
+      "sonnet-054": "word_q2|terminal_002E",
+      "sonnet-055": "word_q1|terminal_002E",
+      "sonnet-056": "word_q3|terminal_002E",
+      "sonnet-057": "word_q4|terminal_002E",
+      "sonnet-058": "word_q2|terminal_002E",
+      "sonnet-059": "word_q1|terminal_002E",
+      "sonnet-060": "word_q1|terminal_002E",
+      "sonnet-061": "word_q4|terminal_002E",
+      "sonnet-062": "word_q2|terminal_002E",
+      "sonnet-063": "word_q2|terminal_002E",
+      "sonnet-064": "word_q2|terminal_002E",
+      "sonnet-065": "word_q2|terminal_002E",
+      "sonnet-066": "word_q1|terminal_002E",
+      "sonnet-067": "word_q1|terminal_002E",
+      "sonnet-068": "word_q1|terminal_002E",
+      "sonnet-069": "word_q4|terminal_002E",
+      "sonnet-070": "word_q2|terminal_002E",
+      "sonnet-071": "word_q4|terminal_002E",
+      "sonnet-072": "word_q4|terminal_002E",
+      "sonnet-073": "word_q4|terminal_002E",
+      "sonnet-074": "word_q2|terminal_002E",
+      "sonnet-075": "word_q4|terminal_002E",
+      "sonnet-076": "word_q3|terminal_002E",
+      "sonnet-077": "word_q1|terminal_002E",
+      "sonnet-078": "word_q2|terminal_002E",
+      "sonnet-079": "word_q3|terminal_002E",
+      "sonnet-080": "word_q3|terminal_002E",
+      "sonnet-081": "word_q4|terminal_002E",
+      "sonnet-082": "word_q1|terminal_002E",
+      "sonnet-083": "word_q3|terminal_002E",
+      "sonnet-084": "word_q3|terminal_002E",
+      "sonnet-085": "word_q2|terminal_002E",
+      "sonnet-086": "word_q2|terminal_002E",
+      "sonnet-087": "word_q3|terminal_002E",
+      "sonnet-088": "word_q2|terminal_002E",
+      "sonnet-089": "word_q2|terminal_002E",
+      "sonnet-090": "word_q4|terminal_002E",
+      "sonnet-091": "word_q3|terminal_002E",
+      "sonnet-092": "word_q4|terminal_002E",
+      "sonnet-093": "word_q2|terminal_0021",
+      "sonnet-094": "word_q1|terminal_002E",
+      "sonnet-095": "word_q2|terminal_002E",
+      "sonnet-096": "word_q4|terminal_002E",
+      "sonnet-097": "word_q1|terminal_002E",
+      "sonnet-098": "word_q4|terminal_002E",
+      "sonnet-099": "word_q4|terminal_002E",
+      "sonnet-100": "word_q2|terminal_002E",
+      "sonnet-101": "word_q2|terminal_002E",
+      "sonnet-102": "word_q3|terminal_002E",
+      "sonnet-103": "word_q4|terminal_002E",
+      "sonnet-104": "word_q4|terminal_002E",
+      "sonnet-105": "word_q1|terminal_002E",
+      "sonnet-106": "word_q2|terminal_002E",
+      "sonnet-107": "word_q2|terminal_002E",
+      "sonnet-108": "word_q3|terminal_002E",
+      "sonnet-109": "word_q3|terminal_002E",
+      "sonnet-110": "word_q4|terminal_002E",
+      "sonnet-111": "word_q2|terminal_002E",
+      "sonnet-112": "word_q3|terminal_002E",
+      "sonnet-113": "word_q3|terminal_002E",
+      "sonnet-114": "word_q2|terminal_002E",
+      "sonnet-115": "word_q3|terminal_003F",
+      "sonnet-116": "word_q2|terminal_002E",
+      "sonnet-117": "word_q2|terminal_002E",
+      "sonnet-118": "word_q2|terminal_002E",
+      "sonnet-119": "word_q2|terminal_002E",
+      "sonnet-120": "word_q3|terminal_002E",
+      "sonnet-121": "word_q3|terminal_002E",
+      "sonnet-122": "word_q1|terminal_002E",
+      "sonnet-123": "word_q3|terminal_002E",
+      "sonnet-124": "word_q2|terminal_002E",
+      "sonnet-125": "word_q1|terminal_002E",
+      "sonnet-126": "word_q1|terminal_002E",
+      "sonnet-127": "word_q2|terminal_002E",
+      "sonnet-128": "word_q2|terminal_002E",
+      "sonnet-129": "word_q2|terminal_002E",
+      "sonnet-130": "word_q4|terminal_002E",
+      "sonnet-131": "word_q4|terminal_002E",
+      "sonnet-132": "word_q2|terminal_002E",
+      "sonnet-133": "word_q4|terminal_002E",
+      "sonnet-134": "word_q4|terminal_002E",
+      "sonnet-135": "word_q3|terminal_002E_2019",
+      "sonnet-136": "word_q4|terminal_002E_2019",
+      "sonnet-137": "word_q4|terminal_002E",
+      "sonnet-138": "word_q4|terminal_002E",
+      "sonnet-139": "word_q4|terminal_002E",
+      "sonnet-140": "word_q4|terminal_002E",
+      "sonnet-141": "word_q4|terminal_002E",
+      "sonnet-142": "word_q4|terminal_0021",
+      "sonnet-143": "word_q4|terminal_002E",
+      "sonnet-144": "word_q2|terminal_002E",
+      "sonnet-145": "word_q1|terminal_2019_002E",
+      "sonnet-146": "word_q2|terminal_002E",
+      "sonnet-147": "word_q1|terminal_002E",
+      "sonnet-148": "word_q4|terminal_002E",
+      "sonnet-149": "word_q4|terminal_002E",
+      "sonnet-150": "word_q4|terminal_002E",
+      "sonnet-151": "word_q4|terminal_002E",
+      "sonnet-152": "word_q4|terminal_002E",
+      "sonnet-153": "word_q2|terminal_002E",
+      "sonnet-154": "word_q1|terminal_002E"
+    },
+    "indices_sha256": "f04121892e061c2538e51906081e6dc085166bf971e378119dc7e9e7a08400d5",
+    "matches_original": true
+  },
+  "models": [
+    {
+      "slug": "qwen",
+      "model_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218",
+      "pooling": "last_token",
+      "tensor": "residual.embedding",
+      "sonnet_count": 154,
+      "unordered_off_diagonal_pairs": 11781,
+      "terminal_token_groups": [
+        {
+          "decoded_token": ".",
+          "token_id": 13,
+          "count": 143,
+          "sonnet_ids": [
+            "sonnet-001",
+            "sonnet-002",
+            "sonnet-003",
+            "sonnet-004",
+            "sonnet-005",
+            "sonnet-006",
+            "sonnet-007",
+            "sonnet-009",
+            "sonnet-010",
+            "sonnet-011",
+            "sonnet-012",
+            "sonnet-013",
+            "sonnet-015",
+            "sonnet-016",
+            "sonnet-017",
+            "sonnet-018",
+            "sonnet-019",
+            "sonnet-020",
+            "sonnet-021",
+            "sonnet-022",
+            "sonnet-023",
+            "sonnet-024",
+            "sonnet-025",
+            "sonnet-026",
+            "sonnet-027",
+            "sonnet-028",
+            "sonnet-029",
+            "sonnet-030",
+            "sonnet-031",
+            "sonnet-033",
+            "sonnet-034",
+            "sonnet-035",
+            "sonnet-036",
+            "sonnet-038",
+            "sonnet-039",
+            "sonnet-040",
+            "sonnet-041",
+            "sonnet-042",
+            "sonnet-043",
+            "sonnet-044",
+            "sonnet-045",
+            "sonnet-046",
+            "sonnet-047",
+            "sonnet-048",
+            "sonnet-049",
+            "sonnet-050",
+            "sonnet-052",
+            "sonnet-053",
+            "sonnet-054",
+            "sonnet-055",
+            "sonnet-056",
+            "sonnet-057",
+            "sonnet-058",
+            "sonnet-059",
+            "sonnet-060",
+            "sonnet-061",
+            "sonnet-062",
+            "sonnet-063",
+            "sonnet-064",
+            "sonnet-065",
+            "sonnet-066",
+            "sonnet-067",
+            "sonnet-068",
+            "sonnet-069",
+            "sonnet-070",
+            "sonnet-071",
+            "sonnet-072",
+            "sonnet-073",
+            "sonnet-074",
+            "sonnet-075",
+            "sonnet-076",
+            "sonnet-077",
+            "sonnet-078",
+            "sonnet-079",
+            "sonnet-080",
+            "sonnet-081",
+            "sonnet-082",
+            "sonnet-083",
+            "sonnet-084",
+            "sonnet-085",
+            "sonnet-086",
+            "sonnet-087",
+            "sonnet-088",
+            "sonnet-089",
+            "sonnet-090",
+            "sonnet-091",
+            "sonnet-092",
+            "sonnet-094",
+            "sonnet-095",
+            "sonnet-096",
+            "sonnet-097",
+            "sonnet-098",
+            "sonnet-099",
+            "sonnet-100",
+            "sonnet-101",
+            "sonnet-102",
+            "sonnet-103",
+            "sonnet-104",
+            "sonnet-105",
+            "sonnet-106",
+            "sonnet-107",
+            "sonnet-108",
+            "sonnet-109",
+            "sonnet-110",
+            "sonnet-111",
+            "sonnet-112",
+            "sonnet-113",
+            "sonnet-114",
+            "sonnet-116",
+            "sonnet-117",
+            "sonnet-118",
+            "sonnet-119",
+            "sonnet-120",
+            "sonnet-121",
+            "sonnet-122",
+            "sonnet-123",
+            "sonnet-124",
+            "sonnet-125",
+            "sonnet-126",
+            "sonnet-127",
+            "sonnet-128",
+            "sonnet-129",
+            "sonnet-130",
+            "sonnet-131",
+            "sonnet-132",
+            "sonnet-133",
+            "sonnet-134",
+            "sonnet-137",
+            "sonnet-138",
+            "sonnet-139",
+            "sonnet-140",
+            "sonnet-141",
+            "sonnet-143",
+            "sonnet-144",
+            "sonnet-146",
+            "sonnet-147",
+            "sonnet-148",
+            "sonnet-149",
+            "sonnet-150",
+            "sonnet-151",
+            "sonnet-152",
+            "sonnet-153",
+            "sonnet-154"
+          ],
+          "maximum_distance_row_difference": 1.1102230246251565e-16,
+          "within_group_off_diagonal_pair_count": 10153,
+          "within_group_off_diagonal_distances": [
+            {
+              "value": 0.0,
+              "hex": "0x0.0p+0",
+              "pair_count": 10153
+            }
+          ]
+        },
+        {
+          "decoded_token": ".’",
+          "token_id": 14304,
+          "count": 5,
+          "sonnet_ids": [
+            "sonnet-008",
+            "sonnet-014",
+            "sonnet-051",
+            "sonnet-135",
+            "sonnet-136"
+          ],
+          "maximum_distance_row_difference": 0.0,
+          "within_group_off_diagonal_pair_count": 10,
+          "within_group_off_diagonal_distances": [
+            {
+              "value": 0.0,
+              "hex": "0x0.0p+0",
+              "pair_count": 10
+            }
+          ]
+        },
+        {
+          "decoded_token": "’.",
+          "token_id": 23616,
+          "count": 2,
+          "sonnet_ids": [
+            "sonnet-032",
+            "sonnet-145"
+          ],
+          "maximum_distance_row_difference": 1.1102230246251565e-16,
+          "within_group_off_diagonal_pair_count": 1,
+          "within_group_off_diagonal_distances": [
+            {
+              "value": 1.1102230246251565e-16,
+              "hex": "0x1.0000000000000p-53",
+              "pair_count": 1
+            }
+          ]
+        },
+        {
+          "decoded_token": "!",
+          "token_id": 0,
+          "count": 3,
+          "sonnet_ids": [
+            "sonnet-037",
+            "sonnet-093",
+            "sonnet-142"
+          ],
+          "maximum_distance_row_difference": 1.1102230246251565e-16,
+          "within_group_off_diagonal_pair_count": 3,
+          "within_group_off_diagonal_distances": [
+            {
+              "value": 1.1102230246251565e-16,
+              "hex": "0x1.0000000000000p-53",
+              "pair_count": 3
+            }
+          ]
+        },
+        {
+          "decoded_token": "?",
+          "token_id": 30,
+          "count": 1,
+          "sonnet_ids": [
+            "sonnet-115"
+          ],
+          "maximum_distance_row_difference": 0.0,
+          "within_group_off_diagonal_pair_count": 0,
+          "within_group_off_diagonal_distances": []
+        }
+      ],
+      "expected_distinct_distance_values": 11,
+      "raw_distinct_off_diagonal_distance_values": 14,
+      "q12_distinct_off_diagonal_distance_values": 11,
+      "maximum_within_expected_token_pair_spread": 1.1102230246251565e-16,
+      "maximum_expected_identical_row_difference": 1.1102230246251565e-16,
+      "token_pair_diagnostics": [
+        {
+          "token_a": ".",
+          "token_b": ".",
+          "pair_count": 10153,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.0,
+              "hex": "0x0.0p+0",
+              "pair_count": 10153
+            }
+          ]
+        },
+        {
+          "token_a": ".",
+          "token_b": ".’",
+          "pair_count": 715,
+          "minimum": 0.8721503746599268,
+          "maximum": 0.8721503746599268,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.8721503746599268,
+              "hex": "0x1.be8a7e70b791ap-1",
+              "pair_count": 715
+            }
+          ]
+        },
+        {
+          "token_a": ".",
+          "token_b": "’.",
+          "pair_count": 286,
+          "minimum": 0.8176454702472448,
+          "maximum": 0.8176454702472449,
+          "spread": 1.1102230246251565e-16,
+          "unique_distances": [
+            {
+              "value": 0.8176454702472448,
+              "hex": "0x1.a2a26d54de713p-1",
+              "pair_count": 282
+            },
+            {
+              "value": 0.8176454702472449,
+              "hex": "0x1.a2a26d54de714p-1",
+              "pair_count": 4
+            }
+          ]
+        },
+        {
+          "token_a": ".",
+          "token_b": "!",
+          "pair_count": 429,
+          "minimum": 0.766272439891479,
+          "maximum": 0.766272439891479,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.766272439891479,
+              "hex": "0x1.8854dc7a51ef3p-1",
+              "pair_count": 429
+            }
+          ]
+        },
+        {
+          "token_a": ".",
+          "token_b": "?",
+          "pair_count": 143,
+          "minimum": 0.6736351080428025,
+          "maximum": 0.6736351080428026,
+          "spread": 1.1102230246251565e-16,
+          "unique_distances": [
+            {
+              "value": 0.6736351080428025,
+              "hex": "0x1.58e6b36cf6682p-1",
+              "pair_count": 141
+            },
+            {
+              "value": 0.6736351080428026,
+              "hex": "0x1.58e6b36cf6683p-1",
+              "pair_count": 2
+            }
+          ]
+        },
+        {
+          "token_a": ".’",
+          "token_b": ".’",
+          "pair_count": 10,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.0,
+              "hex": "0x0.0p+0",
+              "pair_count": 10
+            }
+          ]
+        },
+        {
+          "token_a": ".’",
+          "token_b": "’.",
+          "pair_count": 10,
+          "minimum": 0.7132087124064297,
+          "maximum": 0.7132087124064297,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.7132087124064297,
+              "hex": "0x1.6d29b13e04098p-1",
+              "pair_count": 10
+            }
+          ]
+        },
+        {
+          "token_a": ".’",
+          "token_b": "!",
+          "pair_count": 15,
+          "minimum": 0.9276504399064088,
+          "maximum": 0.9276504399064088,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.9276504399064088,
+              "hex": "0x1.daf4ff9b093c7p-1",
+              "pair_count": 15
+            }
+          ]
+        },
+        {
+          "token_a": ".’",
+          "token_b": "?",
+          "pair_count": 5,
+          "minimum": 0.9035287979023476,
+          "maximum": 0.9035287979023476,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.9035287979023476,
+              "hex": "0x1.ce9b539bf834ap-1",
+              "pair_count": 5
+            }
+          ]
+        },
+        {
+          "token_a": "’.",
+          "token_b": "’.",
+          "pair_count": 1,
+          "minimum": 1.1102230246251565e-16,
+          "maximum": 1.1102230246251565e-16,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 1.1102230246251565e-16,
+              "hex": "0x1.0000000000000p-53",
+              "pair_count": 1
+            }
+          ]
+        },
+        {
+          "token_a": "’.",
+          "token_b": "!",
+          "pair_count": 6,
+          "minimum": 0.9103492608912593,
+          "maximum": 0.9103492608912593,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.9103492608912593,
+              "hex": "0x1.d2194c5eee744p-1",
+              "pair_count": 6
+            }
+          ]
+        },
+        {
+          "token_a": "’.",
+          "token_b": "?",
+          "pair_count": 2,
+          "minimum": 0.8817144621029184,
+          "maximum": 0.8817144621029184,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.8817144621029184,
+              "hex": "0x1.c37013f648d71p-1",
+              "pair_count": 2
+            }
+          ]
+        },
+        {
+          "token_a": "!",
+          "token_b": "!",
+          "pair_count": 3,
+          "minimum": 1.1102230246251565e-16,
+          "maximum": 1.1102230246251565e-16,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 1.1102230246251565e-16,
+              "hex": "0x1.0000000000000p-53",
+              "pair_count": 3
+            }
+          ]
+        },
+        {
+          "token_a": "!",
+          "token_b": "?",
+          "pair_count": 3,
+          "minimum": 0.6817795263340194,
+          "maximum": 0.6817795263340194,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.6817795263340194,
+              "hex": "0x1.5d1234c15fbc6p-1",
+              "pair_count": 3
+            }
+          ]
+        },
+        {
+          "token_a": "?",
+          "token_b": "?",
+          "pair_count": 0,
+          "minimum": null,
+          "maximum": null,
+          "spread": null,
+          "unique_distances": []
+        }
+      ],
+      "all_recorded_blocked_permutations_preserve_terminal_token_ids": true,
+      "all_q12_permuted_rdms_bitwise_equal_original": true
+    },
+    {
+      "slug": "gemma",
+      "model_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "pooling": "last_token",
+      "tensor": "residual.embedding",
+      "sonnet_count": 154,
+      "unordered_off_diagonal_pairs": 11781,
+      "terminal_token_groups": [
+        {
+          "decoded_token": ".",
+          "token_id": 236761,
+          "count": 143,
+          "sonnet_ids": [
+            "sonnet-001",
+            "sonnet-002",
+            "sonnet-003",
+            "sonnet-004",
+            "sonnet-005",
+            "sonnet-006",
+            "sonnet-007",
+            "sonnet-009",
+            "sonnet-010",
+            "sonnet-011",
+            "sonnet-012",
+            "sonnet-013",
+            "sonnet-015",
+            "sonnet-016",
+            "sonnet-017",
+            "sonnet-018",
+            "sonnet-019",
+            "sonnet-020",
+            "sonnet-021",
+            "sonnet-022",
+            "sonnet-023",
+            "sonnet-024",
+            "sonnet-025",
+            "sonnet-026",
+            "sonnet-027",
+            "sonnet-028",
+            "sonnet-029",
+            "sonnet-030",
+            "sonnet-031",
+            "sonnet-033",
+            "sonnet-034",
+            "sonnet-035",
+            "sonnet-036",
+            "sonnet-038",
+            "sonnet-039",
+            "sonnet-040",
+            "sonnet-041",
+            "sonnet-042",
+            "sonnet-043",
+            "sonnet-044",
+            "sonnet-045",
+            "sonnet-046",
+            "sonnet-047",
+            "sonnet-048",
+            "sonnet-049",
+            "sonnet-050",
+            "sonnet-052",
+            "sonnet-053",
+            "sonnet-054",
+            "sonnet-055",
+            "sonnet-056",
+            "sonnet-057",
+            "sonnet-058",
+            "sonnet-059",
+            "sonnet-060",
+            "sonnet-061",
+            "sonnet-062",
+            "sonnet-063",
+            "sonnet-064",
+            "sonnet-065",
+            "sonnet-066",
+            "sonnet-067",
+            "sonnet-068",
+            "sonnet-069",
+            "sonnet-070",
+            "sonnet-071",
+            "sonnet-072",
+            "sonnet-073",
+            "sonnet-074",
+            "sonnet-075",
+            "sonnet-076",
+            "sonnet-077",
+            "sonnet-078",
+            "sonnet-079",
+            "sonnet-080",
+            "sonnet-081",
+            "sonnet-082",
+            "sonnet-083",
+            "sonnet-084",
+            "sonnet-085",
+            "sonnet-086",
+            "sonnet-087",
+            "sonnet-088",
+            "sonnet-089",
+            "sonnet-090",
+            "sonnet-091",
+            "sonnet-092",
+            "sonnet-094",
+            "sonnet-095",
+            "sonnet-096",
+            "sonnet-097",
+            "sonnet-098",
+            "sonnet-099",
+            "sonnet-100",
+            "sonnet-101",
+            "sonnet-102",
+            "sonnet-103",
+            "sonnet-104",
+            "sonnet-105",
+            "sonnet-106",
+            "sonnet-107",
+            "sonnet-108",
+            "sonnet-109",
+            "sonnet-110",
+            "sonnet-111",
+            "sonnet-112",
+            "sonnet-113",
+            "sonnet-114",
+            "sonnet-116",
+            "sonnet-117",
+            "sonnet-118",
+            "sonnet-119",
+            "sonnet-120",
+            "sonnet-121",
+            "sonnet-122",
+            "sonnet-123",
+            "sonnet-124",
+            "sonnet-125",
+            "sonnet-126",
+            "sonnet-127",
+            "sonnet-128",
+            "sonnet-129",
+            "sonnet-130",
+            "sonnet-131",
+            "sonnet-132",
+            "sonnet-133",
+            "sonnet-134",
+            "sonnet-137",
+            "sonnet-138",
+            "sonnet-139",
+            "sonnet-140",
+            "sonnet-141",
+            "sonnet-143",
+            "sonnet-144",
+            "sonnet-146",
+            "sonnet-147",
+            "sonnet-148",
+            "sonnet-149",
+            "sonnet-150",
+            "sonnet-151",
+            "sonnet-152",
+            "sonnet-153",
+            "sonnet-154"
+          ],
+          "maximum_distance_row_difference": 1.1102230246251565e-16,
+          "within_group_off_diagonal_pair_count": 10153,
+          "within_group_off_diagonal_distances": [
+            {
+              "value": 0.0,
+              "hex": "0x0.0p+0",
+              "pair_count": 10153
+            }
+          ]
+        },
+        {
+          "decoded_token": ".’",
+          "token_id": 12227,
+          "count": 5,
+          "sonnet_ids": [
+            "sonnet-008",
+            "sonnet-014",
+            "sonnet-051",
+            "sonnet-135",
+            "sonnet-136"
+          ],
+          "maximum_distance_row_difference": 0.0,
+          "within_group_off_diagonal_pair_count": 10,
+          "within_group_off_diagonal_distances": [
+            {
+              "value": 0.0,
+              "hex": "0x0.0p+0",
+              "pair_count": 10
+            }
+          ]
+        },
+        {
+          "decoded_token": "’.",
+          "token_id": 13847,
+          "count": 2,
+          "sonnet_ids": [
+            "sonnet-032",
+            "sonnet-145"
+          ],
+          "maximum_distance_row_difference": 0.0,
+          "within_group_off_diagonal_pair_count": 1,
+          "within_group_off_diagonal_distances": [
+            {
+              "value": 0.0,
+              "hex": "0x0.0p+0",
+              "pair_count": 1
+            }
+          ]
+        },
+        {
+          "decoded_token": "!",
+          "token_id": 236888,
+          "count": 3,
+          "sonnet_ids": [
+            "sonnet-037",
+            "sonnet-093",
+            "sonnet-142"
+          ],
+          "maximum_distance_row_difference": 1.1102230246251565e-16,
+          "within_group_off_diagonal_pair_count": 3,
+          "within_group_off_diagonal_distances": [
+            {
+              "value": 0.0,
+              "hex": "0x0.0p+0",
+              "pair_count": 3
+            }
+          ]
+        },
+        {
+          "decoded_token": "?",
+          "token_id": 236881,
+          "count": 1,
+          "sonnet_ids": [
+            "sonnet-115"
+          ],
+          "maximum_distance_row_difference": 0.0,
+          "within_group_off_diagonal_pair_count": 0,
+          "within_group_off_diagonal_distances": []
+        }
+      ],
+      "expected_distinct_distance_values": 11,
+      "raw_distinct_off_diagonal_distance_values": 12,
+      "q12_distinct_off_diagonal_distance_values": 11,
+      "maximum_within_expected_token_pair_spread": 1.1102230246251565e-16,
+      "maximum_expected_identical_row_difference": 1.1102230246251565e-16,
+      "token_pair_diagnostics": [
+        {
+          "token_a": ".",
+          "token_b": ".",
+          "pair_count": 10153,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.0,
+              "hex": "0x0.0p+0",
+              "pair_count": 10153
+            }
+          ]
+        },
+        {
+          "token_a": ".",
+          "token_b": ".’",
+          "pair_count": 715,
+          "minimum": 0.9984824821883256,
+          "maximum": 0.9984824821883256,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.9984824821883256,
+              "hex": "0x1.ff39188d4169ep-1",
+              "pair_count": 715
+            }
+          ]
+        },
+        {
+          "token_a": ".",
+          "token_b": "’.",
+          "pair_count": 286,
+          "minimum": 1.0116742922488684,
+          "maximum": 1.0116742922488684,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 1.0116742922488684,
+              "hex": "0x1.02fd161f69afap+0",
+              "pair_count": 286
+            }
+          ]
+        },
+        {
+          "token_a": ".",
+          "token_b": "!",
+          "pair_count": 429,
+          "minimum": 0.4645136421583431,
+          "maximum": 0.46451364215834323,
+          "spread": 1.1102230246251565e-16,
+          "unique_distances": [
+            {
+              "value": 0.4645136421583431,
+              "hex": "0x1.dba976d676b68p-2",
+              "pair_count": 4
+            },
+            {
+              "value": 0.46451364215834323,
+              "hex": "0x1.dba976d676b6ap-2",
+              "pair_count": 425
+            }
+          ]
+        },
+        {
+          "token_a": ".",
+          "token_b": "?",
+          "pair_count": 143,
+          "minimum": 0.4651878068086769,
+          "maximum": 0.4651878068086769,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.4651878068086769,
+              "hex": "0x1.dc5a3142f705ep-2",
+              "pair_count": 143
+            }
+          ]
+        },
+        {
+          "token_a": ".’",
+          "token_b": ".’",
+          "pair_count": 10,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.0,
+              "hex": "0x0.0p+0",
+              "pair_count": 10
+            }
+          ]
+        },
+        {
+          "token_a": ".’",
+          "token_b": "’.",
+          "pair_count": 10,
+          "minimum": 0.5645790019091245,
+          "maximum": 0.5645790019091245,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.5645790019091245,
+              "hex": "0x1.21107fba6a807p-1",
+              "pair_count": 10
+            }
+          ]
+        },
+        {
+          "token_a": ".’",
+          "token_b": "!",
+          "pair_count": 15,
+          "minimum": 0.9720795095146918,
+          "maximum": 0.9720795095146918,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.9720795095146918,
+              "hex": "0x1.f1b467ccf4639p-1",
+              "pair_count": 15
+            }
+          ]
+        },
+        {
+          "token_a": ".’",
+          "token_b": "?",
+          "pair_count": 5,
+          "minimum": 0.9791428866708662,
+          "maximum": 0.9791428866708662,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.9791428866708662,
+              "hex": "0x1.f5523768b98d2p-1",
+              "pair_count": 5
+            }
+          ]
+        },
+        {
+          "token_a": "’.",
+          "token_b": "’.",
+          "pair_count": 1,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.0,
+              "hex": "0x0.0p+0",
+              "pair_count": 1
+            }
+          ]
+        },
+        {
+          "token_a": "’.",
+          "token_b": "!",
+          "pair_count": 6,
+          "minimum": 0.9822449365558176,
+          "maximum": 0.9822449365558176,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.9822449365558176,
+              "hex": "0x1.f6e8ceee56711p-1",
+              "pair_count": 6
+            }
+          ]
+        },
+        {
+          "token_a": "’.",
+          "token_b": "?",
+          "pair_count": 2,
+          "minimum": 0.9971619156512797,
+          "maximum": 0.9971619156512797,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.9971619156512797,
+              "hex": "0x1.fe8c01b113f22p-1",
+              "pair_count": 2
+            }
+          ]
+        },
+        {
+          "token_a": "!",
+          "token_b": "!",
+          "pair_count": 3,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.0,
+              "hex": "0x0.0p+0",
+              "pair_count": 3
+            }
+          ]
+        },
+        {
+          "token_a": "!",
+          "token_b": "?",
+          "pair_count": 3,
+          "minimum": 0.44937120136160413,
+          "maximum": 0.44937120136160413,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.44937120136160413,
+              "hex": "0x1.cc27f6d673042p-2",
+              "pair_count": 3
+            }
+          ]
+        },
+        {
+          "token_a": "?",
+          "token_b": "?",
+          "pair_count": 0,
+          "minimum": null,
+          "maximum": null,
+          "spread": null,
+          "unique_distances": []
+        }
+      ],
+      "all_recorded_blocked_permutations_preserve_terminal_token_ids": true,
+      "all_q12_permuted_rdms_bitwise_equal_original": true
+    },
+    {
+      "slug": "muse",
+      "model_id": "meta-models/Muse-Glimmer-30B",
+      "revision": "a4e59da52a7bc87ae7251dd5545c0dd437c44b68",
+      "pooling": "last_token",
+      "tensor": "residual.embedding",
+      "sonnet_count": 154,
+      "unordered_off_diagonal_pairs": 11781,
+      "terminal_token_groups": [
+        {
+          "decoded_token": ".",
+          "token_id": 26,
+          "count": 143,
+          "sonnet_ids": [
+            "sonnet-001",
+            "sonnet-002",
+            "sonnet-003",
+            "sonnet-004",
+            "sonnet-005",
+            "sonnet-006",
+            "sonnet-007",
+            "sonnet-009",
+            "sonnet-010",
+            "sonnet-011",
+            "sonnet-012",
+            "sonnet-013",
+            "sonnet-015",
+            "sonnet-016",
+            "sonnet-017",
+            "sonnet-018",
+            "sonnet-019",
+            "sonnet-020",
+            "sonnet-021",
+            "sonnet-022",
+            "sonnet-023",
+            "sonnet-024",
+            "sonnet-025",
+            "sonnet-026",
+            "sonnet-027",
+            "sonnet-028",
+            "sonnet-029",
+            "sonnet-030",
+            "sonnet-031",
+            "sonnet-033",
+            "sonnet-034",
+            "sonnet-035",
+            "sonnet-036",
+            "sonnet-038",
+            "sonnet-039",
+            "sonnet-040",
+            "sonnet-041",
+            "sonnet-042",
+            "sonnet-043",
+            "sonnet-044",
+            "sonnet-045",
+            "sonnet-046",
+            "sonnet-047",
+            "sonnet-048",
+            "sonnet-049",
+            "sonnet-050",
+            "sonnet-052",
+            "sonnet-053",
+            "sonnet-054",
+            "sonnet-055",
+            "sonnet-056",
+            "sonnet-057",
+            "sonnet-058",
+            "sonnet-059",
+            "sonnet-060",
+            "sonnet-061",
+            "sonnet-062",
+            "sonnet-063",
+            "sonnet-064",
+            "sonnet-065",
+            "sonnet-066",
+            "sonnet-067",
+            "sonnet-068",
+            "sonnet-069",
+            "sonnet-070",
+            "sonnet-071",
+            "sonnet-072",
+            "sonnet-073",
+            "sonnet-074",
+            "sonnet-075",
+            "sonnet-076",
+            "sonnet-077",
+            "sonnet-078",
+            "sonnet-079",
+            "sonnet-080",
+            "sonnet-081",
+            "sonnet-082",
+            "sonnet-083",
+            "sonnet-084",
+            "sonnet-085",
+            "sonnet-086",
+            "sonnet-087",
+            "sonnet-088",
+            "sonnet-089",
+            "sonnet-090",
+            "sonnet-091",
+            "sonnet-092",
+            "sonnet-094",
+            "sonnet-095",
+            "sonnet-096",
+            "sonnet-097",
+            "sonnet-098",
+            "sonnet-099",
+            "sonnet-100",
+            "sonnet-101",
+            "sonnet-102",
+            "sonnet-103",
+            "sonnet-104",
+            "sonnet-105",
+            "sonnet-106",
+            "sonnet-107",
+            "sonnet-108",
+            "sonnet-109",
+            "sonnet-110",
+            "sonnet-111",
+            "sonnet-112",
+            "sonnet-113",
+            "sonnet-114",
+            "sonnet-116",
+            "sonnet-117",
+            "sonnet-118",
+            "sonnet-119",
+            "sonnet-120",
+            "sonnet-121",
+            "sonnet-122",
+            "sonnet-123",
+            "sonnet-124",
+            "sonnet-125",
+            "sonnet-126",
+            "sonnet-127",
+            "sonnet-128",
+            "sonnet-129",
+            "sonnet-130",
+            "sonnet-131",
+            "sonnet-132",
+            "sonnet-133",
+            "sonnet-134",
+            "sonnet-137",
+            "sonnet-138",
+            "sonnet-139",
+            "sonnet-140",
+            "sonnet-141",
+            "sonnet-143",
+            "sonnet-144",
+            "sonnet-146",
+            "sonnet-147",
+            "sonnet-148",
+            "sonnet-149",
+            "sonnet-150",
+            "sonnet-151",
+            "sonnet-152",
+            "sonnet-153",
+            "sonnet-154"
+          ],
+          "maximum_distance_row_difference": 4.440892098500626e-16,
+          "within_group_off_diagonal_pair_count": 10153,
+          "within_group_off_diagonal_distances": [
+            {
+              "value": 1.1102230246251565e-16,
+              "hex": "0x1.0000000000000p-53",
+              "pair_count": 244
+            },
+            {
+              "value": 4.440892098500626e-16,
+              "hex": "0x1.0000000000000p-51",
+              "pair_count": 9909
+            }
+          ]
+        },
+        {
+          "decoded_token": ".’",
+          "token_id": 33004,
+          "count": 5,
+          "sonnet_ids": [
+            "sonnet-008",
+            "sonnet-014",
+            "sonnet-051",
+            "sonnet-135",
+            "sonnet-136"
+          ],
+          "maximum_distance_row_difference": 3.3306690738754696e-16,
+          "within_group_off_diagonal_pair_count": 10,
+          "within_group_off_diagonal_distances": [
+            {
+              "value": 3.3306690738754696e-16,
+              "hex": "0x1.8000000000000p-52",
+              "pair_count": 10
+            }
+          ]
+        },
+        {
+          "decoded_token": "’.",
+          "token_id": 30923,
+          "count": 2,
+          "sonnet_ids": [
+            "sonnet-032",
+            "sonnet-145"
+          ],
+          "maximum_distance_row_difference": 0.0,
+          "within_group_off_diagonal_pair_count": 1,
+          "within_group_off_diagonal_distances": [
+            {
+              "value": 0.0,
+              "hex": "0x0.0p+0",
+              "pair_count": 1
+            }
+          ]
+        },
+        {
+          "decoded_token": "!",
+          "token_id": 13,
+          "count": 3,
+          "sonnet_ids": [
+            "sonnet-037",
+            "sonnet-093",
+            "sonnet-142"
+          ],
+          "maximum_distance_row_difference": 2.220446049250313e-16,
+          "within_group_off_diagonal_pair_count": 3,
+          "within_group_off_diagonal_distances": [
+            {
+              "value": 0.0,
+              "hex": "0x0.0p+0",
+              "pair_count": 3
+            }
+          ]
+        },
+        {
+          "decoded_token": "?",
+          "token_id": 43,
+          "count": 1,
+          "sonnet_ids": [
+            "sonnet-115"
+          ],
+          "maximum_distance_row_difference": 0.0,
+          "within_group_off_diagonal_pair_count": 0,
+          "within_group_off_diagonal_distances": []
+        }
+      ],
+      "expected_distinct_distance_values": 11,
+      "raw_distinct_off_diagonal_distance_values": 17,
+      "q12_distinct_off_diagonal_distance_values": 11,
+      "maximum_within_expected_token_pair_spread": 3.3306690738754696e-16,
+      "maximum_expected_identical_row_difference": 4.440892098500626e-16,
+      "token_pair_diagnostics": [
+        {
+          "token_a": ".",
+          "token_b": ".",
+          "pair_count": 10153,
+          "minimum": 1.1102230246251565e-16,
+          "maximum": 4.440892098500626e-16,
+          "spread": 3.3306690738754696e-16,
+          "unique_distances": [
+            {
+              "value": 1.1102230246251565e-16,
+              "hex": "0x1.0000000000000p-53",
+              "pair_count": 244
+            },
+            {
+              "value": 4.440892098500626e-16,
+              "hex": "0x1.0000000000000p-51",
+              "pair_count": 9909
+            }
+          ]
+        },
+        {
+          "token_a": ".",
+          "token_b": ".’",
+          "pair_count": 715,
+          "minimum": 1.0468586557099855,
+          "maximum": 1.0468586557099855,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 1.0468586557099855,
+              "hex": "0x1.0bfeedc9cf14dp+0",
+              "pair_count": 715
+            }
+          ]
+        },
+        {
+          "token_a": ".",
+          "token_b": "’.",
+          "pair_count": 286,
+          "minimum": 1.1108680155067239,
+          "maximum": 1.110868015506724,
+          "spread": 2.220446049250313e-16,
+          "unique_distances": [
+            {
+              "value": 1.1108680155067239,
+              "hex": "0x1.1c61d8a4c617cp+0",
+              "pair_count": 4
+            },
+            {
+              "value": 1.110868015506724,
+              "hex": "0x1.1c61d8a4c617dp+0",
+              "pair_count": 282
+            }
+          ]
+        },
+        {
+          "token_a": ".",
+          "token_b": "!",
+          "pair_count": 429,
+          "minimum": 1.4029608431533458,
+          "maximum": 1.402960843153346,
+          "spread": 2.220446049250313e-16,
+          "unique_distances": [
+            {
+              "value": 1.4029608431533458,
+              "hex": "0x1.6728711ae9865p+0",
+              "pair_count": 4
+            },
+            {
+              "value": 1.402960843153346,
+              "hex": "0x1.6728711ae9866p+0",
+              "pair_count": 425
+            }
+          ]
+        },
+        {
+          "token_a": ".",
+          "token_b": "?",
+          "pair_count": 143,
+          "minimum": 1.4167399257967983,
+          "maximum": 1.4167399257967985,
+          "spread": 2.220446049250313e-16,
+          "unique_distances": [
+            {
+              "value": 1.4167399257967983,
+              "hex": "0x1.6aaf77c03c165p+0",
+              "pair_count": 2
+            },
+            {
+              "value": 1.4167399257967985,
+              "hex": "0x1.6aaf77c03c166p+0",
+              "pair_count": 141
+            }
+          ]
+        },
+        {
+          "token_a": ".’",
+          "token_b": ".’",
+          "pair_count": 10,
+          "minimum": 3.3306690738754696e-16,
+          "maximum": 3.3306690738754696e-16,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 3.3306690738754696e-16,
+              "hex": "0x1.8000000000000p-52",
+              "pair_count": 10
+            }
+          ]
+        },
+        {
+          "token_a": ".’",
+          "token_b": "’.",
+          "pair_count": 10,
+          "minimum": 0.624343891507779,
+          "maximum": 0.624343891507779,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.624343891507779,
+              "hex": "0x1.3faa00a6f770ep-1",
+              "pair_count": 10
+            }
+          ]
+        },
+        {
+          "token_a": ".’",
+          "token_b": "!",
+          "pair_count": 15,
+          "minimum": 0.7865038381140055,
+          "maximum": 0.7865038381140055,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.7865038381140055,
+              "hex": "0x1.92b0a18dc19a8p-1",
+              "pair_count": 15
+            }
+          ]
+        },
+        {
+          "token_a": ".’",
+          "token_b": "?",
+          "pair_count": 5,
+          "minimum": 0.8070530873158995,
+          "maximum": 0.8070530873158995,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.8070530873158995,
+              "hex": "0x1.9d360ff050b3bp-1",
+              "pair_count": 5
+            }
+          ]
+        },
+        {
+          "token_a": "’.",
+          "token_b": "’.",
+          "pair_count": 1,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.0,
+              "hex": "0x0.0p+0",
+              "pair_count": 1
+            }
+          ]
+        },
+        {
+          "token_a": "’.",
+          "token_b": "!",
+          "pair_count": 6,
+          "minimum": 0.6999229803118078,
+          "maximum": 0.6999229803118078,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.6999229803118078,
+              "hex": "0x1.665c4e0c50ee1p-1",
+              "pair_count": 6
+            }
+          ]
+        },
+        {
+          "token_a": "’.",
+          "token_b": "?",
+          "pair_count": 2,
+          "minimum": 0.741746277681852,
+          "maximum": 0.741746277681852,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.741746277681852,
+              "hex": "0x1.7bc62b0925862p-1",
+              "pair_count": 2
+            }
+          ]
+        },
+        {
+          "token_a": "!",
+          "token_b": "!",
+          "pair_count": 3,
+          "minimum": 0.0,
+          "maximum": 0.0,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.0,
+              "hex": "0x0.0p+0",
+              "pair_count": 3
+            }
+          ]
+        },
+        {
+          "token_a": "!",
+          "token_b": "?",
+          "pair_count": 3,
+          "minimum": 0.17576838268716244,
+          "maximum": 0.17576838268716244,
+          "spread": 0.0,
+          "unique_distances": [
+            {
+              "value": 0.17576838268716244,
+              "hex": "0x1.67f940fa7f55cp-3",
+              "pair_count": 3
+            }
+          ]
+        },
+        {
+          "token_a": "?",
+          "token_b": "?",
+          "pair_count": 0,
+          "minimum": null,
+          "maximum": null,
+          "spread": null,
+          "unique_distances": []
+        }
+      ],
+      "all_recorded_blocked_permutations_preserve_terminal_token_ids": true,
+      "all_q12_permuted_rdms_bitwise_equal_original": true
+    }
+  ],
+  "original_blocked_embedding_results": [
+    {
+      "model_a": "Qwen/Qwen3-8B",
+      "model_b": "google/gemma-4-31B-it",
+      "rsa_spearman": 0.9961419786793837,
+      "p_value": 1.0,
+      "p_value_by_union60": 1.0,
+      "null_count": 9999,
+      "null_unique_values": 2,
+      "null_minimum": 0.9961419786793836,
+      "null_maximum": 0.9961419786793837,
+      "null_mean": 0.9961419786793836,
+      "null_standard_deviation": 1.0689278359933727e-16,
+      "observed_minus_null_mean": 1.1102230246251565e-16,
+      "observed_minus_null_maximum": 0.0,
+      "null_quantiles": {
+        "0.025": 0.9961419786793836,
+        "0.5": 0.9961419786793837,
+        "0.975": 0.9961419786793837
+      },
+      "tail_count_using_original_1e_minus_12_statistic_tolerance": 9999
+    },
+    {
+      "model_a": "Qwen/Qwen3-8B",
+      "model_b": "meta-models/Muse-Glimmer-30B",
+      "rsa_spearman": 0.9244998482787777,
+      "p_value": 1.0,
+      "p_value_by_union60": 1.0,
+      "null_count": 9999,
+      "null_unique_values": 8,
+      "null_minimum": 0.9244998482787776,
+      "null_maximum": 0.9245016232357495,
+      "null_mean": 0.9245015671414996,
+      "null_standard_deviation": 2.1921160842197993e-07,
+      "observed_minus_null_mean": -1.7188627218223118e-06,
+      "observed_minus_null_maximum": -1.7749569717340208e-06,
+      "null_quantiles": {
+        "0.025": 0.9245007357572635,
+        "0.5": 0.9245016232357495,
+        "0.975": 0.9245016232357495
+      },
+      "tail_count_using_original_1e_minus_12_statistic_tolerance": 9999
+    },
+    {
+      "model_a": "google/gemma-4-31B-it",
+      "model_b": "meta-models/Muse-Glimmer-30B",
+      "rsa_spearman": 0.929983632050603,
+      "p_value": 0.001,
+      "p_value_by_union60": 0.006848590848222053,
+      "null_count": 9999,
+      "null_unique_values": 7,
+      "null_minimum": 0.9299800783715282,
+      "null_maximum": 0.9299836320506031,
+      "null_mean": 0.9299801906790179,
+      "null_standard_deviation": 4.3888821990973173e-07,
+      "observed_minus_null_mean": 3.441371585033437e-06,
+      "observed_minus_null_maximum": -1.1102230246251565e-16,
+      "null_quantiles": {
+        "0.025": 0.9299800783715283,
+        "0.5": 0.9299800783715284,
+        "0.975": 0.9299818552110657
+      },
+      "tail_count_using_original_1e_minus_12_statistic_tolerance": 9
+    }
+  ],
+  "q12_named_diagnostic": {
+    "policy": "numpy.round(float64 RDM, decimals=12) applied uniformly before scipy.stats.rankdata(method=average).",
+    "all_three_models_invariant": true,
+    "pairs": [
+      {
+        "model_a": "Qwen/Qwen3-8B",
+        "model_b": "google/gemma-4-31B-it",
+        "rsa_spearman": 0.997202250672411,
+        "null_unique_values": 1,
+        "maximum_absolute_null_minus_observed": 0.0,
+        "diagnostic_blocked_p_value": 1.0,
+        "basis": "Bitwise invariant Q12 RDM for every reproduced original blocked permutation; no additional permutation family or FDR calibration."
+      },
+      {
+        "model_a": "Qwen/Qwen3-8B",
+        "model_b": "meta-models/Muse-Glimmer-30B",
+        "rsa_spearman": 0.9874934653128657,
+        "null_unique_values": 1,
+        "maximum_absolute_null_minus_observed": 0.0,
+        "diagnostic_blocked_p_value": 1.0,
+        "basis": "Bitwise invariant Q12 RDM for every reproduced original blocked permutation; no additional permutation family or FDR calibration."
+      },
+      {
+        "model_a": "google/gemma-4-31B-it",
+        "model_b": "meta-models/Muse-Glimmer-30B",
+        "rsa_spearman": 0.99015821870949,
+        "null_unique_values": 1,
+        "maximum_absolute_null_minus_observed": 0.0,
+        "diagnostic_blocked_p_value": 1.0,
+        "basis": "Bitwise invariant Q12 RDM for every reproduced original blocked permutation; no additional permutation family or FDR calibration."
+      }
+    ],
+    "not_new_inferential_family": true
+  },
+  "limitations": [
+    "This audit uses existing derived RDMs and tokenizer audit metadata; it does not download or reread raw activation tensors or independently prove byte equality of pooled embedding vectors.",
+    "Identical-token equality is expected from audited native token-embedding semantics before contextual blocks. Epsilon-scale violations are consistent with float64 normalization/matrix-multiplication roundoff; this audit does not isolate the individual kernel.",
+    "Q12 is a documented post hoc numerical policy for sensitivity analysis, not a preregistered model of statistical uncertainty or a universal tolerance for arbitrary distances.",
+    "No layer/pooling beyond embedding last_token is assessed by this named diagnostic. Full-family sensitivity requires uniform treatment of every model and baseline RDM and its own declared correction family.",
+    "Tiny nonzero numpy.std can arise even for an exactly constant array when the computed mean rounds; unique-value count and maximum deviation from the observed statistic establish the exact Q12 degeneracy."
+  ],
+  "recommended_policy": [
+    "Retain lossless raw tensors and original RDM/report artifacts with hashes; mark the affected raw numerical inference as unreliable.",
+    "Apply one explicit deterministic rounding policy before all ranks across all model/baseline RDMs in a separately versioned full-family sensitivity; do not choose tolerances per significant result.",
+    "For future raw-vector processing, deduplicate exactly identical feature rows, compute unique-row cosine distances once, force same-row distance zero, and expand by inverse indices; test repeated-row and row-permutation invariance.",
+    "Add synthetic repeated-vector tests and a terminal-token negative control; never repair this by only widening the final permutation-statistic comparison tolerance."
+  ]
+}

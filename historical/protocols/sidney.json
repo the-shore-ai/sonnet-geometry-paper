@@ -1,0 +1,420 @@
+{
+  "analysis": {
+    "arithmetic_maximum_delta_ratio": 0.1,
+    "arithmetic_minimum_rho": 0.95,
+    "expected_poems": 24,
+    "expected_seeds": [
+      2026101801,
+      2026101802,
+      2026101803,
+      2026101804,
+      2026101805
+    ],
+    "loo_require_all_directions_positive": true,
+    "minimum_median_cross_model_increase": 0.2,
+    "minimum_median_early_minus_final_raw": 0.3,
+    "minimum_median_early_stability": 0.8,
+    "primary_intervention": "token_shuffle",
+    "primary_pooling": "mean",
+    "primary_precision": "fp32",
+    "require_all_seed_directions_positive": true,
+    "schema_version": "confirmation-analysis-plan-v4"
+  },
+  "claim_scope": {
+    "depth_resolution": "Five sampled processing stages, not a dense layer scan or a universal monotonicity claim.",
+    "literary_usefulness": "Blinded human judgments remain a separate pending study. No human responses or AI-generated ratings are inferred here.",
+    "missing_or_constant": "Incomplete execution prevents confirmation output. Constant or undefined RDMs remain explicit; never remove unfavorable seeds or poems.",
+    "primary": [
+      "Qwen FP32 mean token-shuffle early stability and early-to-final-raw decrease",
+      "Muse same criterion",
+      "Qwen-Muse FP32 final-raw mean RSA increase after token shuffling"
+    ],
+    "secondary": "Gemma depth criterion and both Gemma-containing pair criteria are separately prespecified; every model, state, readout, intervention, precision and seed remains in the output.",
+    "sensitivity": "All 24 omissions x five seeds for six primary/prespecified-secondary token/mean contrasts; positivity across every omission separately qualifies sensitivity, without replacing full-cohort criteria.",
+    "thresholds": "Pragmatic descriptive effect sizes chosen after v3 and before v4 inference. Not significance tests, power calculations, public preregistration, semantic scores or proof of mechanism."
+  },
+  "conditions": [
+    {
+      "intervention": "original",
+      "name": "original_padded_bf16",
+      "precision": "bf16",
+      "seed": null
+    },
+    {
+      "intervention": "original",
+      "name": "original_padded_fp32",
+      "precision": "fp32",
+      "seed": null
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101801_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101801
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101801_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101801
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101802_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101802
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101802_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101802
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101803_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101803
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101803_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101803
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101804_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101804
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101804_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101804
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101805_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101805
+    },
+    {
+      "intervention": "word_shuffle",
+      "name": "word_shuffle_seed2026101805_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101805
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101801_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101801
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101801_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101801
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101802_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101802
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101802_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101802
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101803_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101803
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101803_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101803
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101804_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101804
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101804_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101804
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101805_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101805
+    },
+    {
+      "intervention": "line_shuffle",
+      "name": "line_shuffle_seed2026101805_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101805
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101801_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101801
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101801_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101801
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101802_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101802
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101802_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101802
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101803_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101803
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101803_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101803
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101804_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101804
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101804_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101804
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101805_padded_bf16",
+      "precision": "bf16",
+      "seed": 2026101805
+    },
+    {
+      "intervention": "token_shuffle",
+      "name": "token_shuffle_seed2026101805_padded_fp32",
+      "precision": "fp32",
+      "seed": 2026101805
+    }
+  ],
+  "execution": {
+    "accounting": "Preserve all canonical ledgers and failed reservations. Conservative accounting is not a provider invoice or billing cap. Storage and transfer remain separate.",
+    "allocations_usd": {
+      "gemma": 12.5,
+      "muse": 12.5,
+      "qwen": 15
+    },
+    "approval_date_local": "2026-10-18",
+    "approval_text": "The owner said \"go ahead and spend more money\" and then \"Just keep on going\" after the proposed $15 additional reservation and recommended $40 total ceiling were presented. Proceed with that bounded three-model confirmation: one $5 reservation per model, at most $33.00875 cumulative reserved accounting. The recommended $40 ceiling is accepted in context; no unlimited or further automatic runs are authorized.",
+    "approved_total_usd": 40,
+    "authorization_status": "user_approved_bounded_compute",
+    "maximum_cumulative_accounting_with_three_reservations_usd": 33.00874992083066,
+    "maximum_new_reservations_usd": 15,
+    "no_paid_execution_this_pass": false,
+    "pilot": "First two selected poems, all 16 unique inputs in both precisions, in the same bounded worker. Measure both dtypes before scaling; retain incomplete work and do not retry automatically.",
+    "prior_conservative_accounting_usd": 18.008749920830663,
+    "rates_source": "https://modal.com/pricing",
+    "rates_verified_date": "2026-10-18",
+    "reservation_per_model_usd": 5,
+    "resource_envelopes": {
+      "gemma": {
+        "download_timeout_seconds": 600,
+        "gpu_timeout_seconds": 1800,
+        "max_containers": 1,
+        "max_cpu": 4,
+        "max_memory_gib": 96,
+        "min_containers": 0,
+        "retries": 0,
+        "scaledown_window_seconds": 2,
+        "soft_timeout_seconds": 1740,
+        "startup_timeout_seconds": 120
+      },
+      "muse": {
+        "download_timeout_seconds": 600,
+        "gpu_timeout_seconds": 1800,
+        "max_containers": 1,
+        "max_cpu": 4,
+        "max_memory_gib": 96,
+        "min_containers": 0,
+        "retries": 0,
+        "scaledown_window_seconds": 2,
+        "soft_timeout_seconds": 1740,
+        "startup_timeout_seconds": 120
+      },
+      "qwen": {
+        "download_timeout_seconds": 600,
+        "gpu_timeout_seconds": 1800,
+        "max_containers": 1,
+        "max_cpu": 4,
+        "max_memory_gib": 96,
+        "min_containers": 0,
+        "retries": 0,
+        "scaledown_window_seconds": 2,
+        "soft_timeout_seconds": 1740,
+        "startup_timeout_seconds": 120
+      }
+    },
+    "resource_rate_usd_per_second": 0.00152652,
+    "scope": "One three-family confirmation attempt; unused budget does not schedule further work."
+  },
+  "frozen_at_utc": "2026-10-18T17:45:36.557061+00:00",
+  "model_locks": {
+    "gemma": {
+      "hidden_size": 5376,
+      "model_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475"
+    },
+    "muse": {
+      "hidden_size": 6656,
+      "model_id": "meta-models/Muse-Glimmer-30B",
+      "revision": "a4e59da52a7bc87ae7251dd5545c0dd437c44b68"
+    },
+    "qwen": {
+      "hidden_size": 4096,
+      "model_id": "Qwen/Qwen3-8B",
+      "revision": "b968826d9c46dd6066d109eabc6255188de91218"
+    }
+  },
+  "models": [
+    "qwen",
+    "gemma",
+    "muse"
+  ],
+  "pad_length": 256,
+  "planned_counts": {
+    "forwards_per_model": 768,
+    "fp32_forwards": 1152,
+    "models": 3,
+    "poems": 24,
+    "total_forwards": 2304,
+    "unique_inputs_per_poem": 16
+  },
+  "poolings": [
+    "mean",
+    "last",
+    "last_lexical"
+  ],
+  "population": {
+    "author": "Philip Sidney",
+    "edition": "1591 Newman; Gutenberg 56375 transcription",
+    "identity": "number is position in this 1591 edition, not a claimed canonical 1598 sonnet number",
+    "independence": "New to this study; training exposure unknown. One related sonnet cycle/author/edition, not 24 independent authors or traditions.",
+    "new_population_limits": "Author, historical spelling, source edition and poem population change together; the design does not identify which explains a transfer failure.",
+    "path": "datasets/confirmation-v4/selected-sonnets.jsonl",
+    "selection": "24 of all 107 fourteen-line main-sequence sonnets, selected by SHA256('20261018\\n'+stable edition-position ID); ten variable-verse works excluded before selection. No response-based replacement.",
+    "selection_path": "datasets/confirmation-v4/selection.json",
+    "selection_sha256": "f5c33533409703293c487993617cee5554a110901718f5ec764849481db475ac",
+    "sha256": "24bf40fc6249f505453fbe66fc98ac9f176c2a95bd370f69c094635b52286679",
+    "source_url": "https://www.gutenberg.org/ebooks/56375",
+    "work": "Astrophel and Stella"
+  },
+  "precision": {
+    "arithmetic_gate": "Original AND perturbed BF16/FP32 RDM rho>=.95 and max median precision RDM delta<=.10 times FP32 intervention delta. A failure prevents describing BF16 as an adequate proxy, but is not substituted for the primary FP32 result.",
+    "paired": [
+      "bf16",
+      "fp32"
+    ],
+    "primary": "fp32",
+    "requirements": "Original and all fifteen perturbations run in both dtypes with identical token IDs, right-padding masks and position IDs; no TF32 or autocast; evaluation/inference mode; actual dtypes recorded and validated.",
+    "semantics": "Load the same pinned BF16 checkpoint values, then promote arithmetic to FP32. This does not recover higher-precision source weights."
+  },
+  "privacy": "Private repository and private GCS only. No public release authorized.",
+  "question": "Which depth-dependent relationships survive a new poem population, repeated order interventions, and FP32 execution of both original and perturbed inputs?",
+  "randomization": {
+    "controls": [
+      "word_shuffle",
+      "line_shuffle",
+      "token_shuffle"
+    ],
+    "cross_model": "Word/line controls use identical surface texts across families. Token controls preserve each tokenizer's own IDs: the same seed is not an identical perturbed surface text across models.",
+    "inference_unit": "Five seeds are repeated interventions on the same 24 poems; 276 pairwise distances and leave-one-poem-out subsets are dependent observations.",
+    "line_control": "Shuffle lines except final two; preserve complete line strings, entire lexical inventory and final couplet. Retokenize; token differences remain measured confounds.",
+    "method": "SHA256 domain-separated record identity, intervention and seed initializes Python random.Random; all seeds frozen before inference. Preserve duplicate/no-op realizations, never resample for effect.",
+    "seeds": [
+      2026101801,
+      2026101802,
+      2026101803,
+      2026101804,
+      2026101805
+    ],
+    "token_control": "Shuffle eligible lexical token pieces within original line slots; preserve special/separator tokens and final lexical token of each line. Exactly preserve token IDs multiset and forward length; not grammatical word order. The last eligible piece per line also stays fixed, as in v3.",
+    "word_control": "Shuffle lexical word strings inside each line, preserving punctuation slots, character count, word inventory and each final word. Retokenize; token-count differences are measured."
+  },
+  "schema_version": "frozen-depth-confirmation-v4",
+  "sonnets": [
+    3,
+    5,
+    8,
+    9,
+    19,
+    21,
+    23,
+    25,
+    28,
+    36,
+    37,
+    38,
+    41,
+    46,
+    57,
+    59,
+    63,
+    65,
+    72,
+    77,
+    81,
+    86,
+    92,
+    98
+  ],
+  "states": {
+    "depth75": {
+      "gemma": 44,
+      "muse": 38,
+      "qwen": 26
+    },
+    "early": {
+      "gemma": 4,
+      "muse": 4,
+      "qwen": 1
+    },
+    "final_normalized": "separate final decoder normalization",
+    "final_raw": {
+      "gemma": 59,
+      "muse": 51,
+      "qwen": 35
+    },
+    "input": "actual first-block input"
+  },
+  "status": "frozen_before_new_inference"
+}

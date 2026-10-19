@@ -1,0 +1,67 @@
+{
+  "checked_date": "2026-10-17",
+  "timezone": "America/Los_Angeles",
+  "method": "Unauthenticated HTTPS requests to Hugging Face API and SHA-resolved config.json; no model weights downloaded",
+  "models": [
+    {
+      "model_id": "Qwen/Qwen3.8-27B",
+      "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+      "gated": false,
+      "license": "apache-2.0",
+      "status": "survey-candidate-not-runtime-validated",
+      "metadata_url": "https://huggingface.co/api/models/Qwen/Qwen3.8-27B",
+      "public_metadata_verified": true,
+      "config_path": "configs/Qwen--Qwen3.8-27B.config.json",
+      "config_sha256": "191e0af232104ed8b65258cf3fb2b842e288008baca7633c11b82a1ac7203aab",
+      "architectures": [
+        "Qwen3_5ForConditionalGeneration"
+      ],
+      "model_type": "qwen3_5",
+      "public_config_verified": true
+    },
+    {
+      "model_id": "google/gemma-4-31B-it",
+      "revision": "842da3794eaa0b77d5f08bae87a17459d91ff475",
+      "gated": false,
+      "license": "apache-2.0",
+      "status": "survey-candidate-not-runtime-validated",
+      "metadata_url": "https://huggingface.co/api/models/google/gemma-4-31B-it",
+      "public_metadata_verified": true,
+      "config_path": "configs/google--gemma-4-31B-it.config.json",
+      "config_sha256": "e967dd38bc5cfd38bd09a995a7bf4a754075df2b46aba68f7fbb5a791e6d8dd1",
+      "architectures": [
+        "Gemma4ForConditionalGeneration"
+      ],
+      "model_type": "gemma4",
+      "public_config_verified": true
+    },
+    {
+      "model_id": "meta-models/Muse-Glimmer-30B",
+      "revision": "a4e59da52a7bc87ae7251dd5545c0dd437c44b68",
+      "gated": false,
+      "license": "apache-2.0",
+      "status": "survey-candidate-not-runtime-validated",
+      "metadata_url": "https://huggingface.co/api/models/meta-models/Muse-Glimmer-30B",
+      "public_metadata_verified": true,
+      "config_path": "configs/meta-models--Muse-Glimmer-30B.config.json",
+      "config_sha256": "5a9df2d8a385b3d361ab6ae68d73586f4e775033933bd0cd863fb7f3820e6a14",
+      "architectures": [
+        "MuseGlimmerForConditionalGeneration"
+      ],
+      "model_type": "muse_glimmer",
+      "public_config_verified": true
+    },
+    {
+      "model_id": "meta-models/Muse-Spark-Open-816B-A42B",
+      "revision": "0fb02478b02565b2ce7fc57e6051c91172774ac9",
+      "gated": "manual",
+      "license": "other",
+      "status": "excluded-single-h200-memory",
+      "metadata_url": "https://huggingface.co/api/models/meta-models/Muse-Spark-Open-816B-A42B",
+      "public_metadata_verified": true,
+      "public_config_verified": false,
+      "config_error_type": "HTTPError",
+      "config_http_status": 401
+    }
+  ]
+}

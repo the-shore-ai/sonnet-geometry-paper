@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "verified_on_utc": "2026-10-18",
+  "sentence_embedding": {
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+    "license": "apache-2.0",
+    "source": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+    "revision_source": "https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2",
+    "max_tokens_including_special": 256,
+    "architectural_max_position_embeddings": 512,
+    "truncation": false,
+    "pooling": "attention-mask mean over last hidden state, including CLS/SEP; L2 normalized",
+    "dimension": 384,
+    "device": "cpu",
+    "trust_remote_code": false,
+    "use_safetensors": true,
+    "notes": "Use the documented sentence-embedding limit even though the underlying architecture supports more positions. Fail instead of truncating any poem."
+  },
+  "tfidf": {
+    "analyzer": "char",
+    "ngram_range": [3, 5],
+    "min_df": 2,
+    "lowercase": true,
+    "sublinear_tf": true,
+    "use_idf": true,
+    "smooth_idf": true,
+    "norm": "l2"
+  },
+  "stylometry": {
+    "implementation": "sonnet_geometry.analysis.stylometric_features",
+    "normalization": "column population z-score then row L2 cosine; constant columns zeroed"
+  },
+  "fitting_scope": "Whole fixed corpus for descriptive comparisons only. Refit TF-IDF and scaling within training folds for predictive evaluation."
+}
